@@ -186,8 +186,8 @@ class SqlLabTests(SupersetTestCase):
             .filter_by(sql='SELECT * FROM ab_permission').one()
         ).start_time
         # Test search queries on time filter
-        from_time = 'from={}'.format(int(first_query_time))
-        to_time = 'to={}'.format(int(second_query_time))
+        from_time = 'from={}'.format(int(first_query_time)-1)
+        to_time = 'to={}'.format(int(second_query_time)+1)
         params = [from_time, to_time]
         resp = self.get_resp('/superset/search_queries?'+'&'.join(params))
         data = json.loads(resp)
