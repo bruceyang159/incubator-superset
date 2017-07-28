@@ -5,6 +5,7 @@ import traceback
 
 from flask import g, redirect, Response, flash, abort
 from flask_babel import gettext as __
+from flask_babel import lazy_gettext as _
 
 from flask_appbuilder import BaseView
 from flask_appbuilder import ModelView
@@ -253,8 +254,8 @@ class DeleteMixin(object):
 
     @action(
         "muldelete",
-        __("Delete"),
-        __("Delete all Really?"),
+        _("Delete"),
+        _("Delete all Really?"),
         "fa-trash",
         single=False
     )

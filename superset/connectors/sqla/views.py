@@ -186,9 +186,8 @@ class TableModelView(DatasourceModelView, DeleteMixin):  # noqa
         'schema': _(
             "Schema, as used only in some databases like Postgres, Redshift "
             "and DB2"),
-        'description': Markup(
-            "Supports <a href='https://daringfireball.net/projects/markdown/'>"
-            "markdown</a>"),
+        'description': _(
+            "Supports markdown"),
         'sql': _(
             "This fields acts a Superset view, meaning that Superset will "
             "run a query against this string as a subquery."
@@ -221,6 +220,12 @@ class TableModelView(DatasourceModelView, DeleteMixin):  # noqa
             "from the datasource list"),
         'offset': _("Offset"),
         'cache_timeout': _("Cache Timeout"),
+        'table_name': _("Table Name"),
+        'sql': _("sql"),
+        'fetch_values_predicate': _("Fetch Values Predicate"),
+        'description': _("Description"),
+        'owner': _("Owner"),
+        'main_dttm_col': _("Main Dttm Col")
     }
 
     def pre_add(self, table):

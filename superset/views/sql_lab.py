@@ -42,6 +42,17 @@ class SavedQueryView(SupersetModelView, DeleteMixin):
     add_columns = ['label', 'database', 'description', 'sql']
     edit_columns = add_columns
     base_order = ('changed_on', 'desc')
+    label_columns = {
+        'id': _("ID"),
+        'label': _("Label"),
+        'user': _("User"),
+        'database': _("Database"),
+        'schema': _("Schema"),
+        'description': _("Description"),
+        'modified': _("Last Modified"),
+        'pop_tab_link': _("Pop Tab Link"),
+        'sql': _("SQL")
+    }
 
     def pre_add(self, obj):
         obj.user = g.user

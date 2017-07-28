@@ -680,7 +680,7 @@ msgstr "删除"
 
 #: superset/views/base.py:257
 msgid "Delete all Really?"
-msgstr "真的要删除所有吗？"
+msgstr "确认删除所选?"
 
 #: superset/views/core.py:56
 msgid "This endpoint requires the `all_datasource_access` permission"
@@ -803,7 +803,7 @@ msgstr "扩展"
 
 #: superset/views/core.py:244
 msgid "Allow Run Sync"
-msgstr "同步查询"
+msgstr "允许同步查询"
 
 #: superset/views/core.py:245
 msgid "Allow Run Async"
@@ -964,7 +964,7 @@ msgstr "导出"
 
 #: superset/views/core.py:483
 msgid "Export dashboards?"
-msgstr "导出仪表盘"
+msgstr "确认导出所选?"
 
 #: superset/views/core.py:533
 msgid "Action"
@@ -972,7 +972,7 @@ msgstr "操作"
 
 #: superset/views/core.py:534
 msgid "dttm"
-msgstr "DTTM"
+msgstr "日期时间"
 
 #: superset/views/core.py:541
 msgid "Action Log"
@@ -1076,7 +1076,7 @@ msgstr "修改日期"
 msgid "Saved Queries"
 msgstr "已保存查询"
 
-#/superset/views/core.py
+#/superset/views/core.py 自定义部分
 msgid "List Dashboards"
 msgstr "仪表盘列表"
 
@@ -1131,6 +1131,88 @@ msgstr "新增数据库"
 msgid "Add Slice"
 msgstr "新增切片"
 
+msgid "Add Dashboard"
+msgstr"新增仪表盘"
+
+msgid "Created By"
+msgstr "创建者"
+
+msgid "Changed On"
+msgstr "修改日期"
+
+msgid "List Columns"
+msgstr "列"
+
+msgid "List Metrics"
+msgstr "度量"
+
+msgid "Backend"
+msgstr "后端"
+
+msgid "Perm"
+msgstr ""
+
+msgid "Datasource ID"
+msgstr "数据源ID"
+
+msgid "Datasource Type"
+msgstr "数据源类型"
+
+msgid "Datasource Name"
+msgstr "数据源名称"
+
+msgid "Show Saved Query"
+msgstr "查看已保存的查询"
+
+msgid "Add Saved Query"
+msgstr "新增已保存的查询"
+
+msgid "Edit Saved Query"
+msgstr "编辑已保存的查询"
+
+msgid "Add Log"
+msgstr "新增日志"
+
+msgid "Show Log"
+msgstr "显示日志"
+
+msgid "Edit Log"
+msgstr "编辑日志"
+
+msgid "List Log"
+msgstr "日志列表"
+
+msgid "Main Dttm Col"
+msgstr "主要日期时间类型列"
+
+msgid "Slice ID"
+msgstr "切片ID"
+
+msgid "Referrer"
+msgstr "来源"
+
+msgid "Dashboard ID"
+msgstr "仪表盘ID"
+
+msgid "Duration(ms)"
+msgstr "时长(ms)"
+
+msgid "DT"
+msgstr "日期"
+
+msgid "List Datasource Access Request"
+msgstr "数据源访问请求记录列表"
+
+msgid "Add Datasource Access Request"
+msgstr "增加数据源访问请求记录"
+
+msgid "Edit Datasource Access Request"
+msgstr "编辑数据源访问请求记录"
+
+msgid "Show Datasource Access Request"
+msgstr "显示数据源访问请求记录"
+
 # flask_appbuilder/security/views.py:122
 msgid "It's not a good policy to remove a user, just make it inactive"
 msgstr "不建议删除用户，只需禁用即可"
+#自定义结束

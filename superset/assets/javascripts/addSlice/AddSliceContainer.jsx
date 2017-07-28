@@ -50,30 +50,30 @@ export default class AddSliceContainer extends React.PureComponent {
   render() {
     return (
       <div className="container">
-        <Panel header={<h3>Create a new slice</h3>}>
+        <Panel header={<h3>创建新切片</h3>}>
           <Grid>
             <Row>
               <Col xs={12} sm={6}>
                 <div>
-                  <p>Choose a datasource</p>
+                  <p>选择数据源</p>
                   <Select
                     clearable={false}
                     name="select-datasource"
                     onChange={this.changeDatasource.bind(this)}
                     options={this.props.datasources}
-                    placeholder="Choose a datasource"
+                    placeholder="选择数据源" /* Choose a datasource */
                     value={this.state.datasourceValue}
                   />
                 </div>
                 <br />
                 <div>
-                  <p>Choose a visualization type</p>
+                  <p>选择可视化类型</p>
                   <Select
                     clearable={false}
                     name="select-vis-type"
                     onChange={this.changeVisType.bind(this)}
                     options={this.vizTypeOptions}
-                    placeholder="Choose a visualization type"
+                    placeholder="选择可视化类型" /* Choose a visualization type */
                     value={this.state.visType}
                   />
                 </div>
@@ -83,7 +83,7 @@ export default class AddSliceContainer extends React.PureComponent {
                   disabled={this.isBtnDisabled()}
                   onClick={this.gotoSlice.bind(this)}
                 >
-                  Create new slice
+                  创建切片
                 </Button>
                 <br /><br />
               </Col>
