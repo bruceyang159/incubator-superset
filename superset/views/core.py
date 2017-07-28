@@ -451,7 +451,7 @@ appbuilder.add_view_no_menu(SliceAddView)
 
 class DashboardModelView(SupersetModelView, DeleteMixin):  # noqa
     datamodel = SQLAInterface(models.Dashboard)
-    
+
     list_title = _('List Dashboards')
     show_title = _('Show Dashboard')
     add_title = _('Add Dashboard')
@@ -2065,6 +2065,7 @@ class Superset(BaseSupersetView):
 
         # Async request.
         if async:
+            logging.info("Running query on a Celery worker")
             # Ignore the celery future object and the request may time out.
             try:
                 sql_lab.get_sql_results.delay(
