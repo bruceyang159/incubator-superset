@@ -251,12 +251,13 @@ class DatabaseView(SupersetModelView, DeleteMixin):  # noqa
         'allow_run_async': _("Allow Run Async"),
         'tables': _("Tables"),
         'perm': _("Perm"),
-        'created_by':_("Created By"),
+        'created_by': _("Created By"),
         'created_on': _("Created On"),
         'changed_by': _("Changed By"),
         'changed_on': _("Changed On"),
         'modified': _("Last Modified"),
-        "backend": _("Backend")
+        "backend": _("Backend"),
+        "verbose_name": _("Verbose Name")
     }
 
     def pre_add(self, db):

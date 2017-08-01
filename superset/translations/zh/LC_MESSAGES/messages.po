@@ -1212,6 +1212,9 @@ msgstr "编辑数据源访问请求记录"
 msgid "Show Datasource Access Request"
 msgstr "显示数据源访问请求记录"
 
+msgid "Changed"
+msgstr "测试"
+
 # flask_appbuilder/security/views.py:122
 msgid "It's not a good policy to remove a user, just make it inactive"
 msgstr "不建议删除用户，只需禁用即可"
