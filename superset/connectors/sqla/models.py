@@ -193,6 +193,10 @@ class SqlaTable(Model, BaseDatasource):
         return self.name
 
     @property
+    def connection(self):
+        return str(self.database)
+
+    @property
     def description_markeddown(self):
         return utils.markdown(self.description)
 
@@ -371,6 +375,10 @@ class SqlaTable(Model, BaseDatasource):
         }
         template_processor = self.get_template_processor(**template_kwargs)
         db_engine_spec = self.database.db_engine_spec
+
+        if DTTM_ALIAS in groupby:
+            groupby.remove(DTTM_ALIAS)
+            is_timeseries = True
 
         # For backward compatibility
         if granularity not in self.dttm_cols:
