@@ -21,7 +21,7 @@ const ROW_LIMIT_OPTIONS = [10, 50, 100, 250, 500, 1000, 5000, 10000, 50000];
 const SERIES_LIMITS = [0, 5, 10, 25, 50, 100, 500];
 
 export const D3_TIME_FORMAT_OPTIONS = [
-  ['smart_date', 'Adaptative formating'],
+  ['smart_date', '自适应格式'],
   ['%m/%d/%Y', '%m/%d/%Y | 01/14/2019'],
   ['%Y-%m-%d', '%Y-%m-%d | 2019-01-14'],
   ['%Y-%m-%d %H:%M:%S', '%Y-%m-%d %H:%M:%S | 2019-01-14 01:32:10'],
@@ -39,10 +39,10 @@ const timeColumnOption = {
 const groupByControl = {
   type: 'SelectControl',
   multi: true,
-  label: 'Group by',
+  label: '分组依据(Group By)',
   default: [],
   includeTime: false,
-  description: 'One or many controls to group by',
+  description: '选择一个或多个分组条件',
   optionRenderer: c => <ColumnOption column={c} />,
   valueRenderer: c => <ColumnOption column={c} />,
   valueKey: 'column_name',
@@ -61,7 +61,7 @@ const groupByControl = {
 export const controls = {
   datasource: {
     type: 'DatasourceControl',
-    label: 'Datasource',
+    label: '数据源',
     default: null,
     description: null,
     mapStateToProps: state => ({
@@ -71,15 +71,15 @@ export const controls = {
 
   viz_type: {
     type: 'VizTypeControl',
-    label: 'Visualization Type',
+    label: '可视化类型',
     default: 'table',
-    description: 'The type of visualization to display',
+    description: '用于显示的可视化类型',
   },
 
   metrics: {
     type: 'SelectControl',
     multi: true,
-    label: 'Metrics',
+    label: '度量(Metrics)',
     validators: [v.nonEmpty],
     valueKey: 'metric_name',
     optionRenderer: m => <MetricOption metric={m} />,
@@ -88,25 +88,25 @@ export const controls = {
     mapStateToProps: state => ({
       options: (state.datasource) ? state.datasource.metrics : [],
     }),
-    description: 'One or many metrics to display',
+    description: '选择一个或多个度量',
   },
   y_axis_bounds: {
     type: 'BoundsControl',
-    label: 'Y Axis Bounds',
+    label: 'Y轴取值范围(Y Axis Bounds)',
     default: [null, null],
     description: (
-      'Bounds for the Y axis. When left empty, the bounds are ' +
-      'dynamically defined based on the min/max of the data. Note that ' +
-      "this feature will only expand the axis range. It won't " +
-      "narrow the data's extent."
+      '设定Y轴的取值范围. 留空则 ' +
+      '根据数据的最大最小值动态变化。' +
+      "只会改变Y轴取值范围，不会 " +
+      "缩小数据范围."
     ),
   },
   order_by_cols: {
     type: 'SelectControl',
     multi: true,
-    label: 'Ordering',
+    label: '排序依据',
     default: [],
-    description: 'One or many metrics to display',
+    description: '选择一个或多个度量',
     mapStateToProps: state => ({
       choices: (state.datasource) ? state.datasource.order_by_choices : [],
     }),
@@ -114,7 +114,7 @@ export const controls = {
 
   metric: {
     type: 'SelectControl',
-    label: 'Metric',
+    label: '度量',
     clearable: false,
     description: 'Choose the metric',
     validators: [v.nonEmpty],

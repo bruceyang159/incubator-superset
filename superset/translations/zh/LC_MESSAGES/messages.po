@@ -592,7 +592,7 @@ msgstr "更新时间"
 
 #: superset/connectors/sqla/views.py:197
 msgid "Schema"
-msgstr "模式"
+msgstr ""
 
 #: superset/connectors/sqla/views.py:199
 msgid "Offset"
@@ -1234,6 +1234,108 @@ msgstr "查看Druid数据"
 
 msgid "Fetch Values From"
 msgstr "获取筛选值的时间表达式"
+
+msgid "Show Column"
+msgstr "查看列"
+
+msgid "Edit Column"
+msgstr "编辑列"
+
+msgid "Add Column"
+msgstr "新增列"
+
+msgid "List Column"
+msgstr "列"
+
+msgid "Is Active"
+msgstr "是否激活"
+
+msgid "Average"
+msgstr "求平均值"
+
+msgid "Show Metric"
+msgstr "查看度量"
+
+msgid "Edit Metric"
+msgstr "编辑度量"
+
+msgid "Add Metric"
+msgstr "新增度量"
+
+msgid "List Metric"
+msgstr "度量"
+
+msgid "Show CSS Template"
+msgstr "查看CSS模板"
+
+msgid "Edit CSS Template"
+msgstr "编辑CSS模板"
+
+msgid "Add CSS Template"
+msgstr "新增CSS模板"
+
+msgid "List CSS Template"
+msgstr "CSS模板列表"
+
+msgid "Limit Used"
+msgstr "限制使用"
+
+msgid "Tab Name"
+msgstr "选项卡名称"
+
+msgid "Select SQL"
+msgstr ""
+
+msgid "Rows"
+msgstr "行数"
+
+msgid "Results Key"
+msgstr ""
+
+msgid "End Result Backend Time"
+msgstr ""
+
+msgid "Progress"
+msgstr "进度"
+
+msgid "Select As Cta Used"
+msgstr ""
+
+msgid "SQL Editor ID"
+msgstr ""
+
+msgid "Client ID"
+msgstr "客户端ID"
+
+msgid "Tracking Url"
+msgstr ""
+
+msgid "Executed SQL"
+msgstr "已执行的SQL"
+
+msgid "Error Message"
+msgstr "错误信息"
+
+msgid "Limit"
+msgstr ""
+
+msgid "Start Running Time"
+msgstr "开始运行时间"
+
+msgid "Tmp Table Name"
+msgstr ""
+
+msgid "Show Query"
+msgstr "查看查询"
+
+msgid "Edit Query"
+msgstr "编辑查询"
+
+msgid "Add Query"
+msgstr "新增查询"
+
+msgid "List Query"
+msgstr "查询列表"
 
 # flask_appbuilder/security/views.py:122
 msgid "It's not a good policy to remove a user, just make it inactive"

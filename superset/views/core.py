@@ -2335,10 +2335,25 @@ appbuilder.add_view_no_menu(Superset)
 
 
 class CssTemplateModelView(SupersetModelView, DeleteMixin):
+
+    list_title = _("List CSS Template")
+    show_title = _("Show CSS Template")
+    edit_title = _("Edit CSS Template")
+    add_title = _("Add CSS Template")
+
     datamodel = SQLAInterface(models.CssTemplate)
     list_columns = ['template_name']
     edit_columns = ['template_name', 'css']
     add_columns = edit_columns
+
+    label_columns = {
+        'template_name': _("Template Name"),
+        'css': _("CSS"),
+        'created_on': _("Created On"),
+        'created_by': _("Created By"),
+        'changed_on': _("Changed On"),
+        'changed_by': _("Changed By")
+    }
 
 
 class CssTemplateAsyncModelView(CssTemplateModelView):
