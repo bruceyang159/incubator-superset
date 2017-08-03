@@ -329,6 +329,11 @@ class AccessRequestsModelView(SupersetModelView, DeleteMixin):
         'datasource_link': _("Datasource"),
         'roles_with_datasource': _("Roles to grant"),
         'created_on': _("Created On"),
+        'datasource_id': _("Datasource ID"),
+        'changed_by': _("Changed By"),
+        'changed_on': _("Changed On"),
+        'created_by': _("Created By"),
+        'datasource_type': _("Datasource Type")
     }
 
 appbuilder.add_view(
