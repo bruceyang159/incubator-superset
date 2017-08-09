@@ -817,6 +817,7 @@ class DruidDatasource(Model, BaseDatasource):
         """
         # TODO refactor into using a TBD Query object
         client = client or self.cluster.get_pydruid_client()
+
         if not is_timeseries:
             granularity = 'all'
         inner_from_dttm = inner_from_dttm or from_dttm
