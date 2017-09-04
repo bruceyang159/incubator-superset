@@ -92,7 +92,13 @@ class TableColumnInlineView(CompactCRUDMixin, SupersetModelView):  # noqa
         'is_dttm': _("Is temporal"),
         'python_date_format': _("Datetime Format"),
         'database_expression': _("Database Expression"),
-        'type': _('Type'),
+        'avg': _("Average"),
+        'created_on': _("Created On"),
+        'created_by': _("Created By"),
+        'type': _("Type"),
+        'is_active': _("Is Active"),
+        'changed_on': _("Changed On"),
+        'changed_by': _("Changed By")
     }
 appbuilder.add_view_no_menu(TableColumnInlineView)
 
@@ -110,19 +116,18 @@ class SqlMetricInlineView(CompactCRUDMixin, SupersetModelView):  # noqa
         'metric_name', 'description', 'verbose_name', 'metric_type',
         'expression', 'table', 'd3format', 'is_restricted']
     description_columns = {
-        'expression': utils.markdown(
+        'expression': _(
             "a valid SQL expression as supported by the underlying backend. "
-            "Example: `count(DISTINCT userid)`", True),
+            "Example: `count(DISTINCT userid)`"),
         'is_restricted': _("Whether the access to this metric is restricted "
                            "to certain roles. Only roles with the permission "
                            "'metric access on XXX (the name of this metric)' "
                            "are allowed to access this metric"),
-        'd3format': utils.markdown(
-            "d3 formatting string as defined [here]"
-            "(https://github.com/d3/d3-format/blob/master/README.md#format). "
-            "For instance, this default formatting applies in the Table "
-            "visualization and allow for different metric to use different "
-            "formats", True
+        'd3format': _(
+            "d3 formatting string as "
+            "defined(https://github.com/d3/d3-format/blob/master/README.md#format). "
+            "For instance, this default formatting applies in the Table visualization "
+            "and allow for different metric to use different formats"
         ),
     }
     add_columns = edit_columns
@@ -134,8 +139,12 @@ class SqlMetricInlineView(CompactCRUDMixin, SupersetModelView):  # noqa
         'metric_type': _("Type"),
         'expression': _("SQL Expression"),
         'table': _("Table"),
-        'd3format': _("D3 Format"),
-        'is_restricted': _('Is Restricted')
+        'created_on': _("Created On"),
+        'created_by': _("Created By"),
+        'changed_on': _("Changed On"),
+        'changed_by': _("Changed By"),
+        'is_restricted': _("Is Restricted"),
+        'd3format': _("D3 Format")
     }
 
     def post_add(self, metric):
@@ -151,7 +160,7 @@ appbuilder.add_view_no_menu(SqlMetricInlineView)
 
 class TableModelView(DatasourceModelView, DeleteMixin):  # noqa
     datamodel = SQLAInterface(models.SqlaTable)
-        
+
     list_title = _('List Tables')
     show_title = _('Show Table')
     add_title = _('Add Table')
@@ -160,6 +169,8 @@ class TableModelView(DatasourceModelView, DeleteMixin):  # noqa
     list_columns = [
         'link', 'database',
         'changed_by_', 'modified']
+    order_columns = [
+        'link', 'database', 'changed_on_']
     add_columns = ['database', 'schema', 'table_name']
     edit_columns = [
         'table_name', 'sql', 'filter_select_enabled', 'slices',
@@ -187,9 +198,8 @@ class TableModelView(DatasourceModelView, DeleteMixin):  # noqa
         'schema': _(
             "Schema, as used only in some databases like Postgres, Redshift "
             "and DB2"),
-        'description': Markup(
-            "Supports <a href='https://daringfireball.net/projects/markdown/'>"
-            "markdown</a>"),
+        'description': _(
+            "Supports markdown"),
         'sql': _(
             "This fields acts a Superset view, meaning that Superset will "
             "run a query against this string as a subquery."
@@ -221,10 +231,13 @@ class TableModelView(DatasourceModelView, DeleteMixin):  # noqa
         'offset': _("Offset"),
         'cache_timeout': _("Cache Timeout"),
         'table_name': _("Table Name"),
-        'fetch_values_predicate': _('Fetch Values Predicate'),
+        'sql': _("SQL"),
+        'fetch_values_predicate': _("Fetch Values Predicate"),
+        'description': _("Description"),
         'owner': _("Owner"),
         'main_dttm_col': _("Main Datetime Column"),
-        'description': _('Description'),
+        'modified': _("Last Modified"),
+        'perm': _("Perm")
     }
 
     def pre_add(self, table):

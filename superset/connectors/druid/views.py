@@ -146,6 +146,9 @@ class DruidClusterModelView(SupersetModelView, DeleteMixin):  # noqa
         'broker_host': _("Broker Host"),
         'broker_port': _("Broker Port"),
         'broker_endpoint': _("Broker Endpoint"),
+        'verbose_name': _("Verbose Name"),
+        'cache_timeout': _("Cache Timeout"),
+        'metadata_last_refreshed': _("MetaData Last Refreshed")
     }
 
     def pre_add(self, cluster):
@@ -201,9 +204,8 @@ class DruidDatasourceModelView(DatasourceModelView, DeleteMixin):  # noqa
             "datasource. If you want to change the datasource for a slice, "
             "overwrite the slice from the 'explore view'"),
         'offset': _("Timezone offset (in hours) for this datasource"),
-        'description': Markup(
-            "Supports <a href='"
-            "https://daringfireball.net/projects/markdown/'>markdown</a>"),
+        'description': _(
+            "Supports markdown"),
         'fetch_values_from': _(
             "Time expression to use as a predicate when retrieving "
             "distinct values to populate the filter component. "
@@ -231,6 +233,13 @@ class DruidDatasourceModelView(DatasourceModelView, DeleteMixin):  # noqa
         'default_endpoint': _("Default Endpoint"),
         'offset': _("Time Offset"),
         'cache_timeout': _("Cache Timeout"),
+        'datasource_name': _("Datasource Name"),
+        'fetch_values_from': _("Fetch Values From"),
+        'perm': _("Perm"),
+        'changed_by_': _("Changed By"),
+        'changed_on_': _("Changed On"),
+        'modified': _("Modified")
+
     }
 
     def pre_add(self, datasource):

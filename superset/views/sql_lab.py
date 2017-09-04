@@ -13,13 +13,44 @@ from .base import SupersetModelView, BaseSupersetView, DeleteMixin
 
 class QueryView(SupersetModelView):
     datamodel = SQLAInterface(Query)
+
+    list_title = _('List Query')
+    show_title = _('Show Query')
+    add_title = _('Add Query')
+    edit_title = _('Edit Query')
+
     list_columns = ['user', 'database', 'status', 'start_time', 'end_time']
+
     label_columns = {
-        'user': _('User'),
-        'database': _('Database'),
-        'status': _('Status'),
-        'start_time': _('Start Time'),
-        'end_time': _('End Time'),
+        'user': _("User"),
+        'database': _("Database"),
+        'id': _("ID"),
+        'client_id': _("Client ID"),
+        'database_id': _("Database ID"),
+        'tmp_table_name': _("Tmp Table Name"),
+        'user_id': _("User ID"),
+        'Integer': _("Integer"),
+        'status': _("Status"),
+        'tab_name': _("Tab Name"),
+        'sql_editor_id': _("SQL Editor ID"),
+        'schema': _("Schema"),
+        'sql': _("SQL"),
+        'select_sql': _("Select SQL"),
+        'executed_sql': _("Executed SQL"),
+        'limit': _("Limit"),
+        'limit_used': _("Limit Used"),
+        'select_as_cta': _("Select As Cta"),
+        'select_as_cta_used': _("Select As Cta Used"),
+        'progress': _("Progress"),
+        'rows': _("Rows"),
+        'error_message': _("Error Message"),
+        'results_key': _("Results Key"),
+        'start_time': _("Start Time"),
+        'start_running_time': _("Start Running Time"),
+        'end_time': _("End Time"),
+        'end_result_backend_time': _("End Result Backend Time"),
+        'tracking_url': _("Tracking Url"),
+        'changed_on': _("Changed On")
     }
 
 appbuilder.add_view(
@@ -50,14 +81,17 @@ class SavedQueryView(SupersetModelView, DeleteMixin):
     edit_columns = add_columns
     base_order = ('changed_on', 'desc')
     label_columns = {
-        'label': _('Label'),
-        'user': _('User'),
-        'database': _('Database'),
-        'description': _('Description'),
-        'modified': _('Modified'),
-        'end_time': _('End Time'),
-        'pop_tab_link': _('Pop Tab Link'),
-        'changed_on': _('Changed on'),
+        'id': _("ID"),
+        'label': _("Label"),
+        'user': _("User"),
+        'database': _("Database"),
+        'schema': _("Schema"),
+        'description': _("Description"),
+        'modified': _("Last Modified"),
+	'end_time': _('End Time'),
+        'pop_tab_link': _("Pop Tab Link"),
+        'sql': _("SQL"),
+        'changed_on': _("Changed On"),
     }
 
     def pre_add(self, obj):

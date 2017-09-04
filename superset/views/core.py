@@ -203,12 +203,12 @@ class DatabaseView(SupersetModelView, DeleteMixin):  # noqa
     edit_template = "superset/models/database/edit.html"
     base_order = ('changed_on', 'desc')
     description_columns = {
-        'sqlalchemy_uri': utils.markdown(
+        'sqlalchemy_uri': _(
             "Refer to the "
             "[SqlAlchemy docs]"
             "(http://docs.sqlalchemy.org/en/rel_1_0/core/engines.html#"
             "database-urls) "
-            "for more information on how to structure your URI.", True),
+            "for more information on how to structure your URI."),
         'expose_in_sqllab': _("Expose this DB in SQL Lab"),
         'allow_run_sync': _(
             "Allow users to run synchronous queries, this is the default "
@@ -226,7 +226,7 @@ class DatabaseView(SupersetModelView, DeleteMixin):  # noqa
         'force_ctas_schema': _(
             "When allowing CREATE TABLE AS option in SQL Lab, "
             "this option forces the table to be created in this schema"),
-        'extra': utils.markdown(
+        'extra': _(
             "JSON string containing extra configuration elements. "
             "The ``engine_params`` object gets unpacked into the "
             "[sqlalchemy.create_engine]"
@@ -234,7 +234,7 @@ class DatabaseView(SupersetModelView, DeleteMixin):  # noqa
             "sqlalchemy.create_engine) call, while the ``metadata_params`` "
             "gets unpacked into the [sqlalchemy.MetaData]"
             "(http://docs.sqlalchemy.org/en/rel_1_0/core/metadata.html"
-            "#sqlalchemy.schema.MetaData) call. ", True),
+            "#sqlalchemy.schema.MetaData) call. "),
     }
     label_columns = {
         'expose_in_sqllab': _("Expose in SQL Lab"),
@@ -249,6 +249,15 @@ class DatabaseView(SupersetModelView, DeleteMixin):  # noqa
         'extra': _("Extra"),
         'allow_run_sync': _("Allow Run Sync"),
         'allow_run_async': _("Allow Run Async"),
+        'tables': _("Tables"),
+        'perm': _("Perm"),
+        'created_by': _("Created By"),
+        'created_on': _("Created On"),
+        'changed_by': _("Changed By"),
+        'changed_on': _("Changed On"),
+        'modified': _("Last Modified"),
+        "backend": _("Backend"),
+        "verbose_name": _("Verbose Name")
     }
 
     def pre_add(self, db):
@@ -302,6 +311,12 @@ appbuilder.add_view_no_menu(DatabaseTablesAsync)
 
 class AccessRequestsModelView(SupersetModelView, DeleteMixin):
     datamodel = SQLAInterface(DAR)
+
+    list_title = _('List Datasource Access Request')
+    add_title = _('Add Datasource Access Request')
+    show_title = _('Show Datasource Access Request')
+    edit_title = _('Edit Datasource Access Request')
+
     list_columns = [
         'username', 'user_roles', 'datasource_link',
         'roles_with_datasource', 'created_on']
@@ -314,6 +329,11 @@ class AccessRequestsModelView(SupersetModelView, DeleteMixin):
         'datasource_link': _("Datasource"),
         'roles_with_datasource': _("Roles to grant"),
         'created_on': _("Created On"),
+        'datasource_id': _("Datasource ID"),
+        'changed_by': _("Changed By"),
+        'changed_on': _("Changed On"),
+        'created_by': _("Created By"),
+        'datasource_type': _("Datasource Type")
     }
 
 appbuilder.add_view(
@@ -347,7 +367,7 @@ class SliceModelView(SupersetModelView, DeleteMixin):  # noqa
         'params', 'cache_timeout']
     base_order = ('changed_on', 'desc')
     description_columns = {
-        'description': Markup(
+        'description': _(
             "The content here can be displayed as widget headers in the "
             "dashboard view. Supports "
             "<a href='https://daringfireball.net/projects/markdown/'>"
@@ -375,6 +395,14 @@ class SliceModelView(SupersetModelView, DeleteMixin):  # noqa
         'slice_name': _("Name"),
         'table': _("Table"),
         'viz_type': _("Visualization Type"),
+        'datasource_id': _("Datasource ID"),
+        'changed_on': _("Changed On"),
+        'changed_by': _("Changed By"),
+        'created_on': _("Created On"),
+        'created_by': _("Created By"),
+        'datasource_type': _("Datasource Type"),
+        'datasource_name': _("Datasource Name"),
+        'Perm': _("Perm")
     }
 
     def pre_update(self, obj):
@@ -473,7 +501,7 @@ class DashboardModelView(SupersetModelView, DeleteMixin):  # noqa
         'slices': _("Slices"),
         'owners': _("Owners"),
         'creator': _("Creator"),
-        'modified': _("Modified"),
+        'modified': _("Last Modified"),
         'position_json': _("Position JSON"),
         'css': _("CSS"),
         'json_metadata': _("JSON Metadata"),
@@ -500,7 +528,7 @@ class DashboardModelView(SupersetModelView, DeleteMixin):  # noqa
     def pre_delete(self, obj):
         check_ownership(obj)
 
-    @action("mulexport", __("Export"), __("Export dashboards?"), "fa-database")
+    @action("mulexport", _("Export"), _("Export dashboards?"), "fa-database")
     def mulexport(self, items):
         if not isinstance(items, list):
             items = [items]
@@ -537,7 +565,7 @@ class DashboardModelViewAsync(DashboardModelView):  # noqa
         'dashboard_link': _('Dashboard'),
         'dashboard_title': _('Title'),
         'creator': _('Creator'),
-        'modified': _('Modified'),
+        'modified': _('Last Modified'),
     }
 
 appbuilder.add_view_no_menu(DashboardModelViewAsync)
@@ -545,6 +573,12 @@ appbuilder.add_view_no_menu(DashboardModelViewAsync)
 
 class LogModelView(SupersetModelView):
     datamodel = SQLAInterface(models.Log)
+
+    list_title = _('List Log')
+    add_title =  _('Add Log')
+    show_title = _('Show Log')
+    edit_title = _('Edit Log')
+
     list_columns = ('user', 'action', 'dttm')
     edit_columns = ('user', 'action', 'dttm', 'json')
     base_order = ('dttm', 'desc')
@@ -553,6 +587,11 @@ class LogModelView(SupersetModelView):
         'action': _("Action"),
         'dttm': _("dttm"),
         'json': _("JSON"),
+        'slice_id': _("Slice ID"),
+        'referrer': _('Referrer'),
+        'dashboard_id': _("Dashboard ID"),
+        'duration_ms': _("Duration(ms)"),
+        'dt': _("DT")
     }
 
 appbuilder.add_view(
@@ -2089,6 +2128,7 @@ class Superset(BaseSupersetView):
                 # pylint: disable=no-value-for-parameter
                 data = sql_lab.get_sql_results(
                     query_id=query_id, return_results=True)
+                payload = json.dumps(data, default=utils.json_iso_dttm_ser)
         except Exception as e:
             logging.exception(e)
             return json_error_response("{}".format(e))
@@ -2320,12 +2360,24 @@ appbuilder.add_view_no_menu(Superset)
 
 
 class CssTemplateModelView(SupersetModelView, DeleteMixin):
+
+    list_title = _("List CSS Template")
+    show_title = _("Show CSS Template")
+    edit_title = _("Edit CSS Template")
+    add_title = _("Add CSS Template")
+
     datamodel = SQLAInterface(models.CssTemplate)
     list_columns = ['template_name']
     edit_columns = ['template_name', 'css']
     add_columns = edit_columns
+
     label_columns = {
-        'template_name': _('Template Name'),
+        'template_name': _("Template Name"),
+        'css': _("CSS"),
+        'created_on': _("Created On"),
+        'created_by': _("Created By"),
+        'changed_on': _("Changed On"),
+        'changed_by': _("Changed By")
     }
 
 
