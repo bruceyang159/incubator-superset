@@ -165,8 +165,18 @@ IMG_UPLOAD_URL = '/static/uploads/'
 # IMG_SIZE = (300, 200, True)
 
 CACHE_DEFAULT_TIMEOUT = 60 * 60 * 24
-CACHE_CONFIG = {'CACHE_TYPE': 'null'}
-TABLE_NAMES_CACHE_CONFIG = {'CACHE_TYPE': 'null'}
+CACHE_CONFIG = {
+    'CACHE_TYPE': 'redis', # Use Redis
+    'CACHE_REDIS_HOST': 'localhost',
+    'CACHE_REDIS_PORT': 6379,
+    'CACHE_REDIS_URL': 'redis://localhost:6379'
+}
+TABLE_NAMES_CACHE_CONFIG = {
+    'CACHE_TYPE': 'redis',
+    'CACHE_REDIS_HOST': 'localhost',
+    'CACHE_REDIS_PORT': 6379,
+    'CACHE_REDIS_URL': 'redis://localhost:6379'
+}
 
 # CORS Options
 ENABLE_CORS = False
@@ -249,7 +259,14 @@ class CeleryConfig(object):
   CELERY_ACKS_LATE = True
 CELERY_CONFIG = CeleryConfig
 """
-CELERY_CONFIG = None
+
+class CeleryConfig(object):
+    BROKER_URL = 'redis://localhost:6379/0'
+    CELERY_IMPORTS = ('superset.sql_lab', )
+    CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+    CELERY_ANNOTATIONS = {'tasks.add': {'rate_limit': '10/s'}}
+
+CELERY_CONFIG = CeleryConfig
 SQL_CELERY_DB_FILE_PATH = os.path.join(DATA_DIR, 'celerydb.sqlite')
 SQL_CELERY_RESULTS_DB_FILE_PATH = os.path.join(DATA_DIR, 'celery_results.sqlite')
 
@@ -275,7 +292,11 @@ SQLLAB_ASYNC_TIME_LIMIT_SEC = 60 * 60 * 6
 # An instantiated derivative of werkzeug.contrib.cache.BaseCache
 # if enabled, it can be used to store the results of long-running queries
 # in SQL Lab by using the "Run Async" button/feature
-RESULTS_BACKEND = None
+from werkzeug.contrib.cache import RedisCache
+
+#RESULTS_BACKEND = None
+RESULTS_BACKEND = RedisCache(
+    host='localhost', port=6379, key_prefix='superset_results')
 
 # A dictionary of items that gets merged into the Jinja context for
 # SQL Lab. The existing context gets updated with this dictionary,
