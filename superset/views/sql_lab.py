@@ -88,6 +88,7 @@ class SavedQueryView(SupersetModelView, DeleteMixin):
         'schema': _("Schema"),
         'description': _("Description"),
         'modified': _("Last Modified"),
+	'end_time': _('End Time'),
         'pop_tab_link': _("Pop Tab Link"),
         'sql': _("SQL"),
         'changed_on': _("Changed On"),

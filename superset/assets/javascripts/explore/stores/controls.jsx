@@ -1,6 +1,7 @@
 import React from 'react';
 import { formatSelectOptionsForRange, formatSelectOptions } from '../../modules/utils';
 import * as v from '../validators';
+import { ALL_COLOR_SCHEMES, spectrums } from '../../modules/colors';
 import MetricOption from '../../components/MetricOption';
 import ColumnOption from '../../components/ColumnOption';
 
@@ -21,7 +22,7 @@ const ROW_LIMIT_OPTIONS = [10, 50, 100, 250, 500, 1000, 5000, 10000, 50000];
 const SERIES_LIMITS = [0, 5, 10, 25, 50, 100, 500];
 
 export const D3_TIME_FORMAT_OPTIONS = [
-  ['smart_date', '自适应格式'],
+  ['smart_date', 'Adaptative formating'],
   ['%m/%d/%Y', '%m/%d/%Y | 01/14/2019'],
   ['%Y-%m-%d', '%Y-%m-%d | 2019-01-14'],
   ['%Y-%m-%d %H:%M:%S', '%Y-%m-%d %H:%M:%S | 2019-01-14 01:32:10'],
@@ -39,10 +40,10 @@ const timeColumnOption = {
 const groupByControl = {
   type: 'SelectControl',
   multi: true,
-  label: '分组依据(Group By)',
+  label: 'Group by',
   default: [],
   includeTime: false,
-  description: '选择一个或多个分组条件',
+  description: 'One or many controls to group by',
   optionRenderer: c => <ColumnOption column={c} />,
   valueRenderer: c => <ColumnOption column={c} />,
   valueKey: 'column_name',
@@ -61,7 +62,7 @@ const groupByControl = {
 export const controls = {
   datasource: {
     type: 'DatasourceControl',
-    label: '数据源',
+    label: 'Datasource',
     default: null,
     description: null,
     mapStateToProps: state => ({
@@ -71,15 +72,15 @@ export const controls = {
 
   viz_type: {
     type: 'VizTypeControl',
-    label: '可视化类型',
+    label: 'Visualization Type',
     default: 'table',
-    description: '用于显示的可视化类型',
+    description: 'The type of visualization to display',
   },
 
   metrics: {
     type: 'SelectControl',
     multi: true,
-    label: '度量(Metrics)',
+    label: 'Metrics',
     validators: [v.nonEmpty],
     valueKey: 'metric_name',
     optionRenderer: m => <MetricOption metric={m} />,
@@ -88,25 +89,26 @@ export const controls = {
     mapStateToProps: state => ({
       options: (state.datasource) ? state.datasource.metrics : [],
     }),
-    description: '选择一个或多个度量',
+    description: 'One or many metrics to display',
   },
   y_axis_bounds: {
     type: 'BoundsControl',
-    label: 'Y轴取值范围(Y Axis Bounds)',
+    label: 'Y Axis Bounds',
+    renderTrigger: true,
     default: [null, null],
     description: (
-      '设定Y轴的取值范围. 留空则 ' +
-      '根据数据的最大最小值动态变化。' +
-      "只会改变Y轴取值范围，不会 " +
-      "缩小数据范围."
+      'Bounds for the Y axis. When left empty, the bounds are ' +
+      'dynamically defined based on the min/max of the data. Note that ' +
+      "this feature will only expand the axis range. It won't " +
+      "narrow the data's extent."
     ),
   },
   order_by_cols: {
     type: 'SelectControl',
     multi: true,
-    label: '排序依据',
+    label: 'Ordering',
     default: [],
-    description: '选择一个或多个度量',
+    description: 'One or many metrics to display',
     mapStateToProps: state => ({
       choices: (state.datasource) ? state.datasource.order_by_choices : [],
     }),
@@ -114,7 +116,7 @@ export const controls = {
 
   metric: {
     type: 'SelectControl',
-    label: '度量',
+    label: 'Metric',
     clearable: false,
     description: 'Choose the metric',
     validators: [v.nonEmpty],
@@ -155,7 +157,7 @@ export const controls = {
   },
 
   linear_color_scheme: {
-    type: 'SelectControl',
+    type: 'ColorSchemeControl',
     label: 'Linear Color Scheme',
     choices: [
       ['fire', 'fire'],
@@ -165,6 +167,9 @@ export const controls = {
     ],
     default: 'blue_white_yellow',
     description: '',
+    renderTrigger: true,
+    schemes: spectrums,
+    isLinear: true,
   },
 
   normalize_across: {
@@ -410,7 +415,18 @@ export const controls = {
     label: 'Bottom Margin',
     choices: formatSelectOptions(['auto', 50, 75, 100, 125, 150, 200]),
     default: 'auto',
-    description: 'Bottom marging, in pixels, allowing for more room for axis labels',
+    renderTrigger: true,
+    description: 'Bottom margin, in pixels, allowing for more room for axis labels',
+  },
+
+  left_margin: {
+    type: 'SelectControl',
+    freeForm: true,
+    label: 'Left Margin',
+    choices: formatSelectOptions(['auto', 50, 75, 100, 125, 150, 200]),
+    default: 'auto',
+    renderTrigger: true,
+    description: 'Left margin, in pixels, allowing for more room for axis labels',
   },
 
   granularity: {
@@ -541,7 +557,7 @@ export const controls = {
   },
 
   since: {
-    type: 'SelectControl',
+    type: 'DateFilterControl',
     freeForm: true,
     label: 'Since',
     default: '7 days ago',
@@ -560,7 +576,7 @@ export const controls = {
   },
 
   until: {
-    type: 'SelectControl',
+    type: 'DateFilterControl',
     freeForm: true,
     label: 'Until',
     default: 'now',
@@ -656,6 +672,19 @@ export const controls = {
     isInt: true,
     description: 'Defines the size of the rolling window function, ' +
     'relative to the time granularity selected',
+  },
+
+  min_periods: {
+    type: 'TextControl',
+    label: 'Min Periods',
+    isInt: true,
+    description: (
+      'The minimum number of rolling periods required to show ' +
+      'a value. For instance if you do a cumulative sum on 7 days ' +
+      'you may want your "Min Period" to be 7, so that all data points ' +
+      'shown are the total of 7 periods. This will hide the "ramp up" ' +
+      'taking place over the first 7 periods'
+    ),
   },
 
   series: {
@@ -1001,6 +1030,14 @@ export const controls = {
     description: 'Whether to display the min and max values of the X axis',
   },
 
+  y_axis_showminmax: {
+    type: 'CheckboxControl',
+    label: 'Y bounds',
+    renderTrigger: true,
+    default: true,
+    description: 'Whether to display the min and max values of the Y axis',
+  },
+
   rich_tooltip: {
     type: 'CheckboxControl',
     label: 'Rich Tooltip',
@@ -1306,6 +1343,16 @@ export const controls = {
     choices: formatSelectOptionsForRange(1, 10),
     description: 'Leaf nodes that represent fewer than this number of events will be initially ' +
     'hidden in the visualization',
+  },
+
+  color_scheme: {
+    type: 'ColorSchemeControl',
+    label: 'Color Scheme',
+    default: 'bnbColors',
+    renderTrigger: true,
+    choices: Object.keys(ALL_COLOR_SCHEMES).map(s => ([s, s])),
+    description: 'The color scheme for rendering chart',
+    schemes: ALL_COLOR_SCHEMES,
   },
 };
 export default controls;
