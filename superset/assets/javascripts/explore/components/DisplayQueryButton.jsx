@@ -4,7 +4,7 @@ import SyntaxHighlighter, { registerLanguage } from 'react-syntax-highlighter/di
 import html from 'react-syntax-highlighter/dist/languages/htmlbars';
 import markdown from 'react-syntax-highlighter/dist/languages/markdown';
 import github from 'react-syntax-highlighter/dist/styles/github';
-
+import { t } from '../../locales';
 import ModalTrigger from './../../components/ModalTrigger';
 
 registerLanguage('markdown', markdown);
@@ -57,7 +57,7 @@ export default class DisplayQueryButton extends React.PureComponent {
       },
       error: (data) => {
         this.setState({
-          error: data.responseJSON ? data.responseJSON.error : 'Error...',
+          error: data.responseJSON ? data.responseJSON.error : t('Error...'),
           isLoading: false,
         });
       },
@@ -93,7 +93,7 @@ export default class DisplayQueryButton extends React.PureComponent {
         animation={this.props.animation}
         isButton
         triggerNode={<span>Query</span>}
-        modalTitle="Query"
+        modalTitle={t('Query')}
         bsSize="large"
         beforeOpen={this.beforeOpen}
         modalBody={this.renderModalBody()}

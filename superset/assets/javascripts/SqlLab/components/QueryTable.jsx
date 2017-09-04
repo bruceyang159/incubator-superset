@@ -12,6 +12,7 @@ import HighlightedSql from './HighlightedSql';
 import { fDuration } from '../../modules/dates';
 import { storeQuery } from '../../../utils/common';
 import QueryStateLabel from './QueryStateLabel';
+import { t } from '../../locales';
 
 const propTypes = {
   columns: PropTypes.array,
@@ -45,7 +46,7 @@ class QueryTable extends React.PureComponent {
   openQuery(dbId, schema, sql) {
     const newQuery = {
       dbId,
-      title: 'Untitled Query',
+      title: t('Untitled Query'),
       schema,
       sql,
     };
@@ -110,7 +111,7 @@ class QueryTable extends React.PureComponent {
             className="btn btn-link btn-xs"
             onClick={this.openQuery.bind(this, q.dbId, q.schema, q.sql)}
           >
-            <i className="fa fa-external-link" />Open in SQL Editor
+            <i className="fa fa-external-link" />{t('Open in SQL Editor')}
           </button>
         </div>
       );
@@ -132,7 +133,7 @@ class QueryTable extends React.PureComponent {
                 view results
               </Label>
             )}
-            modalTitle={'Data preview'}
+            modalTitle={t('Data preview')}
             beforeOpen={this.openAsyncResults.bind(this, query)}
             onExit={this.clearQueryResults.bind(this, query)}
             modalBody={
@@ -178,13 +179,13 @@ class QueryTable extends React.PureComponent {
           <Link
             className="fa fa-pencil m-r-3"
             onClick={this.restoreSql.bind(this, query)}
-            tooltip="Overwrite text in editor with a query on this table"
+            tooltip={t('Overwrite text in editor with a query on this table')}
             placement="top"
           />
           <Link
             className="fa fa-plus-circle m-r-3"
             onClick={this.openQueryInNewTab.bind(this, query)}
-            tooltip="Run query in a new tab"
+            tooltip={t('Run query in a new tab')}
             placement="top"
           />
           <Link

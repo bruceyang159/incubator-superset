@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Select from 'react-select';
-
+import { t } from '../../locales';
 import AceEditor from 'react-ace';
 import 'brace/mode/css';
 import 'brace/theme/github';
@@ -61,10 +61,10 @@ class CssEditor extends React.PureComponent {
     if (this.props.templates) {
       return (
         <div style={{ zIndex: 10 }}>
-          <h5>Load a template</h5>
+          <h5>{t('Load a template')}</h5>
           <Select
             options={this.props.templates}
-            placeholder="Load a CSS template"
+            placeholder={t('Load a CSS template')}
             onChange={this.changeCssTemplate.bind(this)}
           />
         </div>
@@ -76,13 +76,13 @@ class CssEditor extends React.PureComponent {
     return (
       <ModalTrigger
         triggerNode={this.props.triggerNode}
-        modalTitle="CSS"
+        modalTitle={t('CSS')}
         isButton
         modalBody={
           <div>
             {this.renderTemplateSelector()}
             <div style={{ zIndex: 1 }}>
-              <h5>Live CSS Editor</h5>
+              <h5>{t('Live CSS Editor')}</h5>
               <div style={{ border: 'solid 1px grey' }}>
                 <AceEditor
                   mode="css"

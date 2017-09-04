@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { ButtonGroup } from 'react-bootstrap';
-
+import { t } from '../../locales';
 import Button from '../../components/Button';
 import CssEditor from './CssEditor';
 import RefreshIntervalModal from './RefreshIntervalModal';
@@ -44,13 +44,13 @@ class Controls extends React.PureComponent {
   }
   render() {
     const dashboard = this.props.dashboard;
-    const emailBody = `Checkout this dashboard: ${window.location.href}`;
+    const emailBody = t('Checkout this dashboard: %s', window.location.href);
     const emailLink = 'mailto:?Subject=Superset%20Dashboard%20'
       + `${dashboard.dashboard_title}&Body=${emailBody}`;
     return (
       <ButtonGroup>
         <Button
-          tooltip="Force refresh the whole dashboard"
+          tooltip={t('Force refresh the whole dashboard')}
           onClick={this.refresh.bind(this)}
         >
           <i className="fa fa-refresh" />
@@ -90,7 +90,7 @@ class Controls extends React.PureComponent {
           onClick={() => {
             window.location = `/dashboardmodelview/edit/${dashboard.id}`;
           }}
-          tooltip="Edit this dashboard's properties"
+          tooltip={t('Edit this dashboard\'s properties')}
         >
           <i className="fa fa-edit" />
         </Button>

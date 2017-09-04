@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Select from 'react-select';
-
+import { t } from '../locales';
 const $ = window.$ = require('jquery');
 
 const propTypes = {
@@ -16,7 +16,7 @@ const propTypes = {
 };
 
 const defaultProps = {
-  placeholder: 'Select ...',
+  placeholder: t('Select ...'),
   valueRenderer: o => (<div>{o.label}</div>),
   onAsyncError: () => {},
 };
