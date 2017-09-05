@@ -4,7 +4,7 @@ import shortid from 'shortid';
 import { Alert, Tab, Tabs } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-
+import { t } from '../../locales';
 import * as Actions from '../actions';
 import QueryHistory from './QueryHistory';
 import ResultSet from './ResultSet';
@@ -48,12 +48,12 @@ class SouthPane extends React.PureComponent {
         />
       );
     } else {
-      results = <Alert bsStyle="info">Run a query to display results here</Alert>;
+      results = <Alert bsStyle="info">{t('Run a query to display results here')}</Alert>;
     }
 
     const dataPreviewTabs = props.dataPreviewQueries.map(query => (
       <Tab
-        title={`Preview for ${query.tableName}`}
+        title={t('Preview for %s', query.tableName)}
         eventKey={query.id}
         key={query.id}
       >
@@ -77,13 +77,13 @@ class SouthPane extends React.PureComponent {
           onSelect={this.switchTab.bind(this)}
         >
           <Tab
-            title="Results"
+            title={t('Results')}
             eventKey="Results"
           >
             {results}
           </Tab>
           <Tab
-            title="Query History"
+            title={t('Query History')}
             eventKey="History"
           >
             <div style={{ height: `${innerTabHeight}px`, overflow: 'scroll' }}>

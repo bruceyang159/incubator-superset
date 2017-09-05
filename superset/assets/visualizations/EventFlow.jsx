@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import { t } from '../javascripts/locales';
 import {
   App,
   withParentSize,
@@ -52,7 +52,7 @@ function renderEventFlow(slice, json) {
 
     Component = <ResponsiveVis data={cleanData} initialMinEventCount={minEventCount} />;
   } else {
-    Component = <div>Sorry, there appears to be no data</div>;
+    Component = <div>{t('Sorry, there appears to be no data')}</div>;
   }
 
   ReactDOM.render(Component, container);

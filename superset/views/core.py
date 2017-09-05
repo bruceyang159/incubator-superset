@@ -2357,6 +2357,7 @@ class Superset(BaseSupersetView):
             }))
 appbuilder.add_view_no_menu(Superset)
 
+
 class CssTemplateModelView(SupersetModelView, DeleteMixin):
 
     list_title = _("List CSS Template")

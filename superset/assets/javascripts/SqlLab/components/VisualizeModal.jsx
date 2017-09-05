@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { Alert, Button, Col, Modal } from 'react-bootstrap';
-
+import { t } from '../../locales';
 import Select from 'react-select';
 import { Table } from 'reactable';
 import shortid from 'shortid';
@@ -86,9 +86,9 @@ class VisualizeModal extends React.PureComponent {
       if (!re.test(colName)) {
         hints.push(
           <div>
-            "{colName}" is not right as a column name, please alias it
-            (as in SELECT count(*) <strong>AS my_alias</strong>) using only
-            alphanumeric characters and underscores
+            {t('%s is not right as a column name, please alias it ' +
+             '(as in SELECT count(*) ', colName)} <strong>{t('AS my_alias')}</strong>) {t('using only ' +
+             'alphanumeric characters and underscores')}
           </div>);
       }
     });
@@ -192,7 +192,7 @@ class VisualizeModal extends React.PureComponent {
         <div className="VisualizeModal">
           <Modal show={this.props.show} onHide={this.props.onHide}>
             <Modal.Body>
-              No results available for this query
+              {t('No results available for this query')}
             </Modal.Body>
           </Modal>
         </div>
@@ -237,17 +237,17 @@ class VisualizeModal extends React.PureComponent {
       <div className="VisualizeModal">
         <Modal show={this.props.show} onHide={this.props.onHide}>
           <Modal.Header closeButton>
-            <Modal.Title>Visualize</Modal.Title>
+            <Modal.Title>{t('Visualize')}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             {alerts}
             {this.buildVisualizeAdvise()}
             <div className="row">
               <Col md={6}>
-                Chart Type
+                {t('Chart Type')}
                 <Select
                   name="select-chart-type"
-                  placeholder="[Chart Type]"
+                  placeholder={t('[Chart Type]')}
                   options={CHART_TYPES}
                   value={(this.state.chartType) ? this.state.chartType.value : null}
                   autosize={false}
@@ -259,7 +259,7 @@ class VisualizeModal extends React.PureComponent {
                 <input
                   type="text"
                   className="form-control input-sm"
-                  placeholder="datasource name"
+                  placeholder={t('datasource name')}
                   onChange={this.changeDatasourceName.bind(this)}
                   value={this.state.datasourceName}
                 />
@@ -276,7 +276,7 @@ class VisualizeModal extends React.PureComponent {
               bsStyle="primary"
               disabled={(this.state.hints.length > 0)}
             >
-              Visualize
+              {t('Visualize')}
             </Button>
           </Modal.Body>
         </Modal>

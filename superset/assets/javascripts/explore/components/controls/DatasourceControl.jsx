@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Table } from 'reactable';
 import { Label, FormControl, Modal, OverlayTrigger, Tooltip } from 'react-bootstrap';
-
+import { t } from '../../../locales';
 import ControlHeader from '../ControlHeader';
 
 const propTypes = {
@@ -66,7 +66,7 @@ export default class DatasourceControl extends React.PureComponent {
         },
         error() {
           that.setState({ loading: false });
-          notify.error('Something went wrong while fetching the datasource list');
+          notify.error(t('Something went wrong while fetching the datasource list'));
         },
       });
     }
@@ -91,7 +91,7 @@ export default class DatasourceControl extends React.PureComponent {
         <OverlayTrigger
           placement="right"
           overlay={
-            <Tooltip id={'error-tooltip'}>Click to point to another datasource</Tooltip>
+            <Tooltip id={'error-tooltip'}>t('Click to point to another datasource')}</Tooltip>
           }
         >
           <Label onClick={this.toggleModal} style={{ cursor: 'pointer' }} className="m-r-5">
@@ -102,7 +102,7 @@ export default class DatasourceControl extends React.PureComponent {
           placement="right"
           overlay={
             <Tooltip id={'edit-datasource-tooltip'}>
-              Edit the datasource's configuration
+              {t('Edit the datasource\'s configuration')}
             </Tooltip>
           }
         >
@@ -118,7 +118,7 @@ export default class DatasourceControl extends React.PureComponent {
           bsSize="lg"
         >
           <Modal.Header closeButton>
-            <Modal.Title>Select a datasource</Modal.Title>
+            <Modal.Title>{t('Select a datasource')}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <div>
@@ -128,7 +128,7 @@ export default class DatasourceControl extends React.PureComponent {
                 type="text"
                 bsSize="sm"
                 value={this.state.filter}
-                placeholder="Search / Filter"
+                placeholder={t('Search / Filter')}
                 onChange={this.changeSearch}
               />
             </div>

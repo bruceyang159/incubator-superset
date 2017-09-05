@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Button, Row, Col } from 'react-bootstrap';
 import Filter from './Filter';
-
+import { t } from '../../../locales';
 const propTypes = {
   name: PropTypes.string,
   onChange: PropTypes.func,
@@ -66,7 +66,7 @@ export default class FilterControl extends React.Component {
               bsSize="sm"
               onClick={this.addFilter.bind(this)}
             >
-              <i className="fa fa-plus" /> &nbsp; Add Filter
+              <i className="fa fa-plus" /> &nbsp; {t('Add Filter')}
             </Button>
           </Col>
         </Row>
