@@ -26,6 +26,7 @@ from flask_appbuilder.security.sqla import models as ab_models
 
 from flask_babel import gettext as __
 from flask_babel import lazy_gettext as _
+from flask_babel import get_locale
 
 from sqlalchemy import create_engine
 from werkzeug.routing import BaseConverter
@@ -1715,9 +1716,11 @@ class Superset(BaseSupersetView):
         dash_save_perm = \
             dash_edit_perm and self.can_access('can_save_dash', 'Superset')
 
+        standalone_mode = request.args.get("standalone") == "true"
+
         dashboard_data = dash.data
         dashboard_data.update({
-            'standalone_mode': request.args.get("standalone") == "true",
+            'standalone_mode': standalone_mode,
             'dash_save_perm': dash_save_perm,
             'dash_edit_perm': dash_edit_perm,
         })
@@ -1731,6 +1734,7 @@ class Superset(BaseSupersetView):
         return self.render_template(
             "superset/dashboard.html",
             entry='dashboard',
+            standalone_mode=standalone_mode,
             title='[dashboard] ' + dash.dashboard_title,
             bootstrap_data=json.dumps(bootstrap_data),
         )
@@ -2301,6 +2305,13 @@ class Superset(BaseSupersetView):
             entry='sqllab',
             bootstrap_data=json.dumps(d, default=utils.json_iso_dttm_ser)
         )
+
+    @has_access
+    @expose("/rest/api/get_locale", methods=['GET', 'POST'])
+    def get_locale(self):
+        return json_success(json.dumps({
+            'language': str(get_locale()),
+        }))
 appbuilder.add_view_no_menu(Superset)
 
 
