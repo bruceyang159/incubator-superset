@@ -4,6 +4,7 @@ import { Label } from 'react-bootstrap';
 import moment from 'moment';
 import TooltipWrapper from './TooltipWrapper';
 import { t } from '../locales';
+
 const propTypes = {
   onClick: PropTypes.func,
   cachedTimestamp: PropTypes.string,

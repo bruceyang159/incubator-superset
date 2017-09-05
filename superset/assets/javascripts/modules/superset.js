@@ -5,6 +5,7 @@ import vizMap from '../../visualizations/main';
 import { getExploreUrl } from '../explore/exploreUtils';
 import { applyDefaultFormData } from '../explore/stores/store';
 import { t } from '../locales';
+
 const utils = require('./utils');
 
 /* eslint wrap-iife: 0 */
@@ -159,8 +160,8 @@ const px = function (state) {
           if (xhr.statusText === 'timeout') {
             errHtml += (
               '<div class="alert alert-warning">' +
-              'Query timeout - visualization query are set to time out ' +
-              `at ${timeout} seconds.</div>`);
+              t('Query timeout - visualization query are set to time out ' +
+              'at ${timeout} seconds.')+'</div>');
           } else {
             const extendedMsg = this.getErrorMsg(xhr);
             if (extendedMsg) {
@@ -218,7 +219,7 @@ const px = function (state) {
               vizMap[formData.viz_type](this, queryResponse);
               this.done(queryResponse);
             } catch (e) {
-              this.error('An error occurred while rendering the visualization: ' + e);
+              this.error(t('An error occurred while rendering the visualization: %s', e));
             }
           },
           error: (err) => {

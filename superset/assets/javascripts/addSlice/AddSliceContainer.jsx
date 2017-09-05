@@ -4,6 +4,7 @@ import { Button, Panel, Grid, Row, Col } from 'react-bootstrap';
 import Select from 'react-virtualized-select';
 import visTypes from '../explore/stores/visTypes';
 import { t } from '../locales';
+
 const propTypes = {
   datasources: PropTypes.arrayOf(PropTypes.shape({
     label: PropTypes.string.isRequired,
@@ -61,7 +62,7 @@ export default class AddSliceContainer extends React.PureComponent {
                     name="select-datasource"
                     onChange={this.changeDatasource.bind(this)}
                     options={this.props.datasources}
-                    placeholder="Choose a datasource"
+                    placeholder={t('Choose a datasource')}
                     value={this.state.datasourceValue}
                   />
                 </div>

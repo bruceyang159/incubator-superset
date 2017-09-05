@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import moment from 'moment';
 import TableLoader from './TableLoader';
 import { t } from '../../locales';
+
 const propTypes = {
   user: PropTypes.object.isRequired,
 };
@@ -46,7 +47,7 @@ export default class Favorites extends React.PureComponent {
         className="table table-condensed"
         mutator={mutator}
         dataEndpoint={`/superset/fave_dashboards/${this.props.user.userId}/`}
-        noDataText="No favorite dashboards yet, go click on stars!"
+        noDataText={t('No favorite dashboards yet, go click on stars!')}
         columns={['dashboard', 'creator', 'favorited']}
         sortable
       />

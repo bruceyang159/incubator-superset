@@ -9,6 +9,7 @@ import * as Actions from '../actions';
 import SqlEditor from './SqlEditor';
 import CopyQueryTabUrl from './CopyQueryTabUrl';
 import { areArraysShallowEqual } from '../../reduxUtils';
+import { t } from '../../locales';
 
 const propTypes = {
   actions: PropTypes.object.isRequired,

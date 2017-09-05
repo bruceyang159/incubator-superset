@@ -8,6 +8,7 @@ import { t } from '../../locales';
 import * as Actions from '../actions';
 import QueryHistory from './QueryHistory';
 import ResultSet from './ResultSet';
+import { t } from '../../locales';
 
 /*
     editorQueries are queries executed by users passed from SqlEditor component

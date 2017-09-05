@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Button, Row, Col } from 'react-bootstrap';
 import Filter from './Filter';
 import { t } from '../../../locales';
+
 const propTypes = {
   name: PropTypes.string,
   onChange: PropTypes.func,

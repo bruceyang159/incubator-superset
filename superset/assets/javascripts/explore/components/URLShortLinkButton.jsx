@@ -4,6 +4,7 @@ import { Popover, OverlayTrigger } from 'react-bootstrap';
 import CopyToClipboard from './../../components/CopyToClipboard';
 import { getShortUrl } from '../../../utils/common';
 import { t } from '../../locales';
+
 const propTypes = {
   slice: PropTypes.object.isRequired,
 };

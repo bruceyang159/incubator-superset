@@ -168,8 +168,8 @@ class QuerySearch extends React.PureComponent {
           <div className="col-sm-1">
             <Select
               name="select-to"
-              placeholder="[To]-"
-              options={TIME_OPTIONS.map(t => ({ value: t, label: t }))}
+              placeholder={t('[To]-')}
+              options={TIME_OPTIONS.map(xt => ({ value: xt, label: xt }))}
               value={this.state.to}
               autosize={false}
               onChange={this.changeTo.bind(this)}

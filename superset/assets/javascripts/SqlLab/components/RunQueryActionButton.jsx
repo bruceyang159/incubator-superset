@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Button from '../../components/Button';
 import { t } from '../../locales';
+
 const propTypes = {
   allowAsync: PropTypes.bool.isRequired,
   dbId: PropTypes.number,
@@ -15,7 +16,7 @@ const defaultProps = {
 };
 
 export default function RunQueryActionButton(props) {
-  const runBtnText = props.selectedText ? t('Run Selected Query') : t('Run Query');;
+  const runBtnText = props.selectedText ? t('Run Selected Query') : t('Run Query');
   const btnStyle = props.selectedText ? 'warning' : 'primary';
   const shouldShowStopBtn = ['running', 'pending'].indexOf(props.queryState) > -1;
   const tooltip = 'shortcut: [alt+enter]';

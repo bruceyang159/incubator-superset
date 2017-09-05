@@ -8,6 +8,7 @@ import { Button } from 'react-bootstrap';
 import { t } from '../javascripts/locales';
 import { TIME_CHOICES } from './constants';
 import './filter_box.css';
+import { t } from '../javascripts/locales';
 
 const propTypes = {
   origSelectedValues: PropTypes.object,

@@ -1,4 +1,5 @@
 import { t } from '../locales';
+
 export const STATE_BSSTYLE_MAP = {
   failed: 'danger',
   pending: 'info',

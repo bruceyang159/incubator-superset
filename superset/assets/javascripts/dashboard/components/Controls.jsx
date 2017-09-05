@@ -8,6 +8,7 @@ import RefreshIntervalModal from './RefreshIntervalModal';
 import SaveModal from './SaveModal';
 import CodeModal from './CodeModal';
 import SliceAdder from './SliceAdder';
+import { t } from '../../locales';
 
 const $ = window.$ = require('jquery');
 

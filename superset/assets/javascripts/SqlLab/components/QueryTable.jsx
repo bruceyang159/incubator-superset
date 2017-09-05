@@ -130,7 +130,7 @@ class QueryTable extends React.PureComponent {
                 bsStyle="info"
                 style={{ cursor: 'pointer' }}
               >
-                view results
+                {t('view results')}
               </Label>
             )}
             modalTitle={t('Data preview')}
@@ -173,7 +173,7 @@ class QueryTable extends React.PureComponent {
         <div style={{ width: '75px' }}>
           <Link
             className="fa fa-line-chart m-r-3"
-            tooltip="Visualize the data out of this query"
+            tooltip={t('Visualize the data out of this query')}
             onClick={this.showVisualizeModal.bind(this, query)}
           />
           <Link
@@ -190,7 +190,7 @@ class QueryTable extends React.PureComponent {
           />
           <Link
             className="fa fa-trash m-r-3"
-            tooltip="Remove query from log"
+            tooltip={t('Remove query from log')}
             onClick={this.removeQuery.bind(this, query)}
           />
         </div>

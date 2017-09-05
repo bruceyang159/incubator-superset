@@ -1,6 +1,7 @@
 import { D3_TIME_FORMAT_OPTIONS } from './controls';
 import * as v from '../validators';
 import { t } from '../../locales';
+
 export const sections = {
   druidTimeSeries: {
     label: t('Time'),
@@ -21,7 +22,7 @@ export const sections = {
     ],
   },
   colorScheme: {
-    label: 'Color Scheme',
+    label: t('Color Scheme'),
     controlSetRows: [
       ['color_scheme'],
     ],
@@ -772,7 +773,7 @@ export const visTypes = {
     ],
     controlOverrides: {
       y_axis_format: {
-        label:t( 'Number format'),
+        label: t('Number format'),
         description: t('Choose a number format'),
       },
       groupby: {
@@ -811,7 +812,7 @@ export const visTypes = {
     controlOverrides: {
       entity: {
         label: t('ISO 3166-1 codes of region/province/department'),
-        description: t("It's ISO 3166-1 of your region/province/department in your table. (see documentation for list of ISO 3166-1)"),
+        description: t('It\'s ISO 3166-1 of your region/province/department in your table. (see documentation for list of ISO 3166-1)'),
       },
       metric: {
         label: t('Metric'),
@@ -929,7 +930,7 @@ export const visTypes = {
     label: t('Heatmap'),
     controlPanelSections: [
       {
-        label:t( 'Axis & Metrics'),
+        label: t('Axis & Metrics'),
         controlSetRows: [
           ['all_columns_x'],
           ['all_columns_y'],
@@ -1024,7 +1025,7 @@ export const visTypes = {
         description: t('Column containing latitude data'),
       },
       pandas_aggfunc: {
-        label:t('Cluster label aggregator'),
+        label: t('Cluster label aggregator'),
         description: t('Aggregate function applied to the list of points ' +
         'in each cluster to produce the cluster label.'),
       },
@@ -1045,7 +1046,7 @@ export const visTypes = {
     requiresTime: true,
     controlPanelSections: [
       {
-        label:t('Event definition'),
+        label: t('Event definition'),
         controlSetRows: [
           ['entity'],
           ['all_columns_x'],

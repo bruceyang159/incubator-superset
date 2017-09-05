@@ -7,6 +7,7 @@ import createFilterOptions from 'react-select-fast-filter-options';
 import { t } from '../../locales';
 import TableElement from './TableElement';
 import AsyncSelect from '../../components/AsyncSelect';
+import { t } from '../../locales';
 
 const $ = window.$ = require('jquery');
 
@@ -149,7 +150,7 @@ class SqlEditorLeftBar extends React.PureComponent {
               '_od_DatabaseAsync=asc'
             }
             onChange={this.onDatabaseChange.bind(this)}
-            onAsyncError={() => notify.error('Error while fetching database list')}
+            onAsyncError={() => notify.error(t('Error while fetching database list'))}
             value={this.props.queryEditor.dbId}
             databaseId={this.props.queryEditor.dbId}
             actions={this.props.actions}
@@ -171,7 +172,7 @@ class SqlEditorLeftBar extends React.PureComponent {
             value={this.props.queryEditor.schema}
             valueRenderer={o => (
               <div>
-                <span className="text-muted">Schema:</span> {o.label}
+                <span className="text-muted">{t('Schema:')}</span> {o.label}
               </div>
             )}
             isLoading={this.state.schemaLoading}

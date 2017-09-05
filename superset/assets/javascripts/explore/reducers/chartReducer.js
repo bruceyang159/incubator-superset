@@ -2,6 +2,7 @@
 import { now } from '../../modules/dates';
 import * as actions from '../actions/chartActions';
 import { t } from '../../locales';
+
 export default function chartReducer(state = {}, action) {
   const actionHandlers = {
     [actions.CHART_UPDATE_SUCCEEDED]() {
@@ -41,12 +42,12 @@ export default function chartReducer(state = {}, action) {
       return Object.assign({}, state, {
         chartStatus: 'failed',
         chartAlert: (
-          '<strong>Query timeout</strong> - visualization query are set to timeout at ' +
+          t('<strong>Query timeout</strong> - visualization query are set to timeout at ' +
           `${action.timeout} seconds. ` +
           'Perhaps your data has grown, your database is under unusual load, ' +
           'or you are simply querying a data source that is to large ' +
           'to be processed within the timeout range. ' +
-          'If that is the case, we recommend that you summarize your data further.'),
+          'If that is the case, we recommend that you summarize your data further.')),
       });
     },
     [actions.CHART_UPDATE_FAILED]() {

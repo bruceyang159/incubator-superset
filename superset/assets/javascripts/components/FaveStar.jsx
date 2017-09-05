@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import cx from 'classnames';
 import TooltipWrapper from './TooltipWrapper';
 import { t } from '../locales';
+
 const propTypes = {
   sliceId: PropTypes.number.isRequired,
   actions: PropTypes.object.isRequired,

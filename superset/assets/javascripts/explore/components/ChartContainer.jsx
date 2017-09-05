@@ -15,6 +15,7 @@ import { getExploreUrl } from '../exploreUtils';
 import { getFormDataFromControls } from '../stores/store';
 import CachedLabel from '../../components/CachedLabel';
 import { t } from '../../locales';
+
 const CHART_STATUS_MAP = {
   failed: 'danger',
   loading: 'warning',

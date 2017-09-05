@@ -2,10 +2,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { t } from '../../locales';
+
 import { Modal, Alert, Button, Radio } from 'react-bootstrap';
 import Select from 'react-select';
 import { getExploreUrl } from '../exploreUtils';
+import { t } from '../../locales';
 
 const propTypes = {
   can_overwrite: PropTypes.bool,
@@ -221,7 +222,7 @@ class SaveModal extends React.Component {
             disabled={this.state.addToDash === 'noSave'}
             onClick={this.saveOrOverwrite.bind(this, true)}
           >
-            Save & go to dashboard
+            {t('Save & go to dashboard')}
           </Button>
         </Modal.Footer>
       </Modal>

@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import TooltipWrapper from './TooltipWrapper';
 import { t } from '../locales';
+
 const propTypes = {
   title: PropTypes.string,
   canEdit: PropTypes.bool,

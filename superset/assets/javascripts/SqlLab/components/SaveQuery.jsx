@@ -63,12 +63,12 @@ class SaveQuery extends React.PureComponent {
             <Col md={12}>
               <small>
                 <label className="control-label" htmlFor="embed-height">
-                  Label
+                  {t('Label')}
                 </label>
               </small>
               <FormControl
                 type="text"
-                placeholder="Label for your query"
+                placeholder={t('Label for your query')}
                 value={this.state.label}
                 onChange={this.onLabelChange}
               />

@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { Alert, Button, Col, Modal } from 'react-bootstrap';
-import { t } from '../../locales';
+
 import Select from 'react-select';
 import { Table } from 'reactable';
 import shortid from 'shortid';
@@ -13,6 +13,7 @@ import { getExploreUrl } from '../../explore/exploreUtils';
 import * as actions from '../actions';
 import { VISUALIZE_VALIDATION_ERRORS } from '../constants';
 import visTypes from '../../explore/stores/visTypes';
+import { t } from '../../locales';
 
 const CHART_TYPES = Object.keys(visTypes)
   .filter(typeName => !!visTypes[typeName].showOnExplore)
@@ -87,8 +88,8 @@ class VisualizeModal extends React.PureComponent {
         hints.push(
           <div>
             {t('%s is not right as a column name, please alias it ' +
-             '(as in SELECT count(*) ', colName)} <strong>{t('AS my_alias')}</strong>) {t('using only ' +
-             'alphanumeric characters and underscores')}
+            '(as in SELECT count(*) ', colName)} <strong>{t('AS my_alias')}</strong>) {t('using only ' +
+            'alphanumeric characters and underscores')}
           </div>);
       }
     });
@@ -162,7 +163,7 @@ class VisualizeModal extends React.PureComponent {
         if (mainGroupBy) {
           formData.groupby = [mainGroupBy.name];
         }
-        notify.info('Creating a data source and popping a new tab');
+        notify.info(t('Creating a data source and popping a new tab'));
 
         window.open(getExploreUrl(formData));
       })
@@ -255,7 +256,7 @@ class VisualizeModal extends React.PureComponent {
                 />
               </Col>
               <Col md={6}>
-                Datasource Name
+                {t('Datasource Name')}
                 <input
                   type="text"
                   className="form-control input-sm"

@@ -6,6 +6,7 @@ import { getAjaxErrorMsg } from '../../modules/utils';
 import ModalTrigger from '../../components/ModalTrigger';
 import Checkbox from '../../components/Checkbox';
 import { t } from '../../locales';
+
 const $ = window.$ = require('jquery');
 
 const propTypes = {

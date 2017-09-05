@@ -10,6 +10,7 @@ import ColumnElement from './ColumnElement';
 import ModalTrigger from '../../components/ModalTrigger';
 import Loading from '../../components/Loading';
 import { t } from '../../locales';
+
 const propTypes = {
   table: PropTypes.object,
   actions: PropTypes.object,

@@ -4,6 +4,7 @@ import Select from 'react-select';
 import { Button, Row, Col } from 'react-bootstrap';
 import SelectControl from './SelectControl';
 import { t } from '../../../locales';
+
 const $ = window.$ = require('jquery');
 
 const operatorsArr = [

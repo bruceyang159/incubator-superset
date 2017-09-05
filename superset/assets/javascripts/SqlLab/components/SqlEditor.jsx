@@ -16,6 +16,7 @@ import {
 import SplitPane from 'react-split-pane';
 
 import Button from '../../components/Button';
+
 import SouthPane from './SouthPane';
 import SaveQuery from './SaveQuery';
 import Timer from '../../components/Timer';
@@ -24,6 +25,7 @@ import AceEditorWrapper from './AceEditorWrapper';
 import { STATE_BSSTYLE_MAP } from '../constants';
 import RunQueryActionButton from './RunQueryActionButton';
 import { t } from '../../locales';
+
 const propTypes = {
   actions: PropTypes.object.isRequired,
   height: PropTypes.string.isRequired,

@@ -5,6 +5,7 @@ import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
 
 import ModalTrigger from '../../components/ModalTrigger';
 import { t } from '../../locales';
+
 require('react-bootstrap-table/css/react-bootstrap-table.css');
 
 const propTypes = {

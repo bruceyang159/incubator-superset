@@ -4,6 +4,7 @@ import Gravatar from 'react-gravatar';
 import moment from 'moment';
 import { Panel } from 'react-bootstrap';
 import { t } from '../../locales';
+
 const propTypes = {
   user: PropTypes.object.isRequired,
 };
@@ -29,7 +30,7 @@ const UserInfo = ({ user }) => (
       </h4>
       <hr />
       <p>
-        <i className="fa fa-clock-o" /> {t('joined')}  {moment(user.createdOn, 'YYYYMMDD').fromNow()}
+        <i className="fa fa-clock-o" /> {t('joined')} {moment(user.createdOn, 'YYYYMMDD').fromNow()}
       </p>
       <p className="email">
         <i className="fa fa-envelope-o" /> {user.email}

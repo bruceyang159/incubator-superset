@@ -1,4 +1,3 @@
-
 /* eslint-disable global-require, import/no-dynamic-require */
 import Jed from 'jed';
 import React from 'react';

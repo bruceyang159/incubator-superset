@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import moment from 'moment';
 import TableLoader from './TableLoader';
 import { t } from '../../locales';
+
 const propTypes = {
   user: PropTypes.object.isRequired,
 };

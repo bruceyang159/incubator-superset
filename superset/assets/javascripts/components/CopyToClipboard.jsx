@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Tooltip, OverlayTrigger, MenuItem } from 'react-bootstrap';
 import { t } from '../locales';
+
 const propTypes = {
   copyNode: PropTypes.node,
   getText: PropTypes.func,

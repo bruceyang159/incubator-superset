@@ -8,7 +8,7 @@ import GridLayout from './components/GridLayout';
 import Header from './components/Header';
 import { appSetup } from '../common';
 import AlertsWrapper from '../components/AlertsWrapper';
-
+import { t } from '../locales';
 import '../../stylesheets/dashboard.css';
 
 const superset = require('../modules/superset');

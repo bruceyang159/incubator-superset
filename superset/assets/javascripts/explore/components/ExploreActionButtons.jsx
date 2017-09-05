@@ -5,6 +5,7 @@ import URLShortLinkButton from './URLShortLinkButton';
 import EmbedCodeButton from './EmbedCodeButton';
 import DisplayQueryButton from './DisplayQueryButton';
 import { t } from '../../locales';
+
 const propTypes = {
   canDownload: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]).isRequired,
   slice: PropTypes.object,

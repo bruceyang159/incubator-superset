@@ -159,7 +159,7 @@ export default class ResultSet extends React.PureComponent {
       return (
         <div>
           <Alert bsStyle="info">
-            {t('Table')}  [<strong>{query.tempTable}</strong>]  {t('was ' +
+            {t('Table')} [<strong>{query.tempTable}</strong>] {t('was ' +
             'created')} &nbsp;
             <Button
               bsSize="small"
@@ -227,7 +227,7 @@ export default class ResultSet extends React.PureComponent {
           bsSize="small"
           onClick={() => { window.open(query.trackingUrl); }}
         >
-            {t('Track Job')}
+          {t('Track Job')}
         </Button>
       );
     }

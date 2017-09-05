@@ -1,3 +1,4 @@
+
 const $ = window.$ = require('jquery');
 
  export function getLanguage() {

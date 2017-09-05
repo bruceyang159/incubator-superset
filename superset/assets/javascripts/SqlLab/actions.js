@@ -2,6 +2,7 @@
 import shortid from 'shortid';
 import { now } from '../modules/dates';
 import { t } from '../locales';
+
 const $ = require('jquery');
 
 export const RESET_STATE = 'RESET_STATE';
@@ -354,7 +355,7 @@ export function popStoredQuery(urlId) {
       success: (data) => {
         const newQuery = JSON.parse(data);
         const queryEditorProps = {
-          title: newQuery.title ? newQuery.title : 'shared query',
+          title: newQuery.title ? newQuery.title : t('shared query'),
           dbId: newQuery.dbId ? parseInt(newQuery.dbId, 10) : null,
           schema: newQuery.schema ? newQuery.schema : null,
           autorun: newQuery.autorun ? newQuery.autorun : false,
@@ -362,7 +363,7 @@ export function popStoredQuery(urlId) {
         };
         dispatch(addQueryEditor(queryEditorProps));
       },
-      error: () => notify.error(t("The query couldn't be loaded")),
+      error: () => notify.error(t('The query couldn\'t be loaded')),
     });
   };
 }
@@ -382,7 +383,7 @@ export function popSavedQuery(saveQueryId) {
         };
         dispatch(addQueryEditor(queryEditorProps));
       },
-      error: () => notify.error(t("The query couldn't be loaded")),
+      error: () => notify.error(t('The query couldn\'t be loaded')),
     });
   };
 }

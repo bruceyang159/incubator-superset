@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { ControlLabel, OverlayTrigger, Tooltip } from 'react-bootstrap';
 import InfoTooltipWithTrigger from '../../components/InfoTooltipWithTrigger';
 import { t } from '../../locales';
+
 const propTypes = {
   label: PropTypes.string.isRequired,
   description: PropTypes.string,

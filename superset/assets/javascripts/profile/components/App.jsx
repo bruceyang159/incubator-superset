@@ -7,6 +7,7 @@ import Security from './Security';
 import RecentActivity from './RecentActivity';
 import CreatedContent from './CreatedContent';
 import { t } from '../../locales';
+
 const propTypes = {
   user: PropTypes.object.isRequired,
 };

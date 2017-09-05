@@ -3,8 +3,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Table } from 'reactable';
 import { Label, FormControl, Modal, OverlayTrigger, Tooltip } from 'react-bootstrap';
-import { t } from '../../../locales';
+
 import ControlHeader from '../ControlHeader';
+import { t } from '../../../locales';
 
 const propTypes = {
   description: PropTypes.string,
@@ -91,7 +92,7 @@ export default class DatasourceControl extends React.PureComponent {
         <OverlayTrigger
           placement="right"
           overlay={
-            <Tooltip id={'error-tooltip'}>t('Click to point to another datasource')}</Tooltip>
+            <Tooltip id={'error-tooltip'}>{t('Click to point to another datasource')}</Tooltip>
           }
         >
           <Label onClick={this.toggleModal} style={{ cursor: 'pointer' }} className="m-r-5">

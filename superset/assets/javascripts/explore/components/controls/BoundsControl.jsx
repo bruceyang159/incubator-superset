@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Col, Row, FormGroup, FormControl } from 'react-bootstrap';
 import ControlHeader from '../ControlHeader';
 import { t } from '../../../locales';
+
 const propTypes = {
   name: PropTypes.string.isRequired,
   label: PropTypes.string,

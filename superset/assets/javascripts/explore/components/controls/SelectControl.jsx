@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Select, { Creatable } from 'react-select';
 import ControlHeader from '../ControlHeader';
 import { t } from '../../../locales';
+
 const propTypes = {
   choices: PropTypes.array,
   clearable: PropTypes.bool,

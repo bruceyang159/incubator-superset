@@ -117,13 +117,13 @@ const config = {
         loader: 'transform/cacheable?brfs',
       },
       {
-         test: /\.po$/,
-         loader: 'po-catalog-loader',
-         query: {
+        test: /\.po$/,
+        loader: 'po-catalog-loader',
+        query: {
           referenceExtensions: ['.js', '.jsx'],
-           domain: 'superset',
-         },
-       },
+          domain: 'superset',
+        },
+      },
     ],
   },
   externals: {

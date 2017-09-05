@@ -6,6 +6,7 @@ import markdown from 'react-syntax-highlighter/dist/languages/markdown';
 import github from 'react-syntax-highlighter/dist/styles/github';
 import { t } from '../../locales';
 import ModalTrigger from './../../components/ModalTrigger';
+import { t } from '../../locales';
 
 registerLanguage('markdown', markdown);
 registerLanguage('html', html);

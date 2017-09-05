@@ -4,6 +4,9 @@ import PropTypes from 'prop-types';
 import { t } from '../../locales';
 import { getExploreUrl } from '../../explore/exploreUtils';
 
+import { t } from '../../locales';
+import { getExploreUrl } from '../../explore/exploreUtils';
+
 const propTypes = {
   slice: PropTypes.object.isRequired,
   removeSlice: PropTypes.func.isRequired,

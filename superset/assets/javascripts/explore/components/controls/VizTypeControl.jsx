@@ -6,6 +6,7 @@ import {
   Tooltip } from 'react-bootstrap';
 import visTypes from '../../stores/visTypes';
 import ControlHeader from '../ControlHeader';
+import { t } from '../../../locales';
 
 const propTypes = {
   description: PropTypes.string,
