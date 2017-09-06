@@ -1,14 +1,14 @@
 # Chinese translations for PROJECT.
-# Copyright (C) 2016 ORGANIZATION
+# Copyright (C) 2017 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-06-22 03:50+0800\n"
-"PO-Revision-Date: 2016-05-01 23:07-0700\n"
+"POT-Creation-Date: 2017-09-06 14:16+0800\n"
+"PO-Revision-Date: 2017-09-05 18:40+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh\n"
 "Language-Team: zh <LL@li.org>\n"
@@ -16,76 +16,79 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.5.0\n"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:491
+#: superset/assets/javascripts/explore/stores/controls.jsx:506
 #: superset/db_engine_specs.py:192 superset/db_engine_specs.py:223
 #: superset/db_engine_specs.py:267 superset/db_engine_specs.py:315
-#: superset/db_engine_specs.py:360 superset/db_engine_specs.py:810
-#: superset/db_engine_specs.py:846 superset/db_engine_specs.py:878
-#: superset/db_engine_specs.py:924 superset/db_engine_specs.py:961
+#: superset/db_engine_specs.py:371 superset/db_engine_specs.py:839
+#: superset/db_engine_specs.py:875 superset/db_engine_specs.py:907
+#: superset/db_engine_specs.py:953 superset/db_engine_specs.py:990
+#: superset/db_engine_specs.py:1016
 msgid "Time Column"
 msgstr "时间字段"
 
 #: superset/db_engine_specs.py:193 superset/db_engine_specs.py:224
-#: superset/db_engine_specs.py:316 superset/db_engine_specs.py:361
-#: superset/db_engine_specs.py:811 superset/db_engine_specs.py:879
-#: superset/db_engine_specs.py:962
+#: superset/db_engine_specs.py:316 superset/db_engine_specs.py:372
+#: superset/db_engine_specs.py:840 superset/db_engine_specs.py:908
+#: superset/db_engine_specs.py:991
 msgid "second"
 msgstr "秒"
 
 #: superset/db_engine_specs.py:194 superset/db_engine_specs.py:227
-#: superset/db_engine_specs.py:319 superset/db_engine_specs.py:363
-#: superset/db_engine_specs.py:813 superset/db_engine_specs.py:847
-#: superset/db_engine_specs.py:881 superset/db_engine_specs.py:925
-#: superset/db_engine_specs.py:963
+#: superset/db_engine_specs.py:319 superset/db_engine_specs.py:374
+#: superset/db_engine_specs.py:842 superset/db_engine_specs.py:876
+#: superset/db_engine_specs.py:910 superset/db_engine_specs.py:954
+#: superset/db_engine_specs.py:992 superset/db_engine_specs.py:1017
 msgid "minute"
 msgstr "分"
 
 #: superset/db_engine_specs.py:195 superset/db_engine_specs.py:231
-#: superset/db_engine_specs.py:321 superset/db_engine_specs.py:365
-#: superset/db_engine_specs.py:819 superset/db_engine_specs.py:849
-#: superset/db_engine_specs.py:883 superset/db_engine_specs.py:931
-#: superset/db_engine_specs.py:964
+#: superset/db_engine_specs.py:321 superset/db_engine_specs.py:376
+#: superset/db_engine_specs.py:848 superset/db_engine_specs.py:878
+#: superset/db_engine_specs.py:912 superset/db_engine_specs.py:960
+#: superset/db_engine_specs.py:993 superset/db_engine_specs.py:1018
 msgid "hour"
 msgstr "小时"
 
 #: superset/db_engine_specs.py:196 superset/db_engine_specs.py:236
 #: superset/db_engine_specs.py:268 superset/db_engine_specs.py:323
-#: superset/db_engine_specs.py:367 superset/db_engine_specs.py:821
-#: superset/db_engine_specs.py:851 superset/db_engine_specs.py:885
-#: superset/db_engine_specs.py:933 superset/db_engine_specs.py:965
+#: superset/db_engine_specs.py:378 superset/db_engine_specs.py:850
+#: superset/db_engine_specs.py:880 superset/db_engine_specs.py:914
+#: superset/db_engine_specs.py:962 superset/db_engine_specs.py:994
+#: superset/db_engine_specs.py:1019
 msgid "day"
 msgstr "天"
 
 #: superset/db_engine_specs.py:197 superset/db_engine_specs.py:242
 #: superset/db_engine_specs.py:269 superset/db_engine_specs.py:324
-#: superset/db_engine_specs.py:369 superset/db_engine_specs.py:823
-#: superset/db_engine_specs.py:853 superset/db_engine_specs.py:887
-#: superset/db_engine_specs.py:966
+#: superset/db_engine_specs.py:380 superset/db_engine_specs.py:852
+#: superset/db_engine_specs.py:882 superset/db_engine_specs.py:916
+#: superset/db_engine_specs.py:995 superset/db_engine_specs.py:1020
 msgid "week"
 msgstr "周"
 
 #: superset/db_engine_specs.py:198 superset/db_engine_specs.py:244
 #: superset/db_engine_specs.py:271 superset/db_engine_specs.py:326
-#: superset/db_engine_specs.py:371 superset/db_engine_specs.py:825
-#: superset/db_engine_specs.py:855 superset/db_engine_specs.py:889
-#: superset/db_engine_specs.py:935 superset/db_engine_specs.py:967
+#: superset/db_engine_specs.py:382 superset/db_engine_specs.py:854
+#: superset/db_engine_specs.py:884 superset/db_engine_specs.py:918
+#: superset/db_engine_specs.py:964 superset/db_engine_specs.py:996
+#: superset/db_engine_specs.py:1021
 msgid "month"
 msgstr "月"
 
 #: superset/db_engine_specs.py:199 superset/db_engine_specs.py:246
-#: superset/db_engine_specs.py:328 superset/db_engine_specs.py:373
-#: superset/db_engine_specs.py:827 superset/db_engine_specs.py:857
-#: superset/db_engine_specs.py:891 superset/db_engine_specs.py:937
-#: superset/db_engine_specs.py:968
+#: superset/db_engine_specs.py:328 superset/db_engine_specs.py:384
+#: superset/db_engine_specs.py:856 superset/db_engine_specs.py:886
+#: superset/db_engine_specs.py:920 superset/db_engine_specs.py:966
+#: superset/db_engine_specs.py:997 superset/db_engine_specs.py:1022
 msgid "quarter"
 msgstr "季度"
 
 #: superset/db_engine_specs.py:200 superset/db_engine_specs.py:250
-#: superset/db_engine_specs.py:330 superset/db_engine_specs.py:829
-#: superset/db_engine_specs.py:859 superset/db_engine_specs.py:939
-#: superset/db_engine_specs.py:969
+#: superset/db_engine_specs.py:330 superset/db_engine_specs.py:858
+#: superset/db_engine_specs.py:888 superset/db_engine_specs.py:968
+#: superset/db_engine_specs.py:998 superset/db_engine_specs.py:1023
 msgid "year"
 msgstr "年"
 
@@ -93,188 +96,291 @@ msgstr "年"
 msgid "week_start_monday"
 msgstr "周一为一周开始"
 
-#: superset/db_engine_specs.py:375 superset/db_engine_specs.py:893
+#: superset/db_engine_specs.py:386 superset/db_engine_specs.py:922
 msgid "week_ending_saturday"
 msgstr "周日为一周开始"
 
-#: superset/db_engine_specs.py:378 superset/db_engine_specs.py:896
+#: superset/db_engine_specs.py:389 superset/db_engine_specs.py:925
 msgid "week_start_sunday"
 msgstr "周日为一周结束"
 
-#: superset/db_engine_specs.py:815 superset/db_engine_specs.py:927
+#: superset/db_engine_specs.py:844 superset/db_engine_specs.py:956
 msgid "5 minute"
 msgstr "5分钟"
 
-#: superset/db_engine_specs.py:817
+#: superset/db_engine_specs.py:846
 msgid "half hour"
 msgstr "半小时"
 
-#: superset/db_engine_specs.py:929
+#: superset/db_engine_specs.py:958
 msgid "10 minute"
 msgstr "10 分钟"
 
-#: superset/utils.py:472
+#: superset/utils.py:501
 #, python-format
 msgid "[Superset] Access to the datasource %(name)s was granted"
 msgstr "[Superset] 允许访问数据源 %(name)s "
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:283
-#: superset/viz.py:312
+#: superset/viz.py:49
+msgid "Viz is missing a datasource"
+msgstr "Viz缺少数据源"
+
+#: superset/viz.py:160
+msgid "From date cannot be larger than to date"
+msgstr "开始日期不嫩大于结束日期"
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:321
+#: superset/viz.py:324
 msgid "Table View"
 msgstr "表视图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:334
-#: superset/viz.py:368
+#: superset/viz.py:336
+msgid "Pick a granularity in the Time section or uncheck 'Include Time'"
+msgstr "请在时间项中选择粒度或者不要勾选'包括时间'"
+
+#: superset/viz.py:346
+msgid "Choose either fields to [Group By] and [Metrics] or [Columns], not both"
+msgstr ""
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:372
+#: superset/viz.py:380
 msgid "Pivot Table"
 msgstr "透视表"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:321
-#: superset/viz.py:423
+#: superset/viz.py:394
+msgid "Please choose at least one \"Group by\" field "
+msgstr "请选择只要一个\"分组\"框"
+
+#: superset/viz.py:396
+msgid "Please choose at least one metric"
+msgstr "请选择至少一个指标"
+
+#: superset/viz.py:400
+msgid "'Group By' and 'Columns' can't overlap"
+msgstr "'分组'和'列'不能重合"
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:359
+#: superset/viz.py:433
 msgid "Markup"
 msgstr "标记"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:348
-#: superset/viz.py:442
+#: superset/assets/javascripts/explore/stores/visTypes.js:397
+#: superset/viz.py:452
 msgid "Separator"
 msgstr "分隔符"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:369
-#: superset/viz.py:458
+#: superset/assets/javascripts/explore/stores/visTypes.js:419
+#: superset/viz.py:464
 msgid "Word Cloud"
 msgstr "词汇云"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:383
-#: superset/viz.py:481
+#: superset/assets/javascripts/explore/stores/visTypes.js:440
+#: superset/viz.py:487
 msgid "Treemap"
 msgstr "树状图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:403
-#: superset/viz.py:507
+#: superset/assets/javascripts/explore/stores/visTypes.js:467
+#: superset/viz.py:513
 msgid "Calendar Heatmap"
 msgstr "时间热力图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:418
-#: superset/viz.py:565
+#: superset/assets/javascripts/explore/stores/visTypes.js:488
+#: superset/viz.py:571
 msgid "Box Plot"
 msgstr "箱线图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:437
-#: superset/viz.py:654
+#: superset/assets/javascripts/explore/stores/visTypes.js:509
+#: superset/viz.py:660
 msgid "Bubble Chart"
 msgstr "气泡图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:481
-#: superset/viz.py:704
+#: superset/viz.py:684
+msgid "Pick a metric for x, y and size"
+msgstr "请为X轴,Y轴和大小选择一个指标"
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:560
+#: superset/viz.py:710
 msgid "Bullet Chart"
 msgstr "子弹图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:497
-#: superset/viz.py:753
+#: superset/viz.py:736
+msgid "Pick a metric to display"
+msgstr "请选择一个显示指标"
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:583
+#: superset/viz.py:759
 msgid "Big Number with Trendline"
 msgstr "数字和趋势线"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:516
-#: superset/viz.py:782
+#: superset/viz.py:767 superset/viz.py:796
+msgid "Pick a metric!"
+msgstr "请选择一个指标！"
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:608
+#: superset/viz.py:788
 msgid "Big Number"
 msgstr "数字"
 
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:21
-#: superset/assets/javascripts/explore/stores/visTypes.js:127
-#: superset/viz.py:809
+#: superset/assets/javascripts/explore/stores/visTypes.js:149
+#: superset/viz.py:815
 msgid "Time Series - Line Chart"
 msgstr "时间序列-折线图"
 
-#: superset/viz.py:936
+#: superset/viz.py:862 superset/viz.py:1007
+msgid "Pick a time granularity for your time series"
+msgstr "请为时间序列选择时间粒度"
+
+#: superset/viz.py:950
 msgid "Time Series - Dual Axis Line Chart"
 msgstr "时间序列-双轴线图"
 
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:22
-#: superset/assets/javascripts/explore/stores/visTypes.js:197
-#: superset/viz.py:1011
+#: superset/viz.py:960
+msgid "Pick a metric for left axis!"
+msgstr "请为左数轴选择一个指标"
+
+#: superset/viz.py:962
+msgid "Pick a metric for right axis!"
+msgstr "请为右数轴选择一个指标"
+
+#: superset/viz.py:964
+msgid "Please choose different metrics on left and right axis"
+msgstr "请分别为左右数轴选择不同的指标"
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:228
+#: superset/viz.py:1025
 msgid "Time Series - Bar Chart"
 msgstr "时间序列-柱状图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:230
-#: superset/viz.py:1019
+#: superset/assets/javascripts/explore/stores/visTypes.js:263
+#: superset/viz.py:1033
 msgid "Time Series - Percent Change"
 msgstr "时间序列-百分比变化"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:251
-#: superset/viz.py:1027
+#: superset/assets/javascripts/explore/stores/visTypes.js:285
+#: superset/viz.py:1041
 msgid "Time Series - Stacked"
 msgstr "时间序列-堆积图"
 
-#: superset/viz.py:1036
+#: superset/viz.py:1050
 msgid "Distribution - NVD3 - Pie Chart"
 msgstr "分布-饼图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:535
-#: superset/viz.py:1054
+#: superset/assets/javascripts/explore/stores/visTypes.js:633
+#: superset/viz.py:1068
 msgid "Histogram"
 msgstr "直方图"
 
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:19
-#: superset/assets/javascripts/explore/stores/visTypes.js:81
-#: superset/viz.py:1079
+#: superset/viz.py:1078
+msgid "Must have one numeric column specified"
+msgstr "必须选择一个数值格式的列"
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:88
+#: superset/viz.py:1093
 msgid "Distribution - Bar Chart"
 msgstr "分布-柱状图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:565
-#: superset/viz.py:1146
+#: superset/viz.py:1104
+msgid "Can't have overlap between Series and Breakdowns"
+msgstr "序列和断点不能重合"
+
+#: superset/viz.py:1106
+msgid "Pick at least one metric"
+msgstr "请选择至少一个指标"
+
+#: superset/viz.py:1108
+msgid "Pick at least one field for [Series]"
+msgstr "请为[序列]选择至少一个域"
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:665
+#: superset/viz.py:1161
 msgid "Sunburst"
 msgstr "环状层次图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:595
-#: superset/viz.py:1179
+#: superset/assets/javascripts/explore/stores/visTypes.js:702
+#: superset/viz.py:1194
 msgid "Sankey"
 msgstr "蛇形图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:615
-#: superset/viz.py:1228 superset/viz.py:1249
+#: superset/viz.py:1201
+msgid "Pick exactly 2 columns as [Source / Target]"
+msgstr "请为[源/目标]选择正好两列"
+
+#: superset/viz.py:1232
+msgid ""
+"There's a loop in your Sankey, please provide a tree. Here's a faulty "
+"link: {}"
+msgstr "蛇形图中存在环结构，请使用树结构。"
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:729
+#: superset/viz.py:1243 superset/viz.py:1264
 msgid "Directed Force Layout"
 msgstr "有向图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:672
-#: superset/viz.py:1282
+#: superset/viz.py:1250
+msgid "Pick exactly 2 columns to 'Group By'"
+msgstr "请选择正好两列分组"
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:794
+#: superset/viz.py:1297
 msgid "Country Map"
 msgstr "国家地图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:696
-#: superset/viz.py:1311
+#: superset/assets/javascripts/explore/stores/visTypes.js:827
+#: superset/viz.py:1326
 msgid "World Map"
 msgstr "世界地图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:63
-#: superset/viz.py:1361
+#: superset/assets/javascripts/explore/stores/visTypes.js:72
+#: superset/viz.py:1376
 msgid "Filters"
 msgstr "筛选"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:758
-#: superset/viz.py:1396
+#: superset/viz.py:1384
+msgid "Pick at least one filter field"
+msgstr "请选择至少一个过滤条件"
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:896
+#: superset/viz.py:1411
 msgid "iFrame"
 msgstr "内嵌框架"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:770
-#: superset/viz.py:1413
+#: superset/assets/javascripts/explore/stores/visTypes.js:908
+#: superset/viz.py:1428
 msgid "Parallel Coordinates"
 msgstr "平行坐标"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:786
-#: superset/viz.py:1438
+#: superset/assets/javascripts/explore/stores/visTypes.js:930
+#: superset/viz.py:1453
 msgid "Heatmap"
 msgstr "热力图"
 
-#: superset/viz.py:1489
+#: superset/viz.py:1504
 msgid "Horizon Charts"
 msgstr "水平图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:830
-#: superset/viz.py:1500
+#: superset/assets/javascripts/explore/stores/visTypes.js:974
+#: superset/viz.py:1515
 msgid "Mapbox"
 msgstr "箱图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:900
-#: superset/viz.py:1603
+#: superset/viz.py:1530
+msgid "Must have a [Group By] column to have 'count' as the [Label]"
+msgstr "在[标签]使用count时，必须在[分组]选择一个列"
+
+#: superset/viz.py:1543
+msgid "Choice of [Label] must be present in [Group By]"
+msgstr "[标签]的选择必须出现在[分组]条件中"
+
+#: superset/viz.py:1548
+msgid "Choice of [Point Radius] must be present in [Group By]"
+msgstr "[点半径]中的选择必须出现在[分组]条件中"
+
+#: superset/viz.py:1553
+msgid "[Longitude] and [Latitude] columns must be present in [Group By]"
+msgstr "[经度]和[纬度]列必须出现在[分组]条件中"
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:1045
+#: superset/viz.py:1618
 msgid "Event flow"
 msgstr "事件流"
 
@@ -324,19 +430,19 @@ msgstr "无法加载查询"
 msgid "An error occurred while creating the data source"
 msgstr "创建数据源时发生错误"
 
-#: superset/assets/javascripts/SqlLab/constants.js:29
+#: superset/assets/javascripts/SqlLab/constants.js:30
 msgid "Pick a chart type!"
 msgstr "选择一个图表类型!"
 
-#: superset/assets/javascripts/SqlLab/constants.js:30
+#: superset/assets/javascripts/SqlLab/constants.js:31
 msgid "To use this chart type you need at least one column flagged as a date"
 msgstr "您至少需要标记一个列作为日期来使用这个图表类型"
 
-#: superset/assets/javascripts/SqlLab/constants.js:31
+#: superset/assets/javascripts/SqlLab/constants.js:32
 msgid "To use this chart type you need at least one dimension"
 msgstr "您至少需要设置一个维度来使用这个图表类型"
 
-#: superset/assets/javascripts/SqlLab/constants.js:32
+#: superset/assets/javascripts/SqlLab/constants.js:33
 msgid "To use this chart type you need at least one aggregation function"
 msgstr "您至少需要一个聚合函数来使用这个图表类型"
 
@@ -358,16 +464,18 @@ msgstr "共享查询"
 msgid "copy URL to clipboard"
 msgstr "将URL复制到剪贴板"
 
-#: superset/assets/javascripts/SqlLab/components/HighlightedSql.jsx:56
+#: superset/assets/javascripts/SqlLab/components/HighlightedSql.jsx:60
 msgid "Raw SQL"
 msgstr "原始SQL"
 
-#: superset/assets/javascripts/SqlLab/components/HighlightedSql.jsx:66
+#: superset/assets/javascripts/SqlLab/components/HighlightedSql.jsx:70
 msgid "Source SQL"
 msgstr "源SQL"
 
-#: superset/assets/javascripts/SqlLab/components/HighlightedSql.jsx:78
-#: superset/assets/javascripts/explore/stores/visTypes.js:31
+#: superset/assets/javascripts/SqlLab/components/HighlightedSql.jsx:82
+#: superset/assets/javascripts/explore/stores/visTypes.js:40
+#: superset/connectors/sqla/views.py:235 superset/views/sql_lab.py:37
+#: superset/views/sql_lab.py:93
 msgid "SQL"
 msgstr "SQL"
 
@@ -381,7 +489,7 @@ msgid "It seems you don't have access to any database"
 msgstr "您没有访问任何数据库"
 
 #: superset/assets/javascripts/SqlLab/components/QuerySearch.jsx:154
-#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:90
+#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:89
 msgid "Search Results"
 msgstr "搜索结果"
 
@@ -429,41 +537,49 @@ msgstr "在新标签中运行查询"
 msgid "Remove query from log"
 msgstr "从日志中删除查询"
 
-#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:68
+#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:67
 msgid ".CSV"
 msgstr ".CSV"
 
-#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:79
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:235
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:274
+#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:78
+#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:241
+#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:280
 msgid "Visualize"
 msgstr "可视化选项"
 
-#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:151
+#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:155
 msgid "Query was stopped"
 msgstr "查询已停止"
 
-#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:194
-#: superset/connectors/sqla/views.py:86 superset/connectors/sqla/views.py:135
-#: superset/connectors/sqla/views.py:213 superset/views/core.py:375
+#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:162
+#: superset/connectors/sqla/views.py:84 superset/connectors/sqla/views.py:141
+#: superset/connectors/sqla/views.py:225 superset/views/core.py:396
 msgid "Table"
 msgstr "表"
 
-#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:194
+#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:162
 msgid "was created"
 msgstr "被创建"
 
-#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:201
+#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:169
 msgid "Query in a new tab"
 msgstr "在新标签中查询"
 
-#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:240
+#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:200
+msgid "The query returned no data"
+msgstr "该查询没有返回任何数据"
+
+#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:210
 msgid "Fetch data preview"
 msgstr "获取预览数据"
 
-#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:244
-msgid "The query returned no data"
-msgstr "该查询没有返回任何数据"
+#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:230
+msgid "Track Job"
+msgstr ""
+
+#: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:236
+msgid "Loading..."
+msgstr "载入中..."
 
 #: superset/assets/javascripts/SqlLab/components/RunQueryActionButton.jsx:19
 msgid "Run Selected Query"
@@ -473,11 +589,7 @@ msgstr "运行选择的查询"
 msgid "Run Query"
 msgstr "运行查询"
 
-#: superset/assets/javascripts/SqlLab/components/RunQueryActionButton.jsx:22
-msgid "Run query asynchronously"
-msgstr "异步运行查询"
-
-#: superset/assets/javascripts/SqlLab/components/RunQueryActionButton.jsx:56
+#: superset/assets/javascripts/SqlLab/components/RunQueryActionButton.jsx:57
 msgid "Stop"
 msgstr "停止"
 
@@ -486,6 +598,7 @@ msgid "Undefined"
 msgstr "未定义"
 
 #: superset/assets/javascripts/SqlLab/components/SaveQuery.jsx:66
+#: superset/views/sql_lab.py:85
 msgid "Label"
 msgstr "标签"
 
@@ -494,9 +607,10 @@ msgid "Label for your query"
 msgstr "为你的查询设置标签"
 
 #: superset/assets/javascripts/SqlLab/components/SaveQuery.jsx:81
-#: superset/connectors/druid/views.py:107
-#: superset/connectors/druid/views.py:229 superset/connectors/sqla/views.py:83
-#: superset/connectors/sqla/views.py:131 superset/views/core.py:369
+#: superset/connectors/druid/views.py:105
+#: superset/connectors/druid/views.py:227 superset/connectors/sqla/views.py:81
+#: superset/connectors/sqla/views.py:137 superset/connectors/sqla/views.py:237
+#: superset/views/core.py:390 superset/views/sql_lab.py:89
 msgid "Description"
 msgstr "描述"
 
@@ -505,8 +619,8 @@ msgid "Write a description for your query"
 msgstr "为你的查询写一个描述"
 
 #: superset/assets/javascripts/SqlLab/components/SaveQuery.jsx:99
-#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:139
-#: superset/assets/javascripts/explore/components/SaveModal.jsx:220
+#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:155
+#: superset/assets/javascripts/explore/components/SaveModal.jsx:216
 msgid "Save"
 msgstr "保存"
 
@@ -519,37 +633,37 @@ msgstr "取消"
 msgid "Save Query"
 msgstr "保存查询"
 
-#: superset/assets/javascripts/SqlLab/components/SouthPane.jsx:80
+#: superset/assets/javascripts/SqlLab/components/SouthPane.jsx:52
 msgid "Run a query to display results here"
 msgstr "运行查询以在此显示结果"
 
-#: superset/assets/javascripts/SqlLab/components/SouthPane.jsx:85
+#: superset/assets/javascripts/SqlLab/components/SouthPane.jsx:57
 #, python-format
 msgid "Preview for %s"
 msgstr "预览 %s"
 
-#: superset/assets/javascripts/SqlLab/components/SouthPane.jsx:109
+#: superset/assets/javascripts/SqlLab/components/SouthPane.jsx:81
 msgid "Results"
 msgstr "结果"
 
-#: superset/assets/javascripts/SqlLab/components/SouthPane.jsx:115
+#: superset/assets/javascripts/SqlLab/components/SouthPane.jsx:87
 msgid "Query History"
 msgstr "查询历史"
 
-#: superset/assets/javascripts/SqlLab/components/SqlEditor.jsx:112
+#: superset/assets/javascripts/SqlLab/components/SqlEditor.jsx:118
+msgid "Create table as with query results"
+msgstr "使用查询结果创建表"
+
+#: superset/assets/javascripts/SqlLab/components/SqlEditor.jsx:126
+msgid "new table name"
+msgstr "新表名"
+
+#: superset/assets/javascripts/SqlLab/components/SqlEditor.jsx:148
 #, python-format
 msgid ""
 "It appears that the number of rows in the query results displayed was "
 "limited on the server side to the %s limit."
 msgstr "显示的查询结果中的行数在服务器端限制为 %s 行"
-
-#: superset/assets/javascripts/SqlLab/components/SqlEditor.jsx:123
-msgid "Create table as with query results"
-msgstr "使用查询结果创建表"
-
-#: superset/assets/javascripts/SqlLab/components/SqlEditor.jsx:131
-msgid "new table name"
-msgstr "新表名"
 
 #: superset/assets/javascripts/SqlLab/components/SqlEditorLeftBar.jsx:90
 msgid "Error while fetching table list"
@@ -651,45 +765,41 @@ msgstr "将查询语句复制到剪贴板"
 msgid "Remove table preview"
 msgstr "删除表预览"
 
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:20
-#: superset/assets/javascripts/explore/stores/visTypes.js:111
-msgid "Pie Chart"
-msgstr "饼图"
-
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:85
+#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:90
 #, python-format
 msgid "%s is not right as a column name, please alias it (as in SELECT count(*) "
 msgstr "%s 作为列名不正确，请换别的列名(如在SELECT count(*)中查询)"
 
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:86
+#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:91
 msgid "AS my_alias"
 msgstr "作为我别的名字"
 
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:86
+#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:91
 msgid "using only alphanumeric characters and underscores"
 msgstr "仅使用字母数字和下划线"
 
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:160
+#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:166
 msgid "Creating a data source and popping a new tab"
 msgstr "创建数据源并弹出新标签"
 
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:190
+#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:196
 msgid "No results available for this query"
 msgstr "此查询没有可用的结果"
 
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:242
+#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:248
 msgid "Chart Type"
 msgstr "图表类型"
 
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:245
+#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:251
 msgid "[Chart Type]"
 msgstr "[图表类型]"
 
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:253
+#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:259
+#: superset/connectors/druid/views.py:234 superset/views/core.py:404
 msgid "Datasource Name"
 msgstr "数据源名称"
 
-#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:257
+#: superset/assets/javascripts/SqlLab/components/VisualizeModal.jsx:263
 msgid "datasource name"
 msgstr "数据源名称"
 
@@ -746,7 +856,7 @@ msgid "Copied!"
 msgstr "复制!"
 
 #: superset/assets/javascripts/components/EditableTitle.jsx:12
-#: superset/views/core.py:470 superset/views/core.py:537
+#: superset/views/core.py:499 superset/views/core.py:566
 msgid "Title"
 msgstr "标题"
 
@@ -763,34 +873,34 @@ msgstr "你没有权限修改这个标题."
 msgid "Click to favorite/unfavorite"
 msgstr "点击收藏/取消收藏"
 
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:36
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:53
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:42
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:59
 msgid "You have unsaved changes."
 msgstr "您有未保存的更改。"
 
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:53
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:59
 msgid "Click the"
 msgstr "点击"
 
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:55
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:61
 msgid "button on the top right to save your changes."
 msgstr "右上角的按钮保存更改。"
 
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:158
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:164
 #, python-format
 msgid "Served from data cached %s . Click to force refresh."
 msgstr "服务于数据缓存 %s .点击强制刷新."
 
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:163
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:169
 msgid "Click to force refresh"
 msgstr "点击强制刷新"
 
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:337
-#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:93
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:353
+#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:100
 msgid "Error"
 msgstr "错误"
 
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:338
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:354
 #, python-format
 msgid "Sorry, there was an error adding slices to this dashboard: %s"
 msgstr "抱歉，在仪表盘: %s 上添加切片出错"
@@ -821,7 +931,7 @@ msgid "Load a CSS template"
 msgstr "加载一个CSS模板"
 
 #: superset/assets/javascripts/dashboard/components/CssEditor.jsx:80
-#: superset/views/core.py:477
+#: superset/views/core.py:506 superset/views/core.py:2375
 msgid "CSS"
 msgstr "CSS"
 
@@ -857,104 +967,126 @@ msgstr "刷新间隔"
 msgid "Choose the refresh frequency for this dashboard"
 msgstr "选择仪表盘的刷新频率"
 
-#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:58
+#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:63
 msgid "This dashboard was saved successfully."
 msgstr "成功保存此仪表盘。"
 
-#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:64
+#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:69
 msgid "Sorry, there was an error saving this dashboard: "
 msgstr "对不起，这个仪表盘有一个错误保存:"
 
-#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:94
+#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:101
 msgid "You must pick a name for the new dashboard"
 msgstr "您必须为新的仪表盘选择一个名称"
 
-#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:108
+#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:115
 msgid "Save Dashboard"
 msgstr "保存仪表盘"
 
-#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:116
+#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:123
 #, python-format
 msgid "Overwrite Dashboard [%s]"
 msgstr "覆盖仪表盘 [%s]"
 
-#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:123
+#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:131
 msgid "Save as:"
 msgstr "保存为:"
 
-#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:127
-#: superset/assets/javascripts/explore/components/SaveModal.jsx:208
+#: superset/assets/javascripts/dashboard/components/SaveModal.jsx:135
+#: superset/assets/javascripts/explore/components/SaveModal.jsx:205
 msgid "[dashboard name]"
 msgstr "[仪表盘名称]"
 
-#: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:137
-#: superset/views/core.py:374
+#: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:142
+#: superset/views/core.py:395
 msgid "Name"
 msgstr "名字"
 
-#: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:143
+#: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:148
 msgid "Viz"
 msgstr "Viz"
 
-#: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:152
-#: superset/views/core.py:475 superset/views/core.py:539
+#: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:157
+#: superset/connectors/druid/views.py:239
 msgid "Modified"
 msgstr "已修改"
 
-#: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:162
+#: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:167
 msgid "Add Slices"
 msgstr "添加切片"
 
-#: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:171
+#: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:176
 msgid "Add a new slice to the dashboard"
 msgstr "向仪表盘添加一个新的切片"
 
-#: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:175
+#: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:181
 msgid "Add Slices to Dashboard"
 msgstr "添加切片到仪表盘"
 
-#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:23
+#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:26
 msgid "Move chart"
 msgstr "移动图表"
 
-#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:26
+#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:29
 msgid "Force refresh data"
 msgstr "强制刷新数据"
 
-#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:30
+#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:33
 msgid "Toggle chart description"
 msgstr "是否显示图表描述"
 
-#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:40
+#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:43
 msgid "Edit chart"
 msgstr "编辑图表"
 
-#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:45
+#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:48
+msgid "Export CSV"
+msgstr "导出CSV"
+
+#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:51
 msgid "Explore chart"
 msgstr "检索图表"
 
-#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:50
+#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:56
 msgid "Remove chart from dashboard"
 msgstr "从仪表盘删除图表"
 
-#: superset/assets/javascripts/explore/components/ChartContainer.jsx:170
+#: superset/assets/javascripts/explore/components/ChartContainer.jsx:173
 #, python-format
 msgid "%s - untitled"
 msgstr "%s - 无标题"
 
-#: superset/assets/javascripts/explore/components/ChartContainer.jsx:276
+#: superset/assets/javascripts/explore/components/ChartContainer.jsx:280
 msgid "Edit slice properties"
 msgstr "编辑切片属性"
 
-#: superset/assets/javascripts/explore/components/ControlHeader.jsx:60
-msgid "Takes effect on chart immediatly"
-msgstr "立即生效"
-
-#: superset/assets/javascripts/explore/components/DisplayQueryButton.jsx:56
+#: superset/assets/javascripts/explore/components/DisplayQueryButton.jsx:61
 msgid "Error..."
 msgstr "错误..."
 
-#: superset/assets/javascripts/explore/components/DisplayQueryButton.jsx:92
+#: superset/assets/javascripts/explore/components/DisplayQueryButton.jsx:97
+#: superset/assets/javascripts/explore/stores/visTypes.js:49
+#: superset/assets/javascripts/explore/stores/visTypes.js:92
+#: superset/assets/javascripts/explore/stores/visTypes.js:129
+#: superset/assets/javascripts/explore/stores/visTypes.js:375
+#: superset/assets/javascripts/explore/stores/visTypes.js:422
+#: superset/assets/javascripts/explore/stores/visTypes.js:443
+#: superset/assets/javascripts/explore/stores/visTypes.js:471
+#: superset/assets/javascripts/explore/stores/visTypes.js:491
+#: superset/assets/javascripts/explore/stores/visTypes.js:512
+#: superset/assets/javascripts/explore/stores/visTypes.js:564
+#: superset/assets/javascripts/explore/stores/visTypes.js:586
+#: superset/assets/javascripts/explore/stores/visTypes.js:611
+#: superset/assets/javascripts/explore/stores/visTypes.js:636
+#: superset/assets/javascripts/explore/stores/visTypes.js:668
+#: superset/assets/javascripts/explore/stores/visTypes.js:705
+#: superset/assets/javascripts/explore/stores/visTypes.js:732
+#: superset/assets/javascripts/explore/stores/visTypes.js:759
+#: superset/assets/javascripts/explore/stores/visTypes.js:797
+#: superset/assets/javascripts/explore/stores/visTypes.js:830
+#: superset/assets/javascripts/explore/stores/visTypes.js:867
+#: superset/assets/javascripts/explore/stores/visTypes.js:911
+#: superset/assets/javascripts/explore/stores/visTypes.js:977
 msgid "Query"
 msgstr "查询"
 
@@ -974,48 +1106,48 @@ msgstr "导出为.json格式"
 msgid "Export to .csv format"
 msgstr "导出为.csv格式"
 
-#: superset/assets/javascripts/explore/components/SaveModal.jsx:73
+#: superset/assets/javascripts/explore/components/SaveModal.jsx:74
 msgid "Please enter a slice name"
 msgstr "请输入切片名称"
 
-#: superset/assets/javascripts/explore/components/SaveModal.jsx:88
+#: superset/assets/javascripts/explore/components/SaveModal.jsx:89
 msgid "Please select a dashboard"
 msgstr "请选择一个仪表盘"
 
-#: superset/assets/javascripts/explore/components/SaveModal.jsx:96
+#: superset/assets/javascripts/explore/components/SaveModal.jsx:97
 msgid "Please enter a dashboard name"
 msgstr "请输入仪表盘名称"
 
-#: superset/assets/javascripts/explore/components/SaveModal.jsx:134
+#: superset/assets/javascripts/explore/components/SaveModal.jsx:130
 msgid "Save A Slice"
 msgstr "保存一个切片"
 
-#: superset/assets/javascripts/explore/components/SaveModal.jsx:155
+#: superset/assets/javascripts/explore/components/SaveModal.jsx:151
 #, python-format
 msgid "Overwrite slice %s"
 msgstr "覆盖切片 %s"
 
-#: superset/assets/javascripts/explore/components/SaveModal.jsx:164
+#: superset/assets/javascripts/explore/components/SaveModal.jsx:160
 msgid "Save as"
 msgstr "另存为"
 
-#: superset/assets/javascripts/explore/components/SaveModal.jsx:168
+#: superset/assets/javascripts/explore/components/SaveModal.jsx:164
 msgid "[slice name]"
 msgstr "[切片名称]"
 
-#: superset/assets/javascripts/explore/components/SaveModal.jsx:181
+#: superset/assets/javascripts/explore/components/SaveModal.jsx:177
 msgid "Do not add to a dashboard"
 msgstr "不要添加到仪表盘"
 
-#: superset/assets/javascripts/explore/components/SaveModal.jsx:189
+#: superset/assets/javascripts/explore/components/SaveModal.jsx:185
 msgid "Add slice to existing dashboard"
 msgstr "将切片添加到现有仪表盘"
 
-#: superset/assets/javascripts/explore/components/SaveModal.jsx:203
+#: superset/assets/javascripts/explore/components/SaveModal.jsx:200
 msgid "Add to new dashboard"
 msgstr "添加到新的仪表盘"
 
-#: superset/assets/javascripts/explore/components/SaveModal.jsx:229
+#: superset/assets/javascripts/explore/components/SaveModal.jsx:225
 msgid "Save & go to dashboard"
 msgstr "保存并转到仪表盘"
 
@@ -1033,14 +1165,35 @@ msgid "`Max` value should be numeric or empty"
 msgstr "最大值应该是数字或空"
 
 #: superset/assets/javascripts/explore/components/controls/BoundsControl.jsx:75
-#: superset/connectors/druid/views.py:50 superset/connectors/sqla/views.py:89
+#: superset/connectors/druid/views.py:50 superset/connectors/sqla/views.py:87
 msgid "Min"
 msgstr "最小值"
 
 #: superset/assets/javascripts/explore/components/controls/BoundsControl.jsx:83
-#: superset/connectors/druid/views.py:51 superset/connectors/sqla/views.py:90
+#: superset/connectors/druid/views.py:51 superset/connectors/sqla/views.py:88
 msgid "Max"
 msgstr "最大值"
+
+#: superset/assets/javascripts/explore/components/controls/DatasourceControl.jsx:70
+msgid "Something went wrong while fetching the datasource list"
+msgstr "获取数据源列表出错"
+
+#: superset/assets/javascripts/explore/components/controls/DatasourceControl.jsx:95
+msgid "Click to point to another datasource"
+msgstr "点击指向另一个数据源"
+
+#: superset/assets/javascripts/explore/components/controls/DatasourceControl.jsx:106
+msgid "Edit the datasource's configuration"
+msgstr "编辑数据源设置"
+
+#: superset/assets/javascripts/explore/components/controls/DatasourceControl.jsx:122
+msgid "Select a datasource"
+msgstr "选择一个数据源"
+
+#: superset/assets/javascripts/explore/components/controls/DatasourceControl.jsx:132
+#: superset/assets/javascripts/explore/components/controls/VizTypeControl.jsx:121
+msgid "Search / Filter"
+msgstr "搜索/过滤"
 
 #: superset/assets/javascripts/explore/components/controls/Filter.jsx:118
 msgid "Filter value"
@@ -1059,6 +1212,7 @@ msgid "Select operator"
 msgstr "选择过滤方式"
 
 #: superset/assets/javascripts/explore/components/controls/FilterControl.jsx:70
+#: superset/templates/appbuilder/general/widgets/search.html:6
 msgid "Add Filter"
 msgstr "增加过滤条件"
 
@@ -1079,44 +1233,29 @@ msgstr "编辑"
 msgid "in modal"
 msgstr "在模型中"
 
-#: superset/assets/javascripts/explore/components/controls/VizTypeControl.jsx:90
-#: superset/assets/javascripts/explore/stores/controls.jsx:46
-msgid "edit"
-msgstr "编辑"
-
-#: superset/assets/javascripts/explore/components/controls/VizTypeControl.jsx:104
+#: superset/assets/javascripts/explore/components/controls/VizTypeControl.jsx:111
 msgid "Select a visualization type"
 msgstr "选择可视化类型"
 
-#: superset/assets/javascripts/explore/components/controls/VizTypeControl.jsx:114
-msgid "Search / Filter"
-msgstr "搜索/过滤"
-
-#: superset/assets/javascripts/explore/reducers/exploreReducer.js:61
-#, python-format
-msgid "fetching dashboards failed for %s"
-msgstr "获取仪表盘 %s 失败"
-
-#: superset/assets/javascripts/explore/reducers/exploreReducer.js:100
+#: superset/assets/javascripts/explore/reducers/chartReducer.js:32
 msgid "Updating chart was stopped"
 msgstr "更新图表已停止"
 
-#: superset/assets/javascripts/explore/reducers/exploreReducer.js:106
-#: superset/assets/javascripts/modules/superset.js:220
+#: superset/assets/javascripts/explore/reducers/chartReducer.js:38
+#: superset/assets/javascripts/modules/superset.js:222
 #, python-format
 msgid "An error occurred while rendering the visualization: %s"
 msgstr "在呈现可视化时发生了一个错误: %s"
 
-#: superset/assets/javascripts/explore/reducers/exploreReducer.js:117
+#: superset/assets/javascripts/explore/reducers/chartReducer.js:45
 msgid "Query timeout"
 msgstr "查询超时"
 
-#: superset/assets/javascripts/explore/reducers/exploreReducer.js:118
-#, python-format
-msgid "- visualization query are set to timeout at %s seconds. "
-msgstr "- 可视化查询设置 %s 秒超时。"
+#: superset/assets/javascripts/explore/reducers/chartReducer.js:45
+msgid "- visualization query are set to timeout at ${action.timeout} seconds. "
+msgstr "- 可视化查询设置 ${action.timeout} 秒超时。 "
 
-#: superset/assets/javascripts/explore/reducers/exploreReducer.js:119
+#: superset/assets/javascripts/explore/reducers/chartReducer.js:47
 msgid ""
 "Perhaps your data has grown, your database is under unusual load, or you "
 "are simply querying a data source that is to large to be processed within"
@@ -1124,160 +1263,200 @@ msgid ""
 "your data further."
 msgstr "也许您的数据增长，您的数据库处于异常负载状态，或者您在超时范围内要查询处理的数据过大。如果是这样，我们建议您进一步整理您的数据。"
 
-#: superset/assets/javascripts/explore/reducers/exploreReducer.js:127
+#: superset/assets/javascripts/explore/reducers/chartReducer.js:56
 msgid "Network error."
 msgstr "网络错误。"
 
-#: superset/assets/javascripts/explore/reducers/exploreReducer.js:150
-msgid "Failed to save slice"
-msgstr "无法保存切片"
+#: superset/assets/javascripts/explore/stores/controls.jsx:37
+msgid "A reference to the [Time] configuration, taking granularity into account"
+msgstr ""
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:35
-#: superset/connectors/druid/views.py:45 superset/views/core.py:313
-#: superset/views/core.py:368
+#: superset/assets/javascripts/explore/stores/controls.jsx:44
+msgid "Group by"
+msgstr "分组"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:47
+msgid "One or many controls to group by"
+msgstr "根据一个或多个字段分组"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:66
+#: superset/connectors/druid/views.py:45 superset/views/core.py:330
+#: superset/views/core.py:359 superset/views/core.py:389
 msgid "Datasource"
 msgstr "数据源"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:55
-#: superset/views/core.py:376
+#: superset/assets/javascripts/explore/stores/controls.jsx:76
+#: superset/views/core.py:397
 msgid "Visualization Type"
 msgstr "图表类型"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:57
+#: superset/assets/javascripts/explore/stores/controls.jsx:78
 msgid "The type of visualization to display"
 msgstr "要显示的可视化类型"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:63
+#: superset/assets/javascripts/explore/stores/controls.jsx:84
 msgid "Metrics"
 msgstr "指标"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:72
-#: superset/assets/javascripts/explore/stores/controls.jsx:90
+#: superset/assets/javascripts/explore/stores/controls.jsx:93
+#: superset/assets/javascripts/explore/stores/controls.jsx:112
 msgid "One or many metrics to display"
 msgstr "显示的一个或多个指标"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:79
+#: superset/assets/javascripts/explore/stores/controls.jsx:97
+msgid "Y Axis Bounds"
+msgstr "Y轴边界"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:101
 msgid ""
 "Bounds for the Y axis. When left empty, the bounds are dynamically "
 "defined based on the min/max of the data. Note that this feature will "
 "only expand the axis range. It won't narrow the data's extent."
 msgstr "Y轴的边界。当左侧空时，根据数据的min / max动态定义边界。注意，这个特性只会扩展轴的范围。它不会缩小数据的范围"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:88
+#: superset/assets/javascripts/explore/stores/controls.jsx:110
 msgid "Ordering"
 msgstr "排序"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:100
+#: superset/assets/javascripts/explore/stores/controls.jsx:120
+#: superset/assets/javascripts/explore/stores/visTypes.js:818
+#: superset/connectors/druid/views.py:104 superset/connectors/sqla/views.py:136
+msgid "Metric"
+msgstr "指标"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:122
 msgid "Choose the metric"
 msgstr "选择指标"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:113
+#: superset/assets/javascripts/explore/stores/controls.jsx:135
 msgid "Right Axis Metric"
 msgstr "右轴指制"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:117
+#: superset/assets/javascripts/explore/stores/controls.jsx:139
 msgid "Choose a metric for right axis"
 msgstr "为右轴选择一个指标"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:128
+#: superset/assets/javascripts/explore/stores/controls.jsx:150
 msgid "Stacked Style"
 msgstr "堆叠样式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:140
+#: superset/assets/javascripts/explore/stores/controls.jsx:162
 msgid "Linear Color Scheme"
 msgstr "线性颜色方案"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:153
+#: superset/assets/javascripts/explore/stores/controls.jsx:178
 msgid "Normalize Across"
 msgstr "标准化"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:160
+#: superset/assets/javascripts/explore/stores/controls.jsx:185
 msgid ""
 "Color will be rendered based on a ratio of the cell against the sum of "
 "across this criteria"
 msgstr "颜色将根据比例进行渲染"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:167
+#: superset/assets/javascripts/explore/stores/controls.jsx:192
 msgid "Horizon Color Scale"
 msgstr "地平线色标"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:174
+#: superset/assets/javascripts/explore/stores/controls.jsx:199
 msgid "Defines how the color are attributed."
 msgstr "定义颜色的属性。"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:179
+#: superset/assets/javascripts/explore/stores/controls.jsx:204
 msgid "Rendering"
 msgstr "渲染"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:185
+#: superset/assets/javascripts/explore/stores/controls.jsx:210
 msgid ""
 "image-rendering CSS attribute of the canvas object that defines how the "
 "browser scales up the image"
 msgstr "浏览器渲染图片的方式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:191
+#: superset/assets/javascripts/explore/stores/controls.jsx:216
 msgid "XScale Interval"
 msgstr "X轴步长"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:194
+#: superset/assets/javascripts/explore/stores/controls.jsx:219
 msgid "Number of steps to take between ticks when displaying the X scale"
 msgstr "X轴每个刻度的单位长度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:200
+#: superset/assets/javascripts/explore/stores/controls.jsx:225
 msgid "YScale Interval"
 msgstr "Y轴步长"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:203
+#: superset/assets/javascripts/explore/stores/controls.jsx:228
 msgid "Number of steps to take between ticks when displaying the Y scale"
 msgstr "Y轴每个刻度的单位长度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:209
+#: superset/assets/javascripts/explore/stores/controls.jsx:234
 msgid "Include Time"
 msgstr "包括时间"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:210
+#: superset/assets/javascripts/explore/stores/controls.jsx:235
 msgid "Whether to include the time granularity as defined in the time section"
 msgstr "是否包含在时间段中定义的时间粒度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:216
+#: superset/assets/javascripts/explore/stores/controls.jsx:241
 msgid "Stacked Bars"
 msgstr "堆积"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:232
+#: superset/assets/javascripts/explore/stores/controls.jsx:249
+msgid "Show totals"
+msgstr "显示总数"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:252
+msgid "Display total row/column"
+msgstr "显示行/列总数"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:257
 msgid "Show Markers"
 msgstr "显示标记"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:235
+#: superset/assets/javascripts/explore/stores/controls.jsx:260
 msgid "Show data points as circle markers on the lines"
 msgstr "将数据点显示为线上的圆圈标记"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:240
+#: superset/assets/javascripts/explore/stores/controls.jsx:265
 msgid "Bar Values"
 msgstr "柱状图的值"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:248
+#: superset/assets/javascripts/explore/stores/controls.jsx:268
+msgid "Show the value on top of the bar"
+msgstr "在柱顶部显示值"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:273
 msgid "Sort Bars"
 msgstr "是否排序"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:250
+#: superset/assets/javascripts/explore/stores/controls.jsx:275
 msgid "Sort bars by x labels."
 msgstr "根据X轴排序"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:263
+#: superset/assets/javascripts/explore/stores/controls.jsx:280
+msgid "Combine Metrics"
+msgstr "组合指标"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:282
+msgid ""
+"Display metrics side by side within each column, as opposed to each "
+"column being displayed side by side for each metric."
+msgstr "以列为单位显示指标，而不是以指标来显示逐个列"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:288
 msgid "Extra Controls"
 msgstr "扩展控件"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:266
+#: superset/assets/javascripts/explore/stores/controls.jsx:291
 msgid ""
 "Whether to show extra controls or not. Extra controls include things like"
 " making mulitBar charts stacked or side by side."
 msgstr "是否显示扩展控件,扩展的控件可以使mulitBar图堆叠或并排。"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:273
+#: superset/assets/javascripts/explore/stores/controls.jsx:298
 msgid "Reduce X ticks"
 msgstr "X轴自适应"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:276
+#: superset/assets/javascripts/explore/stores/controls.jsx:301
 msgid ""
 "Reduces the number of X axis ticks to be rendered. If true, the x axis "
 "wont overflow and labels may be missing. If false, a minimum width will "
@@ -1285,137 +1464,145 @@ msgid ""
 "scroll."
 msgstr "减少要渲染的X轴刻度的数量。 如果为真，则x轴不会溢出，标签可能会丢失。如果为false，则最小宽度将应用于列，并且宽度可能会溢出到水平滚动。"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:285
+#: superset/assets/javascripts/explore/stores/controls.jsx:310
 msgid "Include Series"
 msgstr "显示项目"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:288
+#: superset/assets/javascripts/explore/stores/controls.jsx:313
 msgid "Include series name as an axis"
 msgstr "坐标上显示项目名称"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:293
+#: superset/assets/javascripts/explore/stores/controls.jsx:318
 msgid "Color Metric"
-msgstr "颜色度量"
+msgstr "颜色指标"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:295
+#: superset/assets/javascripts/explore/stores/controls.jsx:320
 msgid "A metric to use for color"
-msgstr "颜色度量项目"
+msgstr "颜色的指标"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:302
+#: superset/assets/javascripts/explore/stores/controls.jsx:327
 msgid "Country Name"
 msgstr "国家名"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:321
+#: superset/assets/javascripts/explore/stores/controls.jsx:346
 msgid "The name of country that Superset should display"
 msgstr "Superset应显示的国家/地区的名称"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:325
+#: superset/assets/javascripts/explore/stores/controls.jsx:350
 msgid "Country Field Type"
 msgstr "国家字段类型"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:333
+#: superset/assets/javascripts/explore/stores/controls.jsx:358
 msgid ""
 "The country code standard that Superset should expect to find in the "
 "[country] column"
 msgstr "Superset期望在[country]列中找到国家/地区的代码标准"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:340
-msgid "Group by"
-msgstr "分组"
-
-#: superset/assets/javascripts/explore/stores/controls.jsx:342
-msgid "One or many controls to group by"
-msgstr "根据一个或多个字段分组"
-
-#: superset/assets/javascripts/explore/stores/controls.jsx:354
-#: superset/assets/javascripts/explore/stores/controls.jsx:368
+#: superset/assets/javascripts/explore/stores/controls.jsx:365
+#: superset/assets/javascripts/explore/stores/controls.jsx:372
 msgid "Columns"
 msgstr "列"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:370
-#: superset/assets/javascripts/explore/stores/controls.jsx:380
-#: superset/assets/javascripts/explore/stores/controls.jsx:390
+#: superset/assets/javascripts/explore/stores/controls.jsx:366
+msgid "One or many controls to pivot as columns"
+msgstr ""
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:374
+#: superset/assets/javascripts/explore/stores/controls.jsx:384
+#: superset/assets/javascripts/explore/stores/controls.jsx:394
 msgid "Columns to display"
 msgstr "显示列"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:378
+#: superset/assets/javascripts/explore/stores/controls.jsx:382
 msgid "X"
 msgstr "X"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:388
+#: superset/assets/javascripts/explore/stores/controls.jsx:392
 msgid "Y"
 msgstr "Y"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:399
+#: superset/assets/javascripts/explore/stores/controls.jsx:403
 msgid "Origin"
 msgstr "起点"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:405
+#: superset/assets/javascripts/explore/stores/controls.jsx:409
 msgid ""
 "Defines the origin where time buckets start, accepts natural dates as in "
 "`now`, `sunday` or `1970-01-01`"
 msgstr "定义时间起点，支持`now`, `sunday` 或 `1970-01-01`等"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:415
-msgid "Bottom marging, in pixels, allowing for more room for axis labels"
+#: superset/assets/javascripts/explore/stores/controls.jsx:416
+msgid "Bottom Margin"
+msgstr "底部留白"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:420
+msgid "Bottom margin, in pixels, allowing for more room for axis labels"
 msgstr "底部留白的像素大小"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:421
+#: superset/assets/javascripts/explore/stores/controls.jsx:426
+msgid "Left Margin"
+msgstr "左边留白"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:430
+msgid "Left margin, in pixels, allowing for more room for axis labels"
+msgstr "左边留白的像素大小"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:436
 msgid "Time Granularity"
 msgstr "时间粒度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:438
+#: superset/assets/javascripts/explore/stores/controls.jsx:453
 msgid ""
 "The time granularity for the visualization. Note that you can type and "
 "use simple natural language as in `10 seconds`, `1 day` or `56 weeks`"
 msgstr "图表时间粒度。可以使用`10 seconds`, `1 day`, `56 weeks`等"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:445
+#: superset/assets/javascripts/explore/stores/controls.jsx:460
 msgid "Domain"
 msgstr "区域"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:448
+#: superset/assets/javascripts/explore/stores/controls.jsx:463
 msgid "The time unit used for the grouping of blocks"
 msgstr "每个区域表示的时间段"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:453
+#: superset/assets/javascripts/explore/stores/controls.jsx:468
 msgid "Subdomain"
 msgstr "方块"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:456
+#: superset/assets/javascripts/explore/stores/controls.jsx:471
 msgid ""
 "The time unit for each block. Should be a smaller unit than "
 "domain_granularity. Should be larger or equal to Time Grain"
 msgstr "每个区域内方块表示的时间段。必须比区域时间段小，比时间粒度大。"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:463
+#: superset/assets/javascripts/explore/stores/controls.jsx:478
 msgid "Link Length"
 msgstr "链接长度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:466
+#: superset/assets/javascripts/explore/stores/controls.jsx:481
 msgid "Link length in the force layout"
 msgstr "有向图中的链接长度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:472
+#: superset/assets/javascripts/explore/stores/controls.jsx:487
 msgid "Charge"
 msgstr "缩放"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:486
+#: superset/assets/javascripts/explore/stores/controls.jsx:501
 msgid "Charge in the force layout"
 msgstr "在有向图中缩放大小"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:494
+#: superset/assets/javascripts/explore/stores/controls.jsx:509
 msgid ""
 "The time column for the visualization. Note that you can define arbitrary"
 " expression that return a DATETIME column in the table or. Also note that"
 " the filter below is applied against this column or expression"
 msgstr "图表中的时间字段。可以在表格编辑器中返回任意DATETIME列。另请注意，下面的过滤方式应用于此列或表达"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:506
+#: superset/assets/javascripts/explore/stores/controls.jsx:521
 msgid "Time Grain"
 msgstr "时间粒度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:508
+#: superset/assets/javascripts/explore/stores/controls.jsx:523
 msgid ""
 "The time granularity for the visualization. This applies a date "
 "transformation to alter your time column and defines a new time "
@@ -1423,1021 +1610,1055 @@ msgid ""
 "in the Superset source code."
 msgstr "图表中的时间粒度。用于替换时间字段默认的时间粒度。这些选项在Superset源代码中基于每个数据库引擎进行定义。"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:521
+#: superset/assets/javascripts/explore/stores/controls.jsx:536
 msgid "Resample Rule"
 msgstr "重新采样规则"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:524
+#: superset/assets/javascripts/explore/stores/controls.jsx:539
 msgid "Pandas resample rule"
 msgstr "重新采样规则"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:530
+#: superset/assets/javascripts/explore/stores/controls.jsx:545
 msgid "Resample How"
 msgstr "重采样方式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:533
+#: superset/assets/javascripts/explore/stores/controls.jsx:548
 msgid "Pandas resample how"
 msgstr "重采样方式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:539
+#: superset/assets/javascripts/explore/stores/controls.jsx:554
 msgid "Resample Fill Method"
 msgstr "插值方式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:542
+#: superset/assets/javascripts/explore/stores/controls.jsx:557
 msgid "Pandas resample fill method"
 msgstr "插值方式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:548
+#: superset/assets/javascripts/explore/stores/controls.jsx:563
 msgid "Since"
 msgstr "起始时间"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:560
+#: superset/assets/javascripts/explore/stores/controls.jsx:575
 msgid ""
 "Timestamp from filter. This supports free form typing and natural "
 "language as in `1 day ago`, `28 days` or `3 years`"
 msgstr "时间范围。这支持`1天前`，`28天`或`3年`中的自由形式打字和自然语言"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:567
+#: superset/assets/javascripts/explore/stores/controls.jsx:582
 msgid "Until"
 msgstr "结束时间"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:582
+#: superset/assets/javascripts/explore/stores/controls.jsx:597
 msgid "Max Bubble Size"
 msgstr "气泡最大尺寸"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:590
+#: superset/assets/javascripts/explore/stores/controls.jsx:605
 msgid "Whisker/outlier options"
 msgstr "非异常值选项"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:592
+#: superset/assets/javascripts/explore/stores/controls.jsx:607
 msgid "Determines how whiskers and outliers are calculated."
 msgstr "计算最大/最小非异常值的方法"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:603
+#: superset/assets/javascripts/explore/stores/controls.jsx:618
 msgid "Ratio"
 msgstr "比例"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:606
+#: superset/assets/javascripts/explore/stores/controls.jsx:621
 msgid "Target aspect ratio for treemap tiles."
 msgstr "树状图中方块的比例"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:612
-#: superset/assets/javascripts/explore/stores/visTypes.js:510
-#: superset/assets/javascripts/explore/stores/visTypes.js:529
-#: superset/assets/javascripts/explore/stores/visTypes.js:654
+#: superset/assets/javascripts/explore/stores/controls.jsx:627
+#: superset/assets/javascripts/explore/stores/visTypes.js:602
+#: superset/assets/javascripts/explore/stores/visTypes.js:627
+#: superset/assets/javascripts/explore/stores/visTypes.js:776
 msgid "Number format"
 msgstr "数字格式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:622
+#: superset/assets/javascripts/explore/stores/controls.jsx:637
 msgid "Row limit"
 msgstr "行数上限"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:630
+#: superset/assets/javascripts/explore/stores/controls.jsx:645
 msgid "Series limit"
 msgstr "项目上限"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:633
+#: superset/assets/javascripts/explore/stores/controls.jsx:648
 msgid "Limits the number of time series that get displayed"
 msgstr "限制显示的时间序列数"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:638
+#: superset/assets/javascripts/explore/stores/controls.jsx:653
 msgid "Sort By"
 msgstr "排序"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:640
+#: superset/assets/javascripts/explore/stores/controls.jsx:655
 msgid "Metric used to define the top series"
 msgstr "指标用于定义顶级项目"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:648
+#: superset/assets/javascripts/explore/stores/controls.jsx:663
 msgid "Rolling"
 msgstr "滚动"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:651
+#: superset/assets/javascripts/explore/stores/controls.jsx:666
 msgid ""
 "Defines a rolling window function to apply, works along with the "
 "[Periods] text box"
 msgstr "设置显示项目的数量上限"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:657
+#: superset/assets/javascripts/explore/stores/controls.jsx:672
 msgid "Periods"
 msgstr "周期"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:659
+#: superset/assets/javascripts/explore/stores/controls.jsx:674
 msgid ""
 "Defines the size of the rolling window function, relative to the time "
 "granularity selected"
 msgstr "滚动窗口大小，取值和时间粒度相关"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:665
-#: superset/assets/javascripts/explore/stores/visTypes.js:101
+#: superset/assets/javascripts/explore/stores/controls.jsx:680
+msgid "Min Periods"
+msgstr "最小周期"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:683
+msgid ""
+"The minimum number of rolling periods required to show a value. For "
+"instance if you do a cumulative sum on 7 days you may want your \"Min "
+"Period\" to be 7, so that all data points shown are the total of 7 "
+"periods. This will hide the \"ramp up\" taking place over the first 7 "
+"periods"
+msgstr "设置显示值时的最小滚动周期。例如：显示的是七天的累计值时，最小周期最好设置为7，这样数据将以七天为单位显示出来，避免了第一个七天的数据显示的是一个斜坡。"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:693
+#: superset/assets/javascripts/explore/stores/visTypes.js:115
 msgid "Series"
 msgstr "项目"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:667
+#: superset/assets/javascripts/explore/stores/controls.jsx:695
 msgid ""
 "Defines the grouping of entities. Each series is shown as a specific "
 "color on the chart and has a legend toggle"
 msgstr "定义分组实体。每个项目有特定的颜色和图例。"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:677
+#: superset/assets/javascripts/explore/stores/controls.jsx:705
 msgid "Entity"
 msgstr "实体"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:680
+#: superset/assets/javascripts/explore/stores/controls.jsx:708
 msgid "This defines the element to be plotted on the chart"
 msgstr "这定义了要在图表上绘制的元素"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:688
-#: superset/assets/javascripts/explore/stores/visTypes.js:459
+#: superset/assets/javascripts/explore/stores/controls.jsx:716
+#: superset/assets/javascripts/explore/stores/visTypes.js:164
+#: superset/assets/javascripts/explore/stores/visTypes.js:533
 msgid "X Axis"
 msgstr "X轴"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:689
+#: superset/assets/javascripts/explore/stores/controls.jsx:717
 msgid "Metric assigned to the [X] axis"
 msgstr "X轴对应的项目"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:702
-#: superset/assets/javascripts/explore/stores/visTypes.js:466
+#: superset/assets/javascripts/explore/stores/controls.jsx:730
+#: superset/assets/javascripts/explore/stores/visTypes.js:171
+#: superset/assets/javascripts/explore/stores/visTypes.js:541
 msgid "Y Axis"
 msgstr "Y轴"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:705
+#: superset/assets/javascripts/explore/stores/controls.jsx:733
 msgid "Metric assigned to the [Y] axis"
 msgstr "Y轴对应的项目"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:716
+#: superset/assets/javascripts/explore/stores/controls.jsx:744
 msgid "Bubble Size"
 msgstr "气泡大小"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:729
+#: superset/assets/javascripts/explore/stores/controls.jsx:757
 msgid "URL"
 msgstr "URL"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:730
+#: superset/assets/javascripts/explore/stores/controls.jsx:758
 msgid ""
 "The URL, this control is templated, so you can integrate {{ width }} "
 "and/or {{ height }} in your URL string."
 msgstr "URL，此字段是模板化的，因此您可以集成{{width}}和/或{{height}}您的URL字符串中。"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:737
+#: superset/assets/javascripts/explore/stores/controls.jsx:765
 msgid "X Axis Label"
 msgstr "X轴名称"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:744
+#: superset/assets/javascripts/explore/stores/controls.jsx:772
 msgid "Y Axis Label"
 msgstr "\"Y轴名"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:751
+#: superset/assets/javascripts/explore/stores/controls.jsx:779
 msgid "Custom WHERE clause"
 msgstr "WHERE语句"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:753
+#: superset/assets/javascripts/explore/stores/controls.jsx:781
 msgid ""
 "The text in this box gets included in your query's WHERE clause, as an "
 "AND to other criteria. You can include complex expression, parenthesis "
 "and anything else supported by the backend it is directed towards."
 msgstr "语句将包含到WHERE子句中，并用AND连接到其他条件。您可以包括复杂的表达式，括号和其后面所支持的其他任何东西"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:761
+#: superset/assets/javascripts/explore/stores/controls.jsx:789
 msgid "Custom HAVING clause"
 msgstr "HAVING语句"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:763
+#: superset/assets/javascripts/explore/stores/controls.jsx:791
 msgid ""
 "The text in this box gets included in your query's HAVING clause, as an "
 "AND to other criteria. You can include complex expression, parenthesis "
 "and anything else supported by the backend it is directed towards."
 msgstr "语句将包含到WHERE子句中，并用AND连接到其他条件。您可以包括复杂的表达式，括号和其后面所支持的其他任何东西"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:771
+#: superset/assets/javascripts/explore/stores/controls.jsx:799
 msgid "Comparison Period Lag"
 msgstr "滞后比较周期"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:773
+#: superset/assets/javascripts/explore/stores/controls.jsx:801
 msgid "Based on granularity, number of time periods to compare against"
 msgstr "比较的时间周期，基于时间粒度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:778
+#: superset/assets/javascripts/explore/stores/controls.jsx:806
 msgid "Comparison suffix"
 msgstr "后缀文字"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:779
+#: superset/assets/javascripts/explore/stores/controls.jsx:807
 msgid "Suffix to apply after the percentage display"
 msgstr "百分比后面显示的文本"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:785
+#: superset/assets/javascripts/explore/stores/controls.jsx:813
 msgid "Table Timestamp Format"
 msgstr "时间格式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:790
+#: superset/assets/javascripts/explore/stores/controls.jsx:818
 msgid "Timestamp Format"
 msgstr "时间格式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:796
+#: superset/assets/javascripts/explore/stores/controls.jsx:824
 msgid "Series Height"
 msgstr "项目高度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:799
+#: superset/assets/javascripts/explore/stores/controls.jsx:827
 msgid "Pixel height of each series"
 msgstr "每个项目的像素高度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:805
+#: superset/assets/javascripts/explore/stores/controls.jsx:833
 msgid "Page Length"
 msgstr "页面长度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:808
+#: superset/assets/javascripts/explore/stores/controls.jsx:836
 msgid "Rows per page, 0 means no pagination"
 msgstr "每页行数，0表示无分页"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:814
-#: superset/assets/javascripts/explore/stores/controls.jsx:824
+#: superset/assets/javascripts/explore/stores/controls.jsx:842
+#: superset/assets/javascripts/explore/stores/controls.jsx:852
 msgid "X Axis Format"
 msgstr "X轴数值格式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:834
+#: superset/assets/javascripts/explore/stores/controls.jsx:862
 msgid "Y Axis Format"
 msgstr "Y轴数值格式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:844
+#: superset/assets/javascripts/explore/stores/controls.jsx:872
 msgid "Right Axis Format"
 msgstr "右轴格式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:852
+#: superset/assets/javascripts/explore/stores/controls.jsx:880
 msgid "Markup Type"
 msgstr "标记类型"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:857
+#: superset/assets/javascripts/explore/stores/controls.jsx:885
 msgid "Pick your favorite markup language"
 msgstr "选择标记语言"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:862
+#: superset/assets/javascripts/explore/stores/controls.jsx:890
 msgid "Rotation"
 msgstr "旋转"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:865
+#: superset/assets/javascripts/explore/stores/controls.jsx:893
 msgid "Rotation to apply to words in the cloud"
 msgstr "词汇云中词语的旋转方式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:870
+#: superset/assets/javascripts/explore/stores/controls.jsx:898
 msgid "Line Style"
 msgstr "线形"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:875
+#: superset/assets/javascripts/explore/stores/controls.jsx:903
 msgid "Line interpolation as defined by d3.js"
 msgstr "定义线形"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:880
+#: superset/assets/javascripts/explore/stores/controls.jsx:908
 msgid "Label Type"
 msgstr "标签类型"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:887
+#: superset/assets/javascripts/explore/stores/controls.jsx:915
 msgid "What should be shown on the label?"
 msgstr "标签上应该显示什么？"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:892
+#: superset/assets/javascripts/explore/stores/controls.jsx:920
+#: superset/assets/javascripts/explore/stores/visTypes.js:362
+#: superset/assets/javascripts/explore/stores/visTypes.js:400
 msgid "Code"
 msgstr "代码"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:893
+#: superset/assets/javascripts/explore/stores/controls.jsx:921
 msgid "Put your code here"
 msgstr "输入代码"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:902
+#: superset/assets/javascripts/explore/stores/controls.jsx:930
 msgid "Aggregation function"
 msgstr "聚合函数"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:914
+#: superset/assets/javascripts/explore/stores/controls.jsx:942
 msgid ""
 "Aggregate function to apply when pivoting and computing the total rows "
 "and columns"
 msgstr "透视时计算行和列的聚合函数"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:921
+#: superset/assets/javascripts/explore/stores/controls.jsx:949
 msgid "Font Size From"
 msgstr "最小字体"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:923
+#: superset/assets/javascripts/explore/stores/controls.jsx:951
 msgid "Font size for the smallest value in the list"
 msgstr "列表中最小值的字体大小"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:929
+#: superset/assets/javascripts/explore/stores/controls.jsx:957
 msgid "Font Size To"
 msgstr "最大字体"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:931
+#: superset/assets/javascripts/explore/stores/controls.jsx:959
 msgid "Font size for the biggest value in the list"
 msgstr "列表中最大值的字体大小"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:936
+#: superset/assets/javascripts/explore/stores/controls.jsx:964
 msgid "Instant Filtering"
 msgstr "即时过滤"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:940
+#: superset/assets/javascripts/explore/stores/controls.jsx:968
 msgid ""
 "Whether to apply filters as they change, or wait forusers to hit an "
 "[Apply] button"
 msgstr "是否在更改过滤器时应用，或者等待用户点击[应用]按钮"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:947
+#: superset/assets/javascripts/explore/stores/controls.jsx:975
 msgid "Range Filter"
 msgstr "区间过滤"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:950
+#: superset/assets/javascripts/explore/stores/controls.jsx:978
 msgid "Whether to display the time range interactive selector"
 msgstr "是否显示时间区间选择控件"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:955
+#: superset/assets/javascripts/explore/stores/controls.jsx:983
 msgid "Date Filter"
 msgstr "时间过滤器"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:957
+#: superset/assets/javascripts/explore/stores/controls.jsx:985
 msgid "Whether to include a time filter"
 msgstr "是否包含时间过滤器"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:962
+#: superset/assets/javascripts/explore/stores/controls.jsx:990
 msgid "Data Table"
 msgstr "明细表"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:964
+#: superset/assets/javascripts/explore/stores/controls.jsx:992
 msgid "Whether to display the interactive data table"
 msgstr "是否显示明细表"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:969
+#: superset/assets/javascripts/explore/stores/controls.jsx:997
 msgid "Search Box"
 msgstr "搜索框"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:972
+#: superset/assets/javascripts/explore/stores/controls.jsx:1000
 msgid "Whether to include a client side search box"
 msgstr "是否显示搜索框"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:977
+#: superset/assets/javascripts/explore/stores/controls.jsx:1005
 msgid "Table Filter"
 msgstr "表格过滤器"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:979
+#: superset/assets/javascripts/explore/stores/controls.jsx:1007
 msgid "Whether to apply filter when table cell is clicked"
 msgstr "是否应用表格过滤器"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:984
+#: superset/assets/javascripts/explore/stores/controls.jsx:1012
 msgid "Show Bubbles"
 msgstr "显示气泡"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:987
+#: superset/assets/javascripts/explore/stores/controls.jsx:1015
 msgid "Whether to display bubbles on top of countries"
 msgstr "是否在国家上显示气泡"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:992
+#: superset/assets/javascripts/explore/stores/controls.jsx:1020
 msgid "Legend"
 msgstr "图例"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:995
+#: superset/assets/javascripts/explore/stores/controls.jsx:1023
 msgid "Whether to display the legend (toggles)"
 msgstr "是否显示图例"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1000
+#: superset/assets/javascripts/explore/stores/controls.jsx:1028
 msgid "X bounds"
 msgstr "X轴边界"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1003
+#: superset/assets/javascripts/explore/stores/controls.jsx:1031
 msgid "Whether to display the min and max values of the X axis"
 msgstr "是否显示X轴的最大最小值"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1008
+#: superset/assets/javascripts/explore/stores/controls.jsx:1036
+msgid "Y bounds"
+msgstr "Y轴边界"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:1039
+msgid "Whether to display the min and max values of the Y axis"
+msgstr "是否显示Y轴的最大最小值"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:1044
 msgid "Rich Tooltip"
 msgstr "详细信息"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1011
+#: superset/assets/javascripts/explore/stores/controls.jsx:1047
 msgid "The rich tooltip shows a list of all series for that point in time"
 msgstr "显示特定时间点的所有项目"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1017
+#: superset/assets/javascripts/explore/stores/controls.jsx:1053
 msgid "Y Log Scale"
 msgstr "Y轴对数"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1020
+#: superset/assets/javascripts/explore/stores/controls.jsx:1056
 msgid "Use a log scale for the Y axis"
 msgstr "对Y轴使用对数刻度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1025
+#: superset/assets/javascripts/explore/stores/controls.jsx:1061
 msgid "X Log Scale"
 msgstr "X轴对数"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1028
+#: superset/assets/javascripts/explore/stores/controls.jsx:1064
 msgid "Use a log scale for the X axis"
 msgstr "对X轴使用对数刻度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1033
+#: superset/assets/javascripts/explore/stores/controls.jsx:1069
 msgid "Donut"
 msgstr "环形图"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1036
+#: superset/assets/javascripts/explore/stores/controls.jsx:1072
 msgid "Do you want a donut or a pie?"
 msgstr "使用环形图或饼图"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1041
+#: superset/assets/javascripts/explore/stores/controls.jsx:1077
 msgid "Put labels outside"
 msgstr "把标签放在外面"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1044
+#: superset/assets/javascripts/explore/stores/controls.jsx:1080
 msgid "Put the labels outside the pie?"
 msgstr "是否把标签放在饼图外面"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1049
+#: superset/assets/javascripts/explore/stores/controls.jsx:1085
 msgid "Contribution"
 msgstr "贡献值"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1051
+#: superset/assets/javascripts/explore/stores/controls.jsx:1087
 msgid "Compute the contribution to the total"
 msgstr "在总和中的贡献值"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1056
+#: superset/assets/javascripts/explore/stores/controls.jsx:1092
 msgid "Period Ratio"
 msgstr "周期比"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1059
+#: superset/assets/javascripts/explore/stores/controls.jsx:1095
 msgid ""
 "[integer] Number of period to compare against, this is relative to the "
 "granularity selected"
 msgstr "[整数]要比较的周期数，和粒度有关"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1065
+#: superset/assets/javascripts/explore/stores/controls.jsx:1101
 msgid "Period Ratio Type"
 msgstr "周期比类型"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1068
+#: superset/assets/javascripts/explore/stores/controls.jsx:1104
 msgid ""
 "`factor` means (new/previous), `growth` is ((new/previous) - 1), `value` "
 "is (new-previous)"
 msgstr ""
-"`factor因子` 表示（new / previous），`growth`是（（new / previous） - 1），'`value`是"
-"（new-previous）"
+"`factor因子` 表示（new / previous），`growth`是（（new / previous） - 1），'`value"
+"`是（new-previous）"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1074
+#: superset/assets/javascripts/explore/stores/controls.jsx:1110
 msgid "Time Shift"
 msgstr "时间飘移"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1076
+#: superset/assets/javascripts/explore/stores/controls.jsx:1112
 msgid ""
 "Overlay a timeseries from a relative time period. Expects relative time "
 "delta in natural language (example:  24 hours, 7 days, 56 weeks, 365 "
 "days)"
 msgstr "相关时间周期内的时间偏移。相对时间，如:  24 hours, 7 days, 56 weeks, 365 days"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1084
+#: superset/assets/javascripts/explore/stores/controls.jsx:1120
 msgid "Subheader"
 msgstr "子标题"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1085
+#: superset/assets/javascripts/explore/stores/controls.jsx:1121
 msgid "Description text that shows up below your Big Number"
 msgstr "在数字下显示的文本"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1091
+#: superset/assets/javascripts/explore/stores/controls.jsx:1127
 msgid "label"
 msgstr "标签"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1093
+#: superset/assets/javascripts/explore/stores/controls.jsx:1129
 msgid ""
 "`count` is COUNT(*) if a group by is used. Numerical columns will be "
 "aggregated with the aggregator. Non-numerical columns will be used to "
 "label points. Leave empty to get a count of points in each cluster."
 msgstr "如果使用group by，则`count`为COUNT（*）。数字列将与聚合器聚合。非数字列用于标记点。留空以获取每个群集中的点数。"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1104
+#: superset/assets/javascripts/explore/stores/controls.jsx:1140
 msgid "Map Style"
 msgstr "图层样式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1114
+#: superset/assets/javascripts/explore/stores/controls.jsx:1150
 msgid "Base layer map style"
 msgstr "基本图层样式"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1120
+#: superset/assets/javascripts/explore/stores/controls.jsx:1156
 msgid "Clustering Radius"
 msgstr "簇半径"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1133
+#: superset/assets/javascripts/explore/stores/controls.jsx:1169
 msgid ""
 "The radius (in pixels) the algorithm uses to define a cluster. Choose 0 "
 "to turn off clustering, but beware that a large number of points (>1000) "
 "will cause lag."
 msgstr "定义簇的半径大小(单位为像素)。0表示不显示簇。大量的点(>1000)会导致显示缓慢。"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1140
+#: superset/assets/javascripts/explore/stores/controls.jsx:1176
 msgid "Point Radius"
 msgstr "点半径"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1142
+#: superset/assets/javascripts/explore/stores/controls.jsx:1178
 msgid ""
 "The radius of individual points (ones that are not in a cluster). Either "
 "a numerical column or `Auto`, which scales the point based on the largest"
 " cluster"
 msgstr "不在簇中点的半径。选择`Auto`时根据最大的簇自动调整。"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1152
+#: superset/assets/javascripts/explore/stores/controls.jsx:1188
 msgid "Point Radius Unit"
 msgstr "点半径单位"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1155
+#: superset/assets/javascripts/explore/stores/controls.jsx:1191
 msgid "The unit of measure for the specified point radius"
 msgstr "点半径的测量单位"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1160
+#: superset/assets/javascripts/explore/stores/controls.jsx:1196
 msgid "Opacity"
 msgstr "不透明度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1163
+#: superset/assets/javascripts/explore/stores/controls.jsx:1199
 msgid "Opacity of all clusters, points, and labels. Between 0 and 1."
 msgstr "所有簇、点和标签的不透明度。在1和0之间。"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1169
+#: superset/assets/javascripts/explore/stores/controls.jsx:1205
 msgid "Zoom"
 msgstr "縮放"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1172
+#: superset/assets/javascripts/explore/stores/controls.jsx:1208
 msgid "Zoom level of the map"
 msgstr "地图的缩放级别"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1178
+#: superset/assets/javascripts/explore/stores/controls.jsx:1214
 msgid "Default latitude"
 msgstr "默认纬度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1181
+#: superset/assets/javascripts/explore/stores/controls.jsx:1217
 msgid "Latitude of default viewport"
 msgstr "视窗默认纬度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1187
+#: superset/assets/javascripts/explore/stores/controls.jsx:1223
 msgid "Default longitude"
 msgstr "默认经度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1190
+#: superset/assets/javascripts/explore/stores/controls.jsx:1226
 msgid "Longitude of default viewport"
 msgstr "视窗默认经度"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1196
+#: superset/assets/javascripts/explore/stores/controls.jsx:1232
 msgid "Live render"
 msgstr "实时更新"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1198
+#: superset/assets/javascripts/explore/stores/controls.jsx:1234
 msgid "Points and clusters will update as viewport is being changed"
 msgstr "视窗发生改变时，点和簇实时更新"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1204
+#: superset/assets/javascripts/explore/stores/controls.jsx:1240
 msgid "RGB Color"
 msgstr "RGB 颜色"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1214
+#: superset/assets/javascripts/explore/stores/controls.jsx:1250
 msgid "The color for points and clusters in RGB"
 msgstr "RGB 分簇的颜色"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1219
+#: superset/assets/javascripts/explore/stores/controls.jsx:1255
 msgid "Ranges"
 msgstr "范围"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1221
+#: superset/assets/javascripts/explore/stores/controls.jsx:1257
 msgid "Ranges to highlight with shading"
 msgstr "范围用阴影高亮显示"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1226
+#: superset/assets/javascripts/explore/stores/controls.jsx:1262
 msgid "Range labels"
 msgstr "范围标签"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1228
+#: superset/assets/javascripts/explore/stores/controls.jsx:1264
 msgid "Labels for the ranges"
 msgstr "范围标签"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1233
+#: superset/assets/javascripts/explore/stores/controls.jsx:1269
 msgid "Markers"
 msgstr "标记"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1235
+#: superset/assets/javascripts/explore/stores/controls.jsx:1271
 msgid "List of values to mark with triangles"
 msgstr "用三角形标记的值列表"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1240
+#: superset/assets/javascripts/explore/stores/controls.jsx:1276
 msgid "Marker labels"
 msgstr "标记标签"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1242
+#: superset/assets/javascripts/explore/stores/controls.jsx:1278
 msgid "Labels for the markers"
 msgstr "标记标签"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1247
+#: superset/assets/javascripts/explore/stores/controls.jsx:1283
 msgid "Marker lines"
 msgstr "标记线"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1249
+#: superset/assets/javascripts/explore/stores/controls.jsx:1285
 msgid "List of values to mark with lines"
 msgstr "用线条标记的值列表"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1254
+#: superset/assets/javascripts/explore/stores/controls.jsx:1290
 msgid "Marker line labels"
 msgstr "线条标记的标签"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1256
+#: superset/assets/javascripts/explore/stores/controls.jsx:1292
 msgid "Labels for the marker lines"
 msgstr "标记线的标签"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1283
+#: superset/assets/javascripts/explore/stores/controls.jsx:1319
+#: superset/views/core.py:590
 msgid "Slice ID"
 msgstr "切片ID"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1285
+#: superset/assets/javascripts/explore/stores/controls.jsx:1321
 msgid "The id of the active slice"
 msgstr "切片的ID"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1290
+#: superset/assets/javascripts/explore/stores/controls.jsx:1326
 msgid "Cache Timeout (seconds)"
 msgstr "缓存超时（秒）"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1292
+#: superset/assets/javascripts/explore/stores/controls.jsx:1328
 msgid "The number of seconds before expiring the cache"
 msgstr "缓存到期之前的秒数"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1297
+#: superset/assets/javascripts/explore/stores/controls.jsx:1333
 msgid "Order by entity id"
 msgstr "按实体ID排序"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1298
+#: superset/assets/javascripts/explore/stores/controls.jsx:1334
 msgid ""
 "Important! Select this if the table is not already sorted by entity id, "
 "else there is no guarantee that all events for each entity are returned."
 msgstr "重要!如果表未按实体id排序，则选择此选项，否则无法保证返回每个实体的所有事件。"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1306
+#: superset/assets/javascripts/explore/stores/controls.jsx:1342
 msgid "Minimum leaf node event count"
 msgstr "最小叶子节点事件计数"
 
-#: superset/assets/javascripts/explore/stores/controls.jsx:1309
+#: superset/assets/javascripts/explore/stores/controls.jsx:1345
 msgid ""
 "Leaf nodes that represent fewer than this number of events will be "
 "initially hidden in the visualization"
 msgstr "少于此事件数的叶子节点将隐藏在可视化中"
 
+#: superset/assets/javascripts/explore/stores/controls.jsx:1351
+#: superset/assets/javascripts/explore/stores/visTypes.js:25
+msgid "Color Scheme"
+msgstr "色彩模式"
+
+#: superset/assets/javascripts/explore/stores/controls.jsx:1355
+msgid "The color scheme for rendering chart"
+msgstr "显示图表的色彩模式"
+
 #: superset/assets/javascripts/explore/stores/visTypes.js:7
-#: superset/assets/javascripts/explore/stores/visTypes.js:23
+#: superset/assets/javascripts/explore/stores/visTypes.js:31
 msgid "Time"
 msgstr "时间"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:8
-#: superset/assets/javascripts/explore/stores/visTypes.js:24
+#: superset/assets/javascripts/explore/stores/visTypes.js:9
+#: superset/assets/javascripts/explore/stores/visTypes.js:32
 msgid "Time related form attributes"
 msgstr "时间相关的属性"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:15
+#: superset/assets/javascripts/explore/stores/visTypes.js:16
 msgid "Datasource & Chart Type"
 msgstr "数据源和图表类型"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:36
+#: superset/assets/javascripts/explore/stores/visTypes.js:45
 msgid "This section exposes ways to include snippets of SQL in your query"
 msgstr "用于定制SQL语句"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:48
+#: superset/assets/javascripts/explore/stores/visTypes.js:58
 msgid "Advanced Analytics"
 msgstr "高级分析"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:49
+#: superset/assets/javascripts/explore/stores/visTypes.js:59
 msgid ""
 "This section contains options that allow for advanced analytical post "
 "processing of query results"
 msgstr "允许对查询结果进行高级分析处理选项"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:64
-msgid ""
-"Filters are defined using comma delimited strings as in "
-"<US,FR,Other>Leave the value control empty to filter empty strings or "
-"nullsFor filters with comma in values, wrap them in single quotesas in "
-"<NY, 'Tahoe, CA', DC>"
-msgstr ""
-"使用逗号分隔多个过滤条件，如`US,FR,Other`，将值控件留空以过滤空字符串或null，对于具有值的逗号的过滤器，将其包含在<NY, "
-"'Tahoe, CA', DC>中的单引号中"
-
-#: superset/assets/javascripts/explore/stores/visTypes.js:71
+#: superset/assets/javascripts/explore/stores/visTypes.js:77
 msgid "Result Filters"
 msgstr "结果过滤器"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:72
+#: superset/assets/javascripts/explore/stores/visTypes.js:79
 msgid ""
 "The filters to apply after post-aggregation.Leave the value control empty"
 " to filter empty strings or nulls"
 msgstr "在post-aggregation之后应用的过滤器。将值字段留空以过滤空字符串或空值"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:84
-#: superset/assets/javascripts/explore/stores/visTypes.js:132
-#: superset/assets/javascripts/explore/stores/visTypes.js:163
-#: superset/assets/javascripts/explore/stores/visTypes.js:202
-#: superset/assets/javascripts/explore/stores/visTypes.js:235
-#: superset/assets/javascripts/explore/stores/visTypes.js:256
-#: superset/assets/javascripts/explore/stores/visTypes.js:393
-#: superset/assets/javascripts/explore/stores/visTypes.js:428
-#: superset/assets/javascripts/explore/stores/visTypes.js:447
-#: superset/assets/javascripts/explore/stores/visTypes.js:821
+#: superset/assets/javascripts/explore/stores/visTypes.js:101
+#: superset/assets/javascripts/explore/stores/visTypes.js:137
+#: superset/assets/javascripts/explore/stores/visTypes.js:155
+#: superset/assets/javascripts/explore/stores/visTypes.js:193
+#: superset/assets/javascripts/explore/stores/visTypes.js:234
+#: superset/assets/javascripts/explore/stores/visTypes.js:268
+#: superset/assets/javascripts/explore/stores/visTypes.js:290
+#: superset/assets/javascripts/explore/stores/visTypes.js:451
+#: superset/assets/javascripts/explore/stores/visTypes.js:499
+#: superset/assets/javascripts/explore/stores/visTypes.js:520
+#: superset/assets/javascripts/explore/stores/visTypes.js:571
+#: superset/assets/javascripts/explore/stores/visTypes.js:593
+#: superset/assets/javascripts/explore/stores/visTypes.js:618
+#: superset/assets/javascripts/explore/stores/visTypes.js:644
+#: superset/assets/javascripts/explore/stores/visTypes.js:677
+#: superset/assets/javascripts/explore/stores/visTypes.js:714
+#: superset/assets/javascripts/explore/stores/visTypes.js:767
+#: superset/assets/javascripts/explore/stores/visTypes.js:965
 msgid "Chart Options"
 msgstr "图表选项"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:104
+#: superset/assets/javascripts/explore/stores/visTypes.js:118
 msgid "Breakdowns"
 msgstr "拆分"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:105
+#: superset/assets/javascripts/explore/stores/visTypes.js:119
 msgid "Defines how each series is broken down"
 msgstr "定义每个项目的拆分方式"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:141
-#: superset/assets/javascripts/explore/stores/visTypes.js:211
-#: superset/assets/javascripts/explore/stores/visTypes.js:265
-msgid "Axes"
-msgstr "轴"
+#: superset/assets/javascripts/explore/stores/visTypes.js:125
+msgid "Pie Chart"
+msgstr "饼图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:159
+#: superset/assets/javascripts/explore/stores/visTypes.js:189
 msgid "Dual Axis Line Chart"
 msgstr "双轴线图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:169
+#: superset/assets/javascripts/explore/stores/visTypes.js:200
 msgid "Y Axis 1"
 msgstr "Y轴从1开始"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:175
+#: superset/assets/javascripts/explore/stores/visTypes.js:206
 msgid "Y Axis 2"
 msgstr "Y轴从2开始"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:183
+#: superset/assets/javascripts/explore/stores/visTypes.js:214
 msgid "Left Axis Metric"
 msgstr "左轴指标"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:184
+#: superset/assets/javascripts/explore/stores/visTypes.js:215
 msgid "Choose a metric for left axis"
 msgstr "为左轴选择指标"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:187
+#: superset/assets/javascripts/explore/stores/visTypes.js:218
 msgid "Left Axis Format"
 msgstr "左轴格式"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:286
+#: superset/assets/javascripts/explore/stores/visTypes.js:244
+#: superset/assets/javascripts/explore/stores/visTypes.js:300
+msgid "Axes"
+msgstr "轴"
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:324
 msgid "GROUP BY"
 msgstr "GROUP BY"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:287
+#: superset/assets/javascripts/explore/stores/visTypes.js:325
 msgid "Use this section if you want a query that aggregates"
 msgstr "进行聚合查询"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:294
+#: superset/assets/javascripts/explore/stores/visTypes.js:332
 msgid "NOT GROUPED BY"
 msgstr "NOT GROUPED BY"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:295
+#: superset/assets/javascripts/explore/stores/visTypes.js:333
 msgid "Use this section if you want to query atomic rows"
 msgstr "进行原始行查询"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:302
+#: superset/assets/javascripts/explore/stores/visTypes.js:340
+#: superset/assets/javascripts/explore/stores/visTypes.js:429
+#: superset/assets/javascripts/explore/stores/visTypes.js:478
+#: superset/assets/javascripts/explore/stores/visTypes.js:741
+#: superset/assets/javascripts/explore/stores/visTypes.js:805
+#: superset/assets/javascripts/explore/stores/visTypes.js:875
+#: superset/assets/javascripts/explore/stores/visTypes.js:899
+#: superset/assets/javascripts/explore/stores/visTypes.js:921
 msgid "Options"
 msgstr "选项"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:453
-#: superset/assets/javascripts/explore/stores/visTypes.js:707
+#: superset/assets/javascripts/explore/stores/visTypes.js:383
+msgid "Pivot Options"
+msgstr ""
+
+#: superset/assets/javascripts/explore/stores/visTypes.js:527
+#: superset/assets/javascripts/explore/stores/visTypes.js:839
 msgid "Bubbles"
 msgstr "气泡"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:545
-msgid "Histogram Options"
-msgstr "直方图选项"
-
-#: superset/assets/javascripts/explore/stores/visTypes.js:553
+#: superset/assets/javascripts/explore/stores/visTypes.js:653
 msgid "Numeric Column"
 msgstr "数字列"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:554
+#: superset/assets/javascripts/explore/stores/visTypes.js:654
 msgid "Select the numeric column to draw the histogram"
 msgstr "选择数字列来绘制直方图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:557
+#: superset/assets/javascripts/explore/stores/visTypes.js:657
 msgid "No of Bins"
 msgstr "不分组"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:558
+#: superset/assets/javascripts/explore/stores/visTypes.js:658
 msgid "Select number of bins for the histogram"
 msgstr "选择直方图的数量"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:578
+#: superset/assets/javascripts/explore/stores/visTypes.js:685
 msgid "Primary Metric"
 msgstr "主指标"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:579
+#: superset/assets/javascripts/explore/stores/visTypes.js:686
 msgid "The primary metric is used to define the arc segment sizes"
 msgstr "主要指标用来定义弧段尺寸"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:582
+#: superset/assets/javascripts/explore/stores/visTypes.js:689
 msgid "Secondary Metric"
 msgstr "次指标"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:583
+#: superset/assets/javascripts/explore/stores/visTypes.js:690
 msgid ""
 "This secondary metric is used to define the color as a ratio against the "
 "primary metric. If the two metrics match, color is mapped level groups"
 msgstr "次指标用于定义相对主指标的颜色"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:588
+#: superset/assets/javascripts/explore/stores/visTypes.js:695
 msgid "Hierarchy"
 msgstr "层次"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:589
+#: superset/assets/javascripts/explore/stores/visTypes.js:696
 msgid "This defines the level of the hierarchy"
 msgstr "定义层次"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:608
-#: superset/assets/javascripts/explore/stores/visTypes.js:635
+#: superset/assets/javascripts/explore/stores/visTypes.js:722
+#: superset/assets/javascripts/explore/stores/visTypes.js:750
 msgid "Source / Target"
 msgstr "源/目标"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:609
-#: superset/assets/javascripts/explore/stores/visTypes.js:636
+#: superset/assets/javascripts/explore/stores/visTypes.js:723
+#: superset/assets/javascripts/explore/stores/visTypes.js:751
 msgid "Choose a source and a target"
 msgstr "选择源和目标"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:626
-msgid "Force Layout"
-msgstr "有向图"
-
-#: superset/assets/javascripts/explore/stores/visTypes.js:641
+#: superset/assets/javascripts/explore/stores/visTypes.js:756
 msgid "Chord Diagram"
 msgstr "弦图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:655
+#: superset/assets/javascripts/explore/stores/visTypes.js:777
 msgid "Choose a number format"
 msgstr "选择数字格式"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:658
+#: superset/assets/javascripts/explore/stores/visTypes.js:780
 msgid "Source"
 msgstr "源"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:661
+#: superset/assets/javascripts/explore/stores/visTypes.js:783
 msgid "Choose a source"
 msgstr "选择源"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:664
+#: superset/assets/javascripts/explore/stores/visTypes.js:786
 msgid "Target"
 msgstr "目标"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:667
+#: superset/assets/javascripts/explore/stores/visTypes.js:789
 msgid "Choose a target"
 msgstr "选择目标"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:686
+#: superset/assets/javascripts/explore/stores/visTypes.js:814
 msgid "ISO 3166-1 codes of region/province/department"
 msgstr "区域/省/部门的ISO 3166-1规范"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:687
+#: superset/assets/javascripts/explore/stores/visTypes.js:815
 msgid ""
 "It's ISO 3166-1 of your region/province/department in your table. (see "
 "documentation for list of ISO 3166-1)"
 msgstr "您的地区/省/部门在您的表中符合ISO 3166-1规范。（参见ISO 3166-1的规范文件）"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:690
-#: superset/connectors/druid/views.py:106 superset/connectors/sqla/views.py:130
-msgid "Metric"
-msgstr "度量"
-
-#: superset/assets/javascripts/explore/stores/visTypes.js:691
+#: superset/assets/javascripts/explore/stores/visTypes.js:819
 msgid "Metric to display bottom title"
 msgstr "显示底部标题的指标"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:717
+#: superset/assets/javascripts/explore/stores/visTypes.js:849
 msgid "Country Control"
 msgstr "国家控件"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:718
+#: superset/assets/javascripts/explore/stores/visTypes.js:850
 msgid "3 letter code of the country"
 msgstr "国家的3个字母代码"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:721
+#: superset/assets/javascripts/explore/stores/visTypes.js:853
 msgid "Metric for color"
-msgstr "色彩度量项"
+msgstr "色彩指标项"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:722
+#: superset/assets/javascripts/explore/stores/visTypes.js:854
 msgid "Metric that defines the color of the country"
 msgstr "国家颜色表示的统计项"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:725
+#: superset/assets/javascripts/explore/stores/visTypes.js:857
 msgid "Bubble size"
 msgstr "气泡大小"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:726
+#: superset/assets/javascripts/explore/stores/visTypes.js:858
 msgid "Metric that defines the size of the bubble"
 msgstr "气泡大小表示的度量项"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:732
+#: superset/assets/javascripts/explore/stores/visTypes.js:864
 msgid "Filter Box"
 msgstr "提示器"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:745
+#: superset/assets/javascripts/explore/stores/visTypes.js:883
 msgid "Filter controls"
 msgstr "过滤器控件"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:747
+#: superset/assets/javascripts/explore/stores/visTypes.js:885
 msgid ""
 "The controls you want to filter on. Note that only columns checked as "
 "\"filterable\" will show up on this list."
 msgstr "您要过滤的控件。注意，只有被检查为\"filterable\"的列才会出现在这个列表中。"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:789
+#: superset/assets/javascripts/explore/stores/visTypes.js:933
 msgid "Axis & Metrics"
 msgstr "轴和度量"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:797
+#: superset/assets/javascripts/explore/stores/visTypes.js:941
 msgid "Heatmap Options"
 msgstr "热力图选项"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:817
+#: superset/assets/javascripts/explore/stores/visTypes.js:961
 msgid "Horizon"
 msgstr "热力图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:843
+#: superset/assets/javascripts/explore/stores/visTypes.js:987
 msgid "Points"
 msgstr "点"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:850
+#: superset/assets/javascripts/explore/stores/visTypes.js:994
 msgid "Labelling"
 msgstr "标记"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:857
+#: superset/assets/javascripts/explore/stores/visTypes.js:1001
 msgid "Visual Tweaks"
 msgstr "视觉调整"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:865
+#: superset/assets/javascripts/explore/stores/visTypes.js:1010
 msgid "Viewport"
 msgstr "视图"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:875
+#: superset/assets/javascripts/explore/stores/visTypes.js:1020
 msgid "Longitude"
 msgstr "经度"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:876
+#: superset/assets/javascripts/explore/stores/visTypes.js:1021
 msgid "Column containing longitude data"
 msgstr "表示经度的列"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:879
+#: superset/assets/javascripts/explore/stores/visTypes.js:1024
 msgid "Latitude"
 msgstr "纬度"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:880
+#: superset/assets/javascripts/explore/stores/visTypes.js:1025
 msgid "Column containing latitude data"
 msgstr "表示纬度的列"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:883
+#: superset/assets/javascripts/explore/stores/visTypes.js:1028
 msgid "Cluster label aggregator"
 msgstr "聚合标签"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:884
+#: superset/assets/javascripts/explore/stores/visTypes.js:1029
 msgid ""
 "Aggregate function applied to the list of points in each cluster to "
 "produce the cluster label."
 msgstr "聚合函数用于集群标签"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:888
+#: superset/assets/javascripts/explore/stores/visTypes.js:1033
 msgid "Tooltip"
 msgstr "提示"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:889
+#: superset/assets/javascripts/explore/stores/visTypes.js:1034
 msgid "Show a tooltip when hovering over points and clusters describing the label"
 msgstr "鼠标放在集群上时显示的提示信息"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:893
+#: superset/assets/javascripts/explore/stores/visTypes.js:1038
 msgid ""
 "One or many controls to group by. If grouping, latitude and longitude "
 "columns must be present."
 msgstr "一个或多个控件组合。如果分组，纬度和经度列必须存在。"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:904
+#: superset/assets/javascripts/explore/stores/visTypes.js:1049
 msgid "Event definition"
 msgstr "事件定义"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:914
+#: superset/assets/javascripts/explore/stores/visTypes.js:1059
 msgid "Additional meta data"
 msgstr "其他元数据"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:922
+#: superset/assets/javascripts/explore/stores/visTypes.js:1067
 msgid "Column containing entity ids"
 msgstr "包含实体ID的列"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:923
+#: superset/assets/javascripts/explore/stores/visTypes.js:1068
 msgid "e.g., a \"user id\" column"
 msgstr "例如，`用户ID`列"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:926
+#: superset/assets/javascripts/explore/stores/visTypes.js:1071
 msgid "Column containing event names"
 msgstr "包含事件名称的列"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:934
+#: superset/assets/javascripts/explore/stores/visTypes.js:1079
 msgid "Event count limit"
 msgstr "事件计数限制"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:935
+#: superset/assets/javascripts/explore/stores/visTypes.js:1080
 msgid "The maximum number of events to return, equivalent to number of rows"
 msgstr "返回事件的最大数目，等于行数"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:938
+#: superset/assets/javascripts/explore/stores/visTypes.js:1083
 msgid "Meta data"
 msgstr "元数据"
 
-#: superset/assets/javascripts/explore/stores/visTypes.js:939
+#: superset/assets/javascripts/explore/stores/visTypes.js:1084
 msgid "Select any columns for meta data inspection"
 msgstr "选择任何列进行元数据检查"
 
@@ -2452,10 +2673,11 @@ msgstr "服务器无法成功连接.您可能需要验证您的连接并再次�
 msgid "An unknown error occurred. (Status: %s )"
 msgstr "一个未知的错误发生.(状态: %s )"
 
-#: superset/assets/javascripts/modules/superset.js:162
-#, python-format
-msgid "Query timeout - visualization query are set to time out at %s seconds."
-msgstr "查询超时 - 可视化查询设置为超时 %s 秒."
+#: superset/assets/javascripts/modules/superset.js:163
+msgid ""
+"Query timeout - visualization query are set to time out at ${timeout} "
+"seconds."
+msgstr "查询超时 - 可视化查询设置为超时 ${timeout} 秒。"
 
 #: superset/assets/javascripts/profile/components/App.jsx:24
 msgid "Favorites"
@@ -2483,14 +2705,14 @@ msgstr "没有仪表盘"
 
 #: superset/assets/javascripts/profile/components/CreatedContent.jsx:58
 #: superset/assets/javascripts/profile/components/Favorites.jsx:59
-#: superset/templates/superset/welcome.html:20 superset/views/core.py:367
-#: superset/views/core.py:527
+#: superset/templates/superset/welcome.html:13 superset/views/core.py:388
+#: superset/views/core.py:556
 msgid "Dashboards"
 msgstr "看板"
 
 #: superset/assets/javascripts/profile/components/CreatedContent.jsx:61
 #: superset/assets/javascripts/profile/components/Favorites.jsx:62
-#: superset/views/core.py:403 superset/views/core.py:472
+#: superset/views/core.py:432 superset/views/core.py:501
 msgid "Slices"
 msgstr "切片"
 
@@ -2507,7 +2729,7 @@ msgid "Roles"
 msgstr "角色"
 
 #: superset/assets/javascripts/profile/components/Security.jsx:23
-#: superset/views/core.py:279
+#: superset/views/core.py:290
 msgid "Databases"
 msgstr "数据库"
 
@@ -2531,121 +2753,196 @@ msgstr "id:"
 msgid "Sorry, there appears to be no data"
 msgstr "对不起，似乎没有数据"
 
-#: superset/assets/visualizations/filter_box.jsx:88
+#: superset/assets/visualizations/filter_box.jsx:106
 #, python-format
 msgid "Select [%s]"
 msgstr "选择 [%s]"
 
-#: superset/connectors/druid/models.py:970
+#: superset/connectors/druid/models.py:975
 msgid "No data was returned."
 msgstr "没有数据"
 
-#: superset/connectors/druid/views.py:37 superset/connectors/sqla/views.py:72
+#: superset/connectors/druid/views.py:28
+msgid "List Druid Column"
+msgstr "Druid列列表"
+
+#: superset/connectors/druid/views.py:29
+msgid "Show Druid Column"
+msgstr "查看Druid列"
+
+#: superset/connectors/druid/views.py:30
+msgid "Add Druid Column"
+msgstr "新增Druid列"
+
+#: superset/connectors/druid/views.py:31
+msgid "Edit Druid Column"
+msgstr "编辑Druid列"
+
+#: superset/connectors/druid/views.py:43 superset/connectors/sqla/views.py:79
 msgid "Column"
 msgstr "字段"
 
-#: superset/connectors/druid/views.py:38 superset/connectors/druid/views.py:95
-#: superset/connectors/sqla/views.py:86 superset/connectors/sqla/views.py:118
+#: superset/connectors/druid/views.py:44 superset/connectors/druid/views.py:107
+#: superset/connectors/sqla/views.py:96 superset/connectors/sqla/views.py:139
 msgid "Type"
 msgstr "类型"
 
-#: superset/connectors/druid/views.py:40 superset/connectors/sqla/views.py:75
+#: superset/connectors/druid/views.py:46 superset/connectors/sqla/views.py:82
 msgid "Groupable"
 msgstr "可分组"
 
-#: superset/connectors/druid/views.py:41 superset/connectors/sqla/views.py:76
+#: superset/connectors/druid/views.py:47 superset/connectors/sqla/views.py:83
 msgid "Filterable"
 msgstr "可筛选"
 
-#: superset/connectors/druid/views.py:42 superset/connectors/sqla/views.py:78
+#: superset/connectors/druid/views.py:48 superset/connectors/sqla/views.py:85
 msgid "Count Distinct"
 msgstr "计数"
 
-#: superset/connectors/druid/views.py:43 superset/connectors/sqla/views.py:79
+#: superset/connectors/druid/views.py:49 superset/connectors/sqla/views.py:86
 msgid "Sum"
 msgstr "求和"
 
-#: superset/connectors/druid/views.py:48 superset/connectors/sqla/views.py:43
+#: superset/connectors/druid/views.py:54 superset/connectors/sqla/views.py:50
 msgid ""
 "Whether this column is exposed in the `Filters` section of the explore "
 "view."
 msgstr "这个字段是否可以用在 Explore 视图中的筛选器里。"
 
-#: superset/connectors/druid/views.py:51
+#: superset/connectors/druid/views.py:57
 msgid ""
 "This field can be used to specify  a `dimensionSpec` as documented "
-"(http://druid.io/docs/latest/querying/dimensionspecs.html). Make sure to "
-"input valid JSON and that the `outputName` matches the `column_name` "
-"defined above."
+"[here](http://druid.io/docs/latest/querying/dimensionspecs.html). Make "
+"sure to input valid JSON and that the `outputName` matches the "
+"`column_name` defined above."
 msgstr ""
 
+#: superset/connectors/druid/views.py:79
+msgid "List Druid Metric"
+msgstr "Druid指标"
+
+#: superset/connectors/druid/views.py:80
+msgid "Show Druid Metric"
+msgstr "查看Druid指标"
+
+#: superset/connectors/druid/views.py:81
+msgid "Add Druid Metric"
+msgstr "新增Druid指标"
+
 #: superset/connectors/druid/views.py:82
+msgid "Edit Druid Metric"
+msgstr "编辑Druid指标"
+
+#: superset/connectors/druid/views.py:94
 msgid ""
 "use `postagg` as the metric type if you are defining a [Druid Post "
 "Aggregation](http://druid.io/docs/latest/querying/post-aggregations.html)"
 msgstr ""
 
-#: superset/connectors/druid/views.py:86 superset/connectors/sqla/views.py:101
+#: superset/connectors/druid/views.py:98 superset/connectors/sqla/views.py:122
 msgid ""
 "Whether the access to this metric is restricted to certain roles. Only "
 "roles with the permission 'metric access on XXX (the name of this "
 "metric)' are allowed to access this metric"
 msgstr "是否访问受限。只有有权限的用户才能访问。"
 
-#: superset/connectors/druid/views.py:94 superset/connectors/sqla/views.py:73
-#: superset/connectors/sqla/views.py:117
+#: superset/connectors/druid/views.py:106
+#: superset/connectors/druid/views.py:147 superset/connectors/sqla/views.py:80
+#: superset/connectors/sqla/views.py:138 superset/views/core.py:261
 msgid "Verbose Name"
 msgstr "全称"
 
-#: superset/connectors/druid/views.py:96 superset/views/core.py:535
+#: superset/connectors/druid/views.py:108 superset/views/core.py:589
 msgid "JSON"
 msgstr "JSON"
 
-#: superset/connectors/druid/views.py:97
+#: superset/connectors/druid/views.py:109
 msgid "Druid Datasource"
 msgstr "Druid数据源"
 
-#: superset/connectors/druid/views.py:122
-#: superset/connectors/druid/views.py:200
+#: superset/connectors/druid/views.py:126
+msgid "List Druid Cluster"
+msgstr "Druid集群列表"
+
+#: superset/connectors/druid/views.py:127
+msgid "Show Druid Cluster"
+msgstr "查看Druid集群"
+
+#: superset/connectors/druid/views.py:128
+msgid "Add Druid Cluster"
+msgstr "新增Druid集群"
+
+#: superset/connectors/druid/views.py:129
+msgid "Edit Druid Cluster"
+msgstr "编辑Druid集群"
+
+#: superset/connectors/druid/views.py:140
+#: superset/connectors/druid/views.py:226
 msgid "Cluster"
 msgstr "集群"
 
-#: superset/connectors/druid/views.py:123
+#: superset/connectors/druid/views.py:141
 msgid "Coordinator Host"
 msgstr "协调器主机"
 
-#: superset/connectors/druid/views.py:124
+#: superset/connectors/druid/views.py:142
 msgid "Coordinator Port"
 msgstr "协调器端口"
 
-#: superset/connectors/druid/views.py:125
+#: superset/connectors/druid/views.py:143
 msgid "Coordinator Endpoint"
 msgstr "协调器端点"
 
-#: superset/connectors/druid/views.py:126
+#: superset/connectors/druid/views.py:144
 msgid "Broker Host"
 msgstr "代理主机"
 
-#: superset/connectors/druid/views.py:127
+#: superset/connectors/druid/views.py:145
 msgid "Broker Port"
 msgstr "代理端口"
 
-#: superset/connectors/druid/views.py:128
+#: superset/connectors/druid/views.py:146
 msgid "Broker Endpoint"
 msgstr "代理端点"
 
-#: superset/connectors/druid/views.py:143
+#: superset/connectors/druid/views.py:148
+#: superset/connectors/druid/views.py:233 superset/connectors/sqla/views.py:233
+#: superset/views/core.py:249 superset/views/core.py:386
+msgid "Cache Timeout"
+msgstr "缓存时间"
+
+#: superset/connectors/druid/views.py:149
+msgid "MetaData Last Refreshed"
+msgstr "最近一次元数据刷新"
+
+#: superset/connectors/druid/views.py:164
 msgid "Druid Clusters"
 msgstr "Druid集群"
 
-#: superset/connectors/druid/views.py:146
-#: superset/connectors/druid/views.py:240
-#: superset/connectors/druid/views.py:279 superset/connectors/sqla/views.py:263
-#: superset/views/core.py:277
+#: superset/connectors/druid/views.py:167
+#: superset/connectors/druid/views.py:273
+#: superset/connectors/druid/views.py:312 superset/connectors/sqla/views.py:300
+#: superset/views/core.py:293
 msgid "Sources"
 msgstr "数据源"
 
-#: superset/connectors/druid/views.py:171 superset/connectors/sqla/views.py:156
+#: superset/connectors/druid/views.py:174
+msgid "List Druid Datasource"
+msgstr "Druid数据源列表"
+
+#: superset/connectors/druid/views.py:175
+msgid "Show Druid Datasource"
+msgstr "查看Druid数据源"
+
+#: superset/connectors/druid/views.py:176
+msgid "Add Druid Datasource"
+msgstr "新增Druid数据源"
+
+#: superset/connectors/druid/views.py:177
+msgid "Edit Druid Datasource"
+msgstr "编辑Druid数据源"
+
+#: superset/connectors/druid/views.py:196 superset/connectors/sqla/views.py:188
 msgid ""
 "The list of slices associated with this table. By altering this "
 "datasource, you may change how these associated slices behave. Also note "
@@ -2654,108 +2951,147 @@ msgid ""
 "datasource for a slice, overwrite the slice from the 'explore view'"
 msgstr "当前table关联的切片。通过修改数据源信息，你可以改变关联的切片。在explore视图中，你可以修改切片的数据源。"
 
-#: superset/connectors/druid/views.py:179 superset/connectors/sqla/views.py:164
+#: superset/connectors/druid/views.py:204 superset/connectors/sqla/views.py:196
 msgid "Timezone offset (in hours) for this datasource"
 msgstr "数据源的时差(单位：小时)"
 
-#: superset/connectors/druid/views.py:180 superset/connectors/sqla/views.py:170
+#: superset/connectors/druid/views.py:205 superset/connectors/sqla/views.py:202
 msgid "Supports markdown"
 msgstr "支持Markdown格式"
 
-#: superset/connectors/druid/views.py:181
+#: superset/connectors/druid/views.py:207
 msgid ""
 "Time expression to use as a predicate when retrieving distinct values to "
 "populate the filter component. Only applies when `Enable Filter Select` "
 "is on. If you enter `7 days ago`, the distinct list of values in the "
 "filter will be populated based on the distinct value over the past week"
-msgstr ""
-"过滤可筛选值的时间表达式。 仅当启用“自动加载可筛选值”功能时才适用。"
-"如输入“7天前”，筛选条件列表将只显示过去一周出现的值"
+msgstr "过滤可筛选值的时间表达式。 仅当启用“自动加载可筛选值”功能时才适用。如输入“7天前”，筛选条件列表将只显示过去一周出现的值"
 
-#: superset/connectors/druid/views.py:188 superset/connectors/sqla/views.py:184
+#: superset/connectors/druid/views.py:214 superset/connectors/sqla/views.py:217
 msgid ""
 "Whether to populate the filter's dropdown in the explore view's filter "
 "section with a list of distinct values fetched from the backend on the "
 "fly"
 msgstr "是否在Explore视图中自动加载可筛选值。"
 
-#: superset/connectors/druid/views.py:192
+#: superset/connectors/druid/views.py:218
 msgid ""
 "Redirects to this endpoint when clicking on the datasource from the "
 "datasource list"
 msgstr "在数据源列表中点击数据源名称后跳转的短路径"
 
-#: superset/connectors/druid/views.py:198 superset/connectors/sqla/views.py:191
+#: superset/connectors/druid/views.py:224 superset/connectors/sqla/views.py:224
 msgid "Associated Slices"
 msgstr "关联切片"
 
-#: superset/connectors/druid/views.py:199
+#: superset/connectors/druid/views.py:225
 msgid "Data Source"
 msgstr "数据源"
 
-#: superset/connectors/druid/views.py:202 superset/connectors/sqla/views.py:203
+#: superset/connectors/druid/views.py:228 superset/connectors/sqla/views.py:238
 msgid "Owner"
 msgstr "所有者"
 
-#: superset/connectors/druid/views.py:203
+#: superset/connectors/druid/views.py:229
 msgid "Is Hidden"
 msgstr "隐藏"
 
-#: superset/connectors/druid/views.py:204 superset/connectors/sqla/views.py:196
+#: superset/connectors/druid/views.py:230 superset/connectors/sqla/views.py:229
 msgid "Enable Filter Select"
 msgstr "自动加载可筛选值"
 
-#: superset/connectors/druid/views.py:205 superset/connectors/sqla/views.py:198
+#: superset/connectors/druid/views.py:231 superset/connectors/sqla/views.py:231
 msgid "Default Endpoint"
 msgstr "短路径"
 
-#: superset/connectors/druid/views.py:206
+#: superset/connectors/druid/views.py:232
 msgid "Time Offset"
 msgstr "时间偏移"
 
-#: superset/connectors/druid/views.py:207 superset/connectors/sqla/views.py:200
-#: superset/views/core.py:242 superset/views/core.py:352
-msgid "Cache Timeout"
-msgstr "缓存时间"
+#: superset/connectors/druid/views.py:235
+msgid "Fetch Values From"
+msgstr "获取筛选值的时间表达式"
 
-#: superset/connectors/druid/views.py:238
+#: superset/connectors/druid/views.py:236 superset/connectors/sqla/views.py:241
+#: superset/views/core.py:254 superset/views/core.py:405
+msgid "Perm"
+msgstr "Perm"
+
+#: superset/connectors/druid/views.py:237 superset/connectors/sqla/views.py:99
+#: superset/connectors/sqla/views.py:145 superset/connectors/sqla/views.py:226
+#: superset/views/core.py:257 superset/views/core.py:334
+#: superset/views/core.py:400 superset/views/core.py:2379
+msgid "Changed By"
+msgstr "修改人"
+
+#: superset/connectors/druid/views.py:238 superset/connectors/sqla/views.py:98
+#: superset/connectors/sqla/views.py:144 superset/views/core.py:258
+#: superset/views/core.py:335 superset/views/core.py:399
+#: superset/views/core.py:2378 superset/views/sql_lab.py:53
+#: superset/views/sql_lab.py:94
+msgid "Changed On"
+msgstr "修改日期"
+
+#: superset/connectors/druid/views.py:271
 msgid "Druid Datasources"
 msgstr "Druid数据源"
 
-#: superset/connectors/druid/views.py:276
+#: superset/connectors/druid/views.py:309
 msgid "Refresh Druid Metadata"
 msgstr "刷新Druid元数据"
 
-#: superset/connectors/sqla/models.py:388
+#: superset/connectors/sqla/models.py:391
 msgid ""
 "Datetime column not provided as part table configuration and is required "
 "by this type of chart"
 msgstr "当前图表类型缺少时间字段"
 
-#: superset/connectors/sqla/models.py:393
+#: superset/connectors/sqla/models.py:396
 msgid "Metric '{}' is not valid"
 msgstr "指标 '{}' 是无效的"
 
-#: superset/connectors/sqla/views.py:39
+#: superset/connectors/sqla/models.py:582
+msgid ""
+"Table doesn't seem to exist in the specified database, couldn't fetch "
+"column information"
+msgstr "当前数据库中似乎没有数据表，无法获取列信息"
+
+#: superset/connectors/sqla/views.py:28
+msgid "List Columns"
+msgstr "列"
+
+#: superset/connectors/sqla/views.py:29
+msgid "Show Column"
+msgstr "查看列"
+
+#: superset/connectors/sqla/views.py:30
+msgid "Add Column"
+msgstr "新增列"
+
+#: superset/connectors/sqla/views.py:31
+msgid "Edit Column"
+msgstr "编辑列"
+
+#: superset/connectors/sqla/views.py:46
 msgid ""
 "Whether to make this column available as a [Time Granularity] option, "
 "column has to be DATETIME or DATETIME-like"
 msgstr "是否将此列作为[时间粒度]选项, 列中的数据类型必须是DATETIME"
 
-#: superset/connectors/sqla/views.py:46
+#: superset/connectors/sqla/views.py:53
 msgid ""
 "The data type that was inferred by the database. It may be necessary to "
 "input a type manually for expression-defined columns in some cases. In "
 "most case users should not need to alter this."
 msgstr "根据数据库信息判断出的字段数据类型。除了自定义的表达式字段，一般情况下，用户不需要修改此信息。"
 
-#: superset/connectors/sqla/views.py:51
+#: superset/connectors/sqla/views.py:58
 msgid ""
 "a valid SQL expression as supported by the underlying backend. Example: "
 "`substr(name, 1, 1)`"
 msgstr "数据库端支持的SQL表达式，如 `substr(name, 1, 1)`"
 
-#: superset/connectors/sqla/views.py:54
+#: superset/connectors/sqla/views.py:61
 msgid ""
 "The pattern of timestamp format, use python datetime string pattern "
 "expression, referring from "
@@ -2768,7 +3104,7 @@ msgstr ""
 "#strftime-strptime-behavior 如果时间是以Epoch时间戳格式存储，填写 `epoch_s` 或 `epoch_ms` "
 "。如果时间戳是字符串类型或整型（Epoch），下面的`数据库表达式`字段留空。"
 
-#: superset/connectors/sqla/views.py:61
+#: superset/connectors/sqla/views.py:68
 #, python-format
 msgid ""
 "The database expression to cast internal datetime constants to database "
@@ -2782,29 +3118,65 @@ msgstr ""
 "%H:%M:%S`的格式。对于Oracle数据库，这个字符串的python字符格式：`Ex: TO_DATE('{}', 'YYYY-MM-DD "
 "HH24:MI:SS')`。如果这个字段是空的，Superset根据DB URI使用默认的表达式。"
 
-#: superset/connectors/sqla/views.py:82
+#: superset/connectors/sqla/views.py:89
 msgid "Expression"
 msgstr "表达式"
 
-#: superset/connectors/sqla/views.py:83
+#: superset/connectors/sqla/views.py:90
 msgid "Is temporal"
 msgstr "表示时间"
 
-#: superset/connectors/sqla/views.py:84
+#: superset/connectors/sqla/views.py:91
 msgid "Datetime Format"
 msgstr "时间格式"
 
-#: superset/connectors/sqla/views.py:85
+#: superset/connectors/sqla/views.py:92
 msgid "Database Expression"
 msgstr "数据库表达式"
 
-#: superset/connectors/sqla/views.py:98
+#: superset/connectors/sqla/views.py:93
+msgid "Average"
+msgstr "求平均值"
+
+#: superset/connectors/sqla/views.py:94 superset/connectors/sqla/views.py:142
+#: superset/views/core.py:256 superset/views/core.py:332
+#: superset/views/core.py:401 superset/views/core.py:2376
+msgid "Created On"
+msgstr "创建时间"
+
+#: superset/connectors/sqla/views.py:95 superset/connectors/sqla/views.py:143
+#: superset/views/core.py:255 superset/views/core.py:336
+#: superset/views/core.py:402 superset/views/core.py:2377
+msgid "Created By"
+msgstr "创建者"
+
+#: superset/connectors/sqla/views.py:97
+msgid "Is Active"
+msgstr "是否激活"
+
+#: superset/connectors/sqla/views.py:109
+msgid "List Metrics"
+msgstr "指标"
+
+#: superset/connectors/sqla/views.py:110
+msgid "Show Metric"
+msgstr "查看指标"
+
+#: superset/connectors/sqla/views.py:111
+msgid "Add Metric"
+msgstr "新增指标"
+
+#: superset/connectors/sqla/views.py:112
+msgid "Edit Metric"
+msgstr "编辑指标"
+
+#: superset/connectors/sqla/views.py:119
 msgid ""
 "a valid SQL expression as supported by the underlying backend. Example: "
 "`count(DISTINCT userid)`"
 msgstr "数据库端支持的SQL表达式，如 `count(DISTINCT userid)`"
 
-#: superset/connectors/sqla/views.py:105
+#: superset/connectors/sqla/views.py:126
 msgid ""
 "d3 formatting string as "
 "defined(https://github.com/d3/d3-format/blob/master/README.md#format). "
@@ -2812,83 +3184,108 @@ msgid ""
 "and allow for different metric to use different formats"
 msgstr "D3格式化字符串(https://github.com/d3/d3-format/blob/master/README.md#format)，例如，在表格图形中，通过这个格式化可以给不同的指标定义不同的格式。"
 
-#: superset/connectors/sqla/views.py:119
+#: superset/connectors/sqla/views.py:140
 msgid "SQL Expression"
 msgstr "SQL表达式"
 
-#: superset/connectors/sqla/views.py:121
-msgid "D3 Format"
-msgstr "D3格式化"
-
-#: superset/connectors/sqla/views.py:122
+#: superset/connectors/sqla/views.py:146
 msgid "Is Restricted"
 msgstr "受限访问"
 
+#: superset/connectors/sqla/views.py:147
+msgid "D3 Format"
+msgstr "D3格式化"
+
 #: superset/connectors/sqla/views.py:165
+msgid "List Tables"
+msgstr ""
+
+#: superset/connectors/sqla/views.py:166
+msgid "Show Table"
+msgstr "查看数据表"
+
+#: superset/connectors/sqla/views.py:167
+msgid "Add Table"
+msgstr "新增数据表"
+
+#: superset/connectors/sqla/views.py:168
+msgid "Edit Table"
+msgstr "编辑数据表"
+
+#: superset/connectors/sqla/views.py:197
 msgid "Name of the table that exists in the source database"
 msgstr "数据库中的表名"
 
-#: superset/connectors/sqla/views.py:167
+#: superset/connectors/sqla/views.py:199
 msgid "Schema, as used only in some databases like Postgres, Redshift and DB2"
 msgstr "Schema是某些数据库中的结构术语，如Postgres、Redshift和DB2"
 
-#: superset/connectors/sqla/views.py:171
+#: superset/connectors/sqla/views.py:204
 msgid ""
 "This fields acts a Superset view, meaning that Superset will run a query "
 "against this string as a subquery."
 msgstr "这个字段的作用是将SQL语句作为一个子查询替代固定的DB View。"
 
-#: superset/connectors/sqla/views.py:175
+#: superset/connectors/sqla/views.py:208
 msgid ""
 "Predicate applied when fetching distinct value to populate the filter "
 "control component. Supports jinja template syntax. Applies only when "
 "`Enable Filter Select` is on."
 msgstr "过滤可筛选值的表达式，支持Jinja模板语法。仅在选中'自动加载可筛选值'时有效。"
 
-#: superset/connectors/sqla/views.py:181
+#: superset/connectors/sqla/views.py:214
 msgid "Redirects to this endpoint when clicking on the table from the table list"
 msgstr "在数据源列表中点击数据源名称后跳转的短路径"
 
-#: superset/connectors/sqla/views.py:193
-msgid "Changed By"
-msgstr "修改人"
-
-#: superset/connectors/sqla/views.py:194 superset/views/core.py:238
-#: superset/views/sql_lab.py:19 superset/views/sql_lab.py:49
+#: superset/connectors/sqla/views.py:227 superset/views/core.py:245
+#: superset/views/sql_lab.py:26 superset/views/sql_lab.py:87
 msgid "Database"
 msgstr "数据库"
 
-#: superset/connectors/sqla/views.py:195 superset/views/core.py:240
+#: superset/connectors/sqla/views.py:228 superset/views/core.py:247
 msgid "Last Changed"
 msgstr "更新时间"
 
-#: superset/connectors/sqla/views.py:197
+#: superset/connectors/sqla/views.py:230 superset/views/sql_lab.py:36
+#: superset/views/sql_lab.py:88
 msgid "Schema"
 msgstr ""
 
-#: superset/connectors/sqla/views.py:199
+#: superset/connectors/sqla/views.py:232
 msgid "Offset"
 msgstr "偏移"
 
-#: superset/connectors/sqla/views.py:201
+#: superset/connectors/sqla/views.py:234
 msgid "Table Name"
 msgstr "表名"
 
-#: superset/connectors/sqla/views.py:202
+#: superset/connectors/sqla/views.py:236
 msgid "Fetch Values Predicate"
 msgstr "获取筛选值表达式"
 
-#: superset/connectors/sqla/views.py:204
+#: superset/connectors/sqla/views.py:239
 msgid "Main Datetime Column"
 msgstr "主时间字段"
 
-#: superset/connectors/sqla/views.py:237
+#: superset/connectors/sqla/views.py:240 superset/views/core.py:259
+#: superset/views/core.py:391 superset/views/core.py:504
+#: superset/views/core.py:568 superset/views/sql_lab.py:90
+msgid "Last Modified"
+msgstr "最后修改"
+
+#: superset/connectors/sqla/views.py:260
+msgid ""
+"Table [{}] could not be found, please double check your database "
+"connection, schema, and table name"
+msgstr "无法找到数据表 [{}]，请检查数据库、连接、schema和表名"
+
+#: superset/connectors/sqla/views.py:273
 msgid ""
 "The table was created. As part of this two phase configuration process, "
 "you should now click the edit button by the new table to configure it."
 msgstr "数据源已创建。作为配置过程的其中一步，你现在可以点击数据源的编辑按钮来配置它。"
 
-#: superset/connectors/sqla/views.py:261
+#: superset/connectors/sqla/views.py:298 superset/views/core.py:253
 msgid "Tables"
 msgstr "数据表"
 
@@ -2903,6 +3300,14 @@ msgstr "退出"
 #: superset/templates/appbuilder/navbar_right.html:47
 msgid "Login"
 msgstr "登录"
+
+#: superset/templates/appbuilder/general/widgets/base_list.html:37
+msgid "Record Count"
+msgstr "记录数"
+
+#: superset/templates/appbuilder/general/widgets/base_list.html:46
+msgid "No records found"
+msgstr "未找到记录"
 
 #: superset/templates/superset/import_dashboards.html:11
 msgid "Import"
@@ -2926,7 +3331,7 @@ msgstr "你没有权限访问数据源： %(name)s 。"
 msgid "Request Permissions"
 msgstr "请求权限"
 
-#: superset/templates/superset/welcome.html:10
+#: superset/templates/superset/welcome.html:3
 msgid "Welcome!"
 msgstr "欢迎！"
 
@@ -2934,54 +3339,74 @@ msgstr "欢迎！"
 msgid "Test Connection"
 msgstr "测试连接"
 
-#: superset/views/base.py:57
+#: superset/views/base.py:60
 #, python-format
 msgid "Datasource %(name)s already exists"
 msgstr "数据源  %(name)s  已存在"
 
-#: superset/views/base.py:256
+#: superset/views/base.py:216
+msgid "json isn't valid"
+msgstr "json无效"
+
+#: superset/views/base.py:267
 msgid "Delete"
 msgstr "删除"
 
-#: superset/views/base.py:257
+#: superset/views/base.py:268
 msgid "Delete all Really?"
 msgstr "确认删除所选?"
 
-#: superset/views/core.py:56
+#: superset/views/core.py:57
 msgid "This endpoint requires the `all_datasource_access` permission"
 msgstr "这个访问需要 'all_datasource_access' 权限"
 
-#: superset/views/core.py:58
+#: superset/views/core.py:59
 msgid "The datasource seems to have been deleted"
 msgstr "数据源不存在"
 
-#: superset/views/core.py:59
+#: superset/views/core.py:60
 msgid "The access requests seem to have been deleted"
 msgstr "访问权限不存在"
 
-#: superset/views/core.py:61
+#: superset/views/core.py:62
 msgid "The user seems to have been deleted"
 msgstr "用户不存在"
 
-#: superset/views/core.py:62
+#: superset/views/core.py:63
 msgid "You don't have access to this datasource"
 msgstr "你没有权限访问这个数据源"
 
-#: superset/views/core.py:66
+#: superset/views/core.py:67
 #, python-format
 msgid ""
 "This view requires the database %(name)s or `all_datasource_access` "
 "permission"
 msgstr "需要数据库 %(name)s 的访问权限或 `all_datasource_access` 权限"
 
-#: superset/views/core.py:71
+#: superset/views/core.py:72
 #, python-format
 msgid ""
 "This endpoint requires the datasource %(name)s, database or "
 "`all_datasource_access` permission"
 msgstr "请求需要数据源 %(name)s，数据库或者 `all_datasource_access` 权限"
 
-#: superset/views/core.py:200
+#: superset/views/core.py:175
+msgid "List Databases"
+msgstr "数据库列表"
+
+#: superset/views/core.py:176
+msgid "Show Database"
+msgstr "查看数据库"
+
+#: superset/views/core.py:177
+msgid "Add Database"
+msgstr "新增数据库"
+
+#: superset/views/core.py:178
+msgid "Edit Database"
+msgstr "编辑数据库"
+
+#: superset/views/core.py:207
 msgid ""
 "Refer to the [SqlAlchemy "
 "docs](http://docs.sqlalchemy.org/en/rel_1_0/core/engines.html#database-"
@@ -2990,40 +3415,40 @@ msgstr ""
 "URI结构格式参考文档：[SqlAlchemy](http://docs.sqlalchemy.org/en/rel_1_0/core/engines.html"
 "#database-urls)"
 
-#: superset/views/core.py:206
+#: superset/views/core.py:213
 msgid "Expose this DB in SQL Lab"
 msgstr "允许在SQL工具箱中查询"
 
-#: superset/views/core.py:207
+#: superset/views/core.py:214
 msgid ""
 "Allow users to run synchronous queries, this is the default and should "
 "work well for queries that can be executed within a web request scope "
 "(<~1 minute)"
 msgstr "默认允许同步查询。且系统需要满足小于1分钟的Web请求响应。"
 
-#: superset/views/core.py:211
+#: superset/views/core.py:218
 msgid ""
 "Allow users to run queries, against an async backend. This assumes that "
 "you have a Celery worker setup as well as a results backend."
 msgstr "允许异步查询。前提是Celery进程已经启动。"
 
-#: superset/views/core.py:215
+#: superset/views/core.py:222
 msgid "Allow CREATE TABLE AS option in SQL Lab"
 msgstr "在SQL工具箱中允许 'CREATE TABLE AS' "
 
-#: superset/views/core.py:216
+#: superset/views/core.py:223
 msgid ""
 "Allow users to run non-SELECT statements (UPDATE, DELETE, CREATE, ...) in"
 " SQL Lab"
 msgstr "允许用户在SQL工具箱中使用非查询语句（如更新、删除、新建）"
 
-#: superset/views/core.py:220
+#: superset/views/core.py:227
 msgid ""
 "When allowing CREATE TABLE AS option in SQL Lab, this option forces the "
 "table to be created in this schema"
 msgstr "当允许CTAS时，指定新建数据表所属的Schema"
 
-#: superset/views/core.py:223
+#: superset/views/core.py:230
 msgid ""
 "JSON string containing extra configuration elements. The "
 "``engine_params`` object gets unpacked into the "
@@ -3037,88 +3462,128 @@ msgstr ""
 " 参数应用于 "
 "[sqlalchemy.MetaData](http://docs.sqlalchemy.org/en/rel_1_0/core/metadata.html#sqlalchemy.schema.MetaData)"
 
-#: superset/views/core.py:234
+#: superset/views/core.py:241
 msgid "Expose in SQL Lab"
 msgstr "在SQL工具箱中使用"
 
-#: superset/views/core.py:235
+#: superset/views/core.py:242
 msgid "Allow CREATE TABLE AS"
 msgstr "允许 CTAS"
 
-#: superset/views/core.py:236
+#: superset/views/core.py:243
 msgid "Allow DML"
 msgstr "允许 DML"
 
-#: superset/views/core.py:237
+#: superset/views/core.py:244
 msgid "CTAS Schema"
 msgstr "CTAS 模式"
 
-#: superset/views/core.py:239 superset/views/core.py:353
-#: superset/views/core.py:455 superset/views/core.py:519
+#: superset/views/core.py:246 superset/views/core.py:387
+#: superset/views/core.py:503 superset/views/core.py:567
 msgid "Creator"
 msgstr "创建人"
 
-#: superset/views/core.py:241
+#: superset/views/core.py:248
 msgid "SQLAlchemy URI"
 msgstr "SQLAlchemy URI"
 
-#: superset/views/core.py:243
+#: superset/views/core.py:250
 msgid "Extra"
 msgstr "扩展"
 
-#: superset/views/core.py:244
+#: superset/views/core.py:251
 msgid "Allow Run Sync"
 msgstr "允许同步查询"
 
-#: superset/views/core.py:245
+#: superset/views/core.py:252
 msgid "Allow Run Async"
 msgstr "允许异步查询"
 
-#: superset/views/core.py:263
+#: superset/views/core.py:260
+msgid "Backend"
+msgstr "后端"
+
+#: superset/views/core.py:279
 msgid "Import Dashboards"
 msgstr "导入仪表盘"
 
-#: superset/views/core.py:267 superset/views/core.py:2286
-#: superset/views/sql_lab.py:30
+#: superset/views/core.py:283 superset/views/core.py:2393
+#: superset/views/sql_lab.py:61
 msgid "Manage"
 msgstr "管理"
 
-#: superset/views/core.py:305 superset/views/core.py:532
-#: superset/views/sql_lab.py:18 superset/views/sql_lab.py:48
+#: superset/views/core.py:316
+msgid "List Datasource Access Request"
+msgstr "数据源访问请求记录列表"
+
+#: superset/views/core.py:317
+msgid "Add Datasource Access Request"
+msgstr "增加数据源访问请求记录"
+
+#: superset/views/core.py:318
+msgid "Show Datasource Access Request"
+msgstr "显示数据源访问请求记录"
+
+#: superset/views/core.py:319
+msgid "Edit Datasource Access Request"
+msgstr "编辑数据源访问请求记录"
+
+#: superset/views/core.py:327 superset/views/core.py:586
+#: superset/views/sql_lab.py:25 superset/views/sql_lab.py:86
 msgid "User"
 msgstr "用户"
 
-#: superset/views/core.py:306
+#: superset/views/core.py:328
 msgid "User Roles"
 msgstr "用户角色"
 
-#: superset/views/core.py:307
+#: superset/views/core.py:329
 msgid "Database URL"
 msgstr "数据库URL"
 
-#: superset/views/core.py:309
+#: superset/views/core.py:331
 msgid "Roles to grant"
 msgstr "角色"
 
-#: superset/views/core.py:310
-msgid "Created On"
-msgstr "创建日期"
+#: superset/views/core.py:333 superset/views/core.py:398
+msgid "Datasource ID"
+msgstr "数据源ID"
 
-#: superset/views/core.py:316
+#: superset/views/core.py:337 superset/views/core.py:403
+msgid "Datasource Type"
+msgstr "数据源类型"
+
+#: superset/views/core.py:343
 msgid "Access requests"
 msgstr "访问请求"
 
-#: superset/views/core.py:318 superset/views/core.py:543
+#: superset/views/core.py:345 superset/views/core.py:602
 msgid "Security"
 msgstr "安全"
 
-#: superset/views/core.py:338
+#: superset/views/core.py:352
+msgid "List Slices"
+msgstr "切片列表"
+
+#: superset/views/core.py:353
+msgid "Show Slice"
+msgstr "查看切片"
+
+#: superset/views/core.py:354
+msgid "Add Slice"
+msgstr "新增切片"
+
+#: superset/views/core.py:355
+msgid "Edit Slice"
+msgstr "编辑切片"
+
+#: superset/views/core.py:371
 msgid ""
 "The content here can be displayed as widget headers in the dashboard "
 "view. Supports markdown."
 msgstr "本内容将标题显示在仪表盘。支持Markdown格式。"
 
-#: superset/views/core.py:341
+#: superset/views/core.py:375
 msgid ""
 "These parameters are generated dynamically when clicking the save or "
 "overwrite button in the explore view. This JSON object is exposed here "
@@ -3126,442 +3591,361 @@ msgid ""
 "parameters."
 msgstr "当单击“保存”或“覆盖”按钮时，这些参数会在视图中动态生成。高级用户可以在这里改变特定的参数。"
 
-#: superset/views/core.py:346
+#: superset/views/core.py:380
 msgid "Duration (in seconds) of the caching timeout for this slice."
 msgstr "切片数据过期时间(秒)"
 
-#: superset/views/core.py:357
-msgid "Last Modified"
-msgstr "最后修改"
-
-#: superset/views/core.py:358 superset/views/core.py:454
+#: superset/views/core.py:392 superset/views/core.py:502
 msgid "Owners"
 msgstr "所有者"
 
-#: superset/views/core.py:359
+#: superset/views/core.py:393
 msgid "Parameters"
 msgstr "参数"
 
-#: superset/views/core.py:360 superset/views/core.py:402
+#: superset/views/core.py:394 superset/views/core.py:444
 msgid "Slice"
 msgstr "切片"
 
-#: superset/views/core.py:427
+#: superset/views/core.py:461
+msgid "List Dashboards"
+msgstr "仪表盘列表"
+
+#: superset/views/core.py:462
+msgid "Show Dashboard"
+msgstr "查看仪表盘"
+
+#: superset/views/core.py:463
+msgid "Add Dashboard"
+msgstr "新增仪表盘"
+
+#: superset/views/core.py:464
+msgid "Edit Dashboard"
+msgstr "编辑仪表盘"
+
+#: superset/views/core.py:475
 msgid ""
 "This json object describes the positioning of the widgets in the "
 "dashboard. It is dynamically generated when adjusting the widgets size "
 "and positions by using drag & drop in the dashboard view"
 msgstr "这个JSON对象描述了部件在仪表盘中的位置。它是动态生成的，可以通过拖放，在仪表盘中调整整部件的大小和位置。"
 
-#: superset/views/core.py:432
+#: superset/views/core.py:480
 msgid ""
 "The css for individual dashboards can be altered here, or in the "
 "dashboard view where changes are immediately visible"
 msgstr "可以在这里或者在仪表盘视图修改单个仪表盘的CSS样式"
 
-#: superset/views/core.py:436
+#: superset/views/core.py:484
 msgid "To get a readable URL for your dashboard"
 msgstr "为仪表盘生成一个可读的URL"
 
-#: superset/views/core.py:437
+#: superset/views/core.py:485
 msgid ""
 "This JSON object is generated dynamically when clicking the save or "
 "overwrite button in the dashboard view. It is exposed here for reference "
 "and for power users who may want to alter specific parameters."
 msgstr "当在仪表盘视图中单击“保存”或“覆盖”按钮时，这些参数会在视图中动态生成。高级用户可以在这里改变特定的参数。"
 
-#: superset/views/core.py:442
+#: superset/views/core.py:490
 msgid "Owners is a list of users who can alter the dashboard."
 msgstr "“所有者”是一组可以修改仪表盘的用户列表"
 
-#: superset/views/core.py:450 superset/views/core.py:517
+#: superset/views/core.py:498 superset/views/core.py:565
 msgid "Dashboard"
 msgstr "仪表盘"
 
-#: superset/views/core.py:452
+#: superset/views/core.py:500
 msgid "Slug"
 msgstr "短链接"
 
-#: superset/views/core.py:457
+#: superset/views/core.py:505
 msgid "Position JSON"
 msgstr "位置参数"
 
-#: superset/views/core.py:459
+#: superset/views/core.py:507
 msgid "JSON Metadata"
 msgstr "JSON模板"
 
-#: superset/views/core.py:460
+#: superset/views/core.py:508
 msgid "Underlying Tables"
 msgstr "底层表"
 
-#: superset/views/core.py:483
+#: superset/views/core.py:531
 msgid "Export"
 msgstr "导出"
 
-#: superset/views/core.py:483
+#: superset/views/core.py:531
 msgid "Export dashboards?"
 msgstr "确认导出所选?"
 
-#: superset/views/core.py:533
+#: superset/views/core.py:577
+msgid "List Log"
+msgstr "日志列表"
+
+#: superset/views/core.py:578
+msgid "Add Log"
+msgstr "新增日志"
+
+#: superset/views/core.py:579
+msgid "Show Log"
+msgstr "显示日志"
+
+#: superset/views/core.py:580
+msgid "Edit Log"
+msgstr "编辑日志"
+
+#: superset/views/core.py:587
 msgid "Action"
 msgstr "操作"
 
-#: superset/views/core.py:534
+#: superset/views/core.py:588
 msgid "dttm"
 msgstr "日期时间"
 
-#: superset/views/core.py:541
+#: superset/views/core.py:591
+msgid "Referrer"
+msgstr "来源"
+
+#: superset/views/core.py:592
+msgid "Dashboard ID"
+msgstr "仪表盘ID"
+
+#: superset/views/core.py:593
+msgid "Duration(ms)"
+msgstr "持续时间(ms)"
+
+#: superset/views/core.py:594
+msgid "DT"
+msgstr "日期"
+
+#: superset/views/core.py:600
 msgid "Action Log"
 msgstr "操作日志"
 
-#: superset/views/core.py:771
+#: superset/views/core.py:831
 msgid "Access was requested"
 msgstr "获取到访问权限"
 
-#: superset/views/core.py:832
+#: superset/views/core.py:892
 #, python-format
 msgid ""
 "%(user)s was granted the role %(role)s that gives access to the "
 "%(datasource)s"
 msgstr "用户 %(user)s 加入角色 %(role)s ，获得了数据源 %(datasource)s 的权限。"
 
-#: superset/views/core.py:848
+#: superset/views/core.py:908
 #, python-format
 msgid "Role %(r)s was extended to provide the access to the datasource %(ds)s"
 msgstr "角色 %(r)s 具备了数据源 %(ds)s 的访问权限"
 
-#: superset/views/core.py:857
+#: superset/views/core.py:917
 msgid "You have no permission to approve this request"
 msgstr "你没有访问权限"
 
-#: superset/views/core.py:1590
+#: superset/views/core.py:1664
 msgid ""
 "Malformed request. slice_id or table_name and db_name arguments are "
 "expected"
 msgstr "错误请求。需要切片ID或表名-数据库名"
 
-#: superset/views/core.py:1596
+#: superset/views/core.py:1670
 #, python-format
 msgid "Slice %(id)s not found"
 msgstr "找不到切片 %(id)s "
 
-#: superset/views/core.py:1608
+#: superset/views/core.py:1682
 #, python-format
 msgid "Table %(t)s wasn't found in the database %(d)s"
 msgstr "数据表 %(t)s 在数据库 %(d)s 中不存在"
 
-#: superset/views/core.py:1742
+#: superset/views/core.py:1821
 #, python-format
 msgid "Can't find User '%(name)s', please ask your admin to create one."
 msgstr "找不到用户 '%(name)s'，请咨询系统管理员。"
 
-#: superset/views/core.py:1749
+#: superset/views/core.py:1828
 #, python-format
 msgid "Can't find DruidCluster with cluster_name = '%(name)s'"
 msgstr "找不到名为 '%(name)s' 的Druid集群"
 
-#: superset/views/core.py:2272
-msgid "Template Name"
-msgstr "模板名称"
-
-#: superset/views/core.py:2283
-msgid "CSS Templates"
-msgstr "CSS模板"
-
-#: superset/views/core.py:2293
-msgid "SQL Editor"
-msgstr "SQL编辑器"
-
-#: superset/views/core.py:2298 superset/views/core.py:2307
-msgid "SQL Lab"
-msgstr "SQL工具箱"
-
-#: superset/views/core.py:2302
-msgid "Query Search"
-msgstr "查询搜索"
-
-#: superset/views/sql_lab.py:20
-msgid "Status"
-msgstr "状态"
-
-#: superset/views/sql_lab.py:21
-msgid "Start Time"
-msgstr "开始时间"
-
-#: superset/views/sql_lab.py:22 superset/views/sql_lab.py:52
-msgid "End Time"
-msgstr "结束时间"
-
-#: superset/views/sql_lab.py:28
-msgid "Queries"
-msgstr "查询"
-
-#: superset/views/sql_lab.py:53
-msgid "Pop Tab Link"
-msgstr "快捷链接"
-
-#: superset/views/sql_lab.py:54
-msgid "Changed on"
-msgstr "修改日期"
-
-#: superset/views/sql_lab.py:73
-msgid "Saved Queries"
-msgstr "已保存查询"
-
-#/superset/views/core.py 自定义部分
-msgid "List Dashboards"
-msgstr "仪表盘列表"
-
-msgid "List Databases"
-msgstr "数据库列表"
-
-msgid "List Tables"
-msgstr "数据表列表"
-
-msgid "List Druid Cluster"
-msgstr "Druid集群列表"
-
-msgid "List Druid Datasource"
-msgstr "Druid数据源列表"
-
-msgid "List Slices"
-msgstr "切片列表"
-
-msgid "List Saved Query"
-msgstr "已保存的查询"
-
-msgid "Show Slice"
-msgstr "查看切片"
-
-msgid "Edit Slice"
-msgstr "编辑切片"
-
-msgid "Show Database"
-msgstr "查看数据库"
-
-msgid "Edit Database"
-msgstr "编辑数据库"
-
-msgid "Show Dashboard"
-msgstr "查看仪表盘"
-
-msgid "Edit Dashboard"
-msgstr "编辑仪表盘"
-
-msgid "Show Table"
-msgstr "查看数据表"
-
-msgid "Edit Table"
-msgstr "编辑数据表"
-
-msgid "Add Table"
-msgstr "新增数据表"
-
-msgid "Add Database"
-msgstr "新增数据库"
-
-msgid "Add Slice"
-msgstr "新增切片"
-
-msgid "Add Dashboard"
-msgstr"新增仪表盘"
-
-msgid "Created By"
-msgstr "创建者"
-
-msgid "Changed On"
-msgstr "修改日期"
-
-msgid "List Columns"
-msgstr "列"
-
-msgid "List Metrics"
-msgstr "度量"
-
-msgid "Backend"
-msgstr "后端"
-
-msgid "Perm"
-msgstr ""
-
-msgid "Datasource ID"
-msgstr "数据源ID"
-
-msgid "Datasource Type"
-msgstr "数据源类型"
-
-msgid "Show Saved Query"
-msgstr "查看已保存的查询"
-
-msgid "Add Saved Query"
-msgstr "新增已保存的查询"
-
-msgid "Edit Saved Query"
-msgstr "编辑已保存的查询"
-
-msgid "Add Log"
-msgstr "新增日志"
-
-msgid "Show Log"
-msgstr "显示日志"
-
-msgid "Edit Log"
-msgstr "编辑日志"
-
-msgid "List Log"
-msgstr "日志列表"
-
-msgid "Main Dttm Col"
-msgstr "主要日期时间类型列"
-
-msgid "Referrer"
-msgstr "来源"
-
-msgid "Dashboard ID"
-msgstr "仪表盘ID"
-
-msgid "Duration(ms)"
-msgstr "时长(ms)"
-
-msgid "DT"
-msgstr "日期"
-
-msgid "List Datasource Access Request"
-msgstr "数据源访问请求记录列表"
-
-msgid "Add Datasource Access Request"
-msgstr "增加数据源访问请求记录"
-
-msgid "Edit Datasource Access Request"
-msgstr "编辑数据源访问请求记录"
-
-msgid "Show Datasource Access Request"
-msgstr "显示数据源访问请求记录"
-
-msgid "Show Druid Cluster"
-msgstr "查看Druid集群"
-
-msgid "Edit Druid Cluster"
-msgstr "编辑Druid集群"
-
-msgid "Add Druid Cluster"
-msgstr "新增Druid集群"
-
-msgid "Add Druid Datasource"
-msgstr "新增Druid数据"
-
-msgid "Edit Druid Datasource"
-msgstr "编辑Druid数据"
-
-msgid "Show Druid Datasource"
-msgstr "查看Druid数据"
-
-msgid "Fetch Values From"
-msgstr "获取筛选值的时间表达式"
-
-msgid "Show Column"
-msgstr "查看列"
-
-msgid "Edit Column"
-msgstr "编辑列"
-
-msgid "Add Column"
-msgstr "新增列"
-
-msgid "List Column"
-msgstr "列"
-
-msgid "Is Active"
-msgstr "是否激活"
-
-msgid "Average"
-msgstr "求平均值"
-
-msgid "Show Metric"
-msgstr "查看度量"
-
-msgid "Edit Metric"
-msgstr "编辑度量"
-
-msgid "Add Metric"
-msgstr "新增度量"
-
-msgid "List Metric"
-msgstr "度量"
-
-msgid "Show CSS Template"
-msgstr "查看CSS模板"
-
-msgid "Edit CSS Template"
-msgstr "编辑CSS模板"
-
-msgid "Add CSS Template"
-msgstr "新增CSS模板"
-
+#: superset/views/core.py:2089
+msgid "Query record was not created as expected."
+msgstr "查询记录未按预期创建"
+
+#: superset/views/core.py:2363
 msgid "List CSS Template"
 msgstr "CSS模板列表"
 
-msgid "Limit Used"
-msgstr "限制使用"
+#: superset/views/core.py:2364
+msgid "Show CSS Template"
+msgstr "查看CSS模板"
 
-msgid "Tab Name"
-msgstr "选项卡名称"
+#: superset/views/core.py:2365
+msgid "Edit CSS Template"
+msgstr "编辑CSS模板"
 
-msgid "Select SQL"
-msgstr ""
+#: superset/views/core.py:2366
+msgid "Add CSS Template"
+msgstr "新增CSS模板"
 
-msgid "Rows"
-msgstr "行数"
+#: superset/views/core.py:2374
+msgid "Template Name"
+msgstr "模板名称"
 
-msgid "Results Key"
-msgstr ""
+#: superset/views/core.py:2390
+msgid "CSS Templates"
+msgstr "CSS模板"
 
-msgid "End Result Backend Time"
-msgstr ""
+#: superset/views/core.py:2400
+msgid "SQL Editor"
+msgstr "SQL编辑器"
 
-msgid "Progress"
-msgstr "进度"
+#: superset/views/core.py:2405 superset/views/core.py:2414
+msgid "SQL Lab"
+msgstr "SQL工具箱"
 
-msgid "Select As Cta Used"
-msgstr ""
+#: superset/views/core.py:2409
+msgid "Query Search"
+msgstr "查询搜索"
 
-msgid "SQL Editor ID"
-msgstr ""
-
-msgid "Client ID"
-msgstr "客户端ID"
-
-msgid "Tracking Url"
-msgstr ""
-
-msgid "Executed SQL"
-msgstr "已执行的SQL"
-
-msgid "Error Message"
-msgstr "错误信息"
-
-msgid "Limit"
-msgstr ""
-
-msgid "Start Running Time"
-msgstr "开始运行时间"
-
-msgid "Tmp Table Name"
-msgstr ""
-
-msgid "Show Query"
-msgstr "查看查询"
-
-msgid "Edit Query"
-msgstr "编辑查询"
-
-msgid "Add Query"
-msgstr "新增查询"
-
+#: superset/views/sql_lab.py:17
 msgid "List Query"
 msgstr "查询列表"
 
-# flask_appbuilder/security/views.py:122
-msgid "It's not a good policy to remove a user, just make it inactive"
-msgstr "不建议删除用户，只需禁用即可"
-#自定义结束
+#: superset/views/sql_lab.py:18
+msgid "Show Query"
+msgstr "查看查询"
+
+#: superset/views/sql_lab.py:19
+msgid "Add Query"
+msgstr "新增查询"
+
+#: superset/views/sql_lab.py:20
+msgid "Edit Query"
+msgstr "编辑查询"
+
+#: superset/views/sql_lab.py:27 superset/views/sql_lab.py:84
+msgid "ID"
+msgstr ""
+
+#: superset/views/sql_lab.py:28
+msgid "Client ID"
+msgstr "客户端ID"
+
+#: superset/views/sql_lab.py:29
+msgid "Database ID"
+msgstr "数据库ID"
+
+#: superset/views/sql_lab.py:30
+msgid "Tmp Table Name"
+msgstr "临时表名"
+
+#: superset/views/sql_lab.py:31
+msgid "User ID"
+msgstr "用户ID"
+
+#: superset/views/sql_lab.py:32
+msgid "Integer"
+msgstr "整数"
+
+#: superset/views/sql_lab.py:33
+msgid "Status"
+msgstr "状态"
+
+#: superset/views/sql_lab.py:34
+msgid "Tab Name"
+msgstr "标签名"
+
+#: superset/views/sql_lab.py:35
+msgid "SQL Editor ID"
+msgstr "SQL编辑器ID"
+
+#: superset/views/sql_lab.py:38
+msgid "Select SQL"
+msgstr "选择SQL"
+
+#: superset/views/sql_lab.py:39
+msgid "Executed SQL"
+msgstr "已执行的SQL"
+
+#: superset/views/sql_lab.py:40
+msgid "Limit"
+msgstr ""
+
+#: superset/views/sql_lab.py:41
+msgid "Limit Used"
+msgstr "使用Limit的"
+
+#: superset/views/sql_lab.py:42
+msgid "Select As Cta"
+msgstr ""
+
+#: superset/views/sql_lab.py:43
+msgid "Select As Cta Used"
+msgstr "使用Select As Cta的"
+
+#: superset/views/sql_lab.py:44
+msgid "Progress"
+msgstr "进度"
+
+#: superset/views/sql_lab.py:45
+msgid "Rows"
+msgstr "行数"
+
+#: superset/views/sql_lab.py:46
+msgid "Error Message"
+msgstr "错误信息"
+
+#: superset/views/sql_lab.py:47
+msgid "Results Key"
+msgstr ""
+
+#: superset/views/sql_lab.py:48
+msgid "Start Time"
+msgstr "开始时间"
+
+#: superset/views/sql_lab.py:49
+msgid "Start Running Time"
+msgstr "开始运行时间"
+
+#: superset/views/sql_lab.py:50 superset/views/sql_lab.py:91
+msgid "End Time"
+msgstr "结束时间"
+
+#: superset/views/sql_lab.py:51
+msgid "End Result Backend Time"
+msgstr ""
+
+#: superset/views/sql_lab.py:52
+msgid "Tracking Url"
+msgstr ""
+
+#: superset/views/sql_lab.py:59
+msgid "Queries"
+msgstr ""
+
+#: superset/views/sql_lab.py:68
+msgid "List Saved Query"
+msgstr "已保存的查询"
+
+#: superset/views/sql_lab.py:69
+msgid "Show Saved Query"
+msgstr "查看已保存的查询"
+
+#: superset/views/sql_lab.py:70
+msgid "Add Saved Query"
+msgstr "新增已保存的查询"
+
+#: superset/views/sql_lab.py:71
+msgid "Edit Saved Query"
+msgstr "编辑已保存的查询"
+
+#: superset/views/sql_lab.py:92
+msgid "Pop Tab Link"
+msgstr ""
+
+#: superset/views/sql_lab.py:113
+msgid "Saved Queries"
+msgstr ""
+
