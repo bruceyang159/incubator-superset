@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { Button } from 'react-bootstrap';
 import Select from 'react-virtualized-select';
 import createFilterOptions from 'react-select-fast-filter-options';
-import { t } from '../../locales';
+
 import TableElement from './TableElement';
 import AsyncSelect from '../../components/AsyncSelect';
 import { t } from '../../locales';

@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import ReactDOM from 'react-dom';
 import Select from 'react-select';
 import { Button } from 'react-bootstrap';
-import { t } from '../javascripts/locales';
 import { TIME_CHOICES } from './constants';
 import './filter_box.css';
 import { t } from '../javascripts/locales';

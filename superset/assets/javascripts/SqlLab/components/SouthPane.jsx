@@ -4,7 +4,7 @@ import shortid from 'shortid';
 import { Alert, Tab, Tabs } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { t } from '../../locales';
+
 import * as Actions from '../actions';
 import QueryHistory from './QueryHistory';
 import ResultSet from './ResultSet';

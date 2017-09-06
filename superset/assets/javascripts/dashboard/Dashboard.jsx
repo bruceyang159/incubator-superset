@@ -3,7 +3,6 @@ import { render } from 'react-dom';
 import d3 from 'd3';
 import { Alert } from 'react-bootstrap';
 import moment from 'moment';
-import { t } from '../locales';
 import GridLayout from './components/GridLayout';
 import Header from './components/Header';
 import { appSetup } from '../common';

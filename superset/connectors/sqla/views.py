@@ -55,27 +55,25 @@ class TableColumnInlineView(CompactCRUDMixin, SupersetModelView):  # noqa
             "It may be necessary to input a type manually for "
             "expression-defined columns in some cases. In most case "
             "users should not need to alter this."),
-        'expression': utils.markdown(
+        'expression': _(
             "a valid SQL expression as supported by the underlying backend. "
-            "Example: `substr(name, 1, 1)`", True),
-        'python_date_format': utils.markdown(Markup(
-            "The pattern of timestamp format, use "
-            "<a href='https://docs.python.org/2/library/"
-            "datetime.html#strftime-strptime-behavior'>"
-            "python datetime string pattern</a> "
-            "expression. If time is stored in epoch "
-            "format, put `epoch_s` or `epoch_ms`. Leave `Database Expression` "
-            "below empty if timestamp is stored in "
-            "String or Integer(epoch) type"), True),
-        'database_expression': utils.markdown(
+            "Example: `substr(name, 1, 1)`"),
+        'python_date_format': _(
+            "The pattern of timestamp format, use python datetime string pattern "
+            "expression, referring from "
+            "https://docs.python.org/2/library/datetime.html#strftime-strptime-"
+            "behavior. If time is stored in epoch format, put `epoch_s` or `epoch_ms`."
+            " Leave `Database Expression` below empty if timestamp is stored in String"
+            " or Integer(epoch) type"),
+        'database_expression': _(
             "The database expression to cast internal datetime "
             "constants to database date/timestamp type according to the DBAPI. "
             "The expression should follow the pattern of "
             "%Y-%m-%d %H:%M:%S, based on different DBAPI. "
             "The string should be a python string formatter \n"
-            "`Ex: TO_DATE('{}', 'YYYY-MM-DD HH24:MI:SS')` for Oracle"
+            "`Ex: TO_DATE('{}', 'YYYY-MM-DD HH24:MI:SS')` for Oracle. "
             "Superset uses default expression based on DB URI if this "
-            "field is blank.", True),
+            "field is blank."),
     }
     label_columns = {
         'column_name': _("Column"),
@@ -100,6 +98,8 @@ class TableColumnInlineView(CompactCRUDMixin, SupersetModelView):  # noqa
         'changed_on': _("Changed On"),
         'changed_by': _("Changed By")
     }
+
+
 appbuilder.add_view_no_menu(TableColumnInlineView)
 
 
@@ -154,6 +154,7 @@ class SqlMetricInlineView(CompactCRUDMixin, SupersetModelView):  # noqa
     def post_update(self, metric):
         if metric.is_restricted:
             security.merge_perm(sm, 'metric_access', metric.get_perm())
+
 
 appbuilder.add_view_no_menu(SqlMetricInlineView)
 
@@ -290,12 +291,13 @@ class TableModelView(DatasourceModelView, DeleteMixin):  # noqa
             return resp
         return redirect('/superset/explore/table/{}/'.format(pk))
 
+
 appbuilder.add_view(
     TableModelView,
     "Tables",
     label=__("Tables"),
     category="Sources",
     category_label=__("Sources"),
-    icon='fa-table',)
+    icon='fa-table', )
 
 appbuilder.add_separator("Sources")

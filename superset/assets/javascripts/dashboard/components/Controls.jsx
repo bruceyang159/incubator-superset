@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { ButtonGroup } from 'react-bootstrap';
-import { t } from '../../locales';
 import Button from '../../components/Button';
 import CssEditor from './CssEditor';
 import RefreshIntervalModal from './RefreshIntervalModal';
