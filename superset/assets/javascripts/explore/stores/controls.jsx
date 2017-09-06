@@ -167,7 +167,7 @@ export const controls = {
       ['black_white', 'black/white'],
     ],
     default: 'blue_white_yellow',
-    description: t(''),
+    description: '',
     renderTrigger: true,
     schemes: spectrums,
     isLinear: true,
