@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Alert } from 'react-bootstrap';
-import { t } from '../../locales';
+
 import QueryTable from './QueryTable';
 import { t } from '../../locales';
 

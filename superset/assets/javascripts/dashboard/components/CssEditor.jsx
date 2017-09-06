@@ -7,7 +7,6 @@ import 'brace/mode/css';
 import 'brace/theme/github';
 
 import ModalTrigger from '../../components/ModalTrigger';
-import { t } from '../../locales';
 
 const propTypes = {
   initialCss: PropTypes.string,

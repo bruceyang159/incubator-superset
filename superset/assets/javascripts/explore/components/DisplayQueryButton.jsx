@@ -4,7 +4,6 @@ import SyntaxHighlighter, { registerLanguage } from 'react-syntax-highlighter/di
 import html from 'react-syntax-highlighter/dist/languages/htmlbars';
 import markdown from 'react-syntax-highlighter/dist/languages/markdown';
 import github from 'react-syntax-highlighter/dist/styles/github';
-import { t } from '../../locales';
 import ModalTrigger from './../../components/ModalTrigger';
 import { t } from '../../locales';
 
