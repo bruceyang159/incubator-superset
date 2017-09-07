@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-09-07 16:14+0800\n"
+"POT-Creation-Date: 2017-09-07 18:21+0800\n"
 "PO-Revision-Date: 2017-09-05 18:40+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh\n"
@@ -827,15 +827,19 @@ msgstr "选择 ..."
 
 #: superset/assets/javascripts/components/CachedLabel.jsx:26
 msgid "Loaded data cached"
-msgstr "加载数据缓存"
+msgstr "加载的数据缓存于"
 
 #: superset/assets/javascripts/components/CachedLabel.jsx:28
 msgid "Loaded from cache"
-msgstr "从缓存加载"
+msgstr "从缓存加载的数据"
 
 #: superset/assets/javascripts/components/CachedLabel.jsx:33
 msgid "Click to force-refresh"
 msgstr "点击强制刷新"
+
+#: superset/assets/javascripts/components/CachedLabel.jsx:63
+msgid "cached"
+msgstr "数据从缓存中加载"
 
 #: superset/assets/javascripts/components/CopyToClipboard.jsx:21
 #: superset/assets/javascripts/explore/components/EmbedCodeButton.jsx:67
@@ -1208,9 +1212,35 @@ msgstr "选择一个数据源"
 msgid "Search / Filter"
 msgstr "搜索/过滤"
 
-#: superset/assets/javascripts/explore/components/controls/DateFilterControl.jsx:117
+#: superset/assets/javascripts/explore/components/controls/DateFilterControl.jsx:99
+msgid "Fixed"
+msgstr "固定日期"
+
+#: superset/assets/javascripts/explore/components/controls/DateFilterControl.jsx:118
 msgid "Relative"
+msgstr "相对日期"
+
+#: superset/assets/javascripts/explore/components/controls/DateFilterControl.jsx:152
+msgid "Free form"
+msgstr "自由日期格式"
+
+#: superset/assets/javascripts/explore/components/controls/DateFilterControl.jsx:156
+msgid ""
+"Superset supports smart date parsing. Strings like `last sunday` or `last"
+" october` can be used."
+msgstr "Superset支持智能日期格式。如`last sunday`或`last october`"
+
+#: superset/assets/javascripts/explore/components/controls/DateFilterControl.jsx:174
+msgid "Ok"
+msgstr "好"
+
+#: superset/assets/javascripts/explore/components/controls/DateFilterControl.jsx:183
+msgid "now"
 msgstr ""
+
+#: superset/assets/javascripts/explore/components/controls/DateFilterControl.jsx:189
+msgid "clear"
+msgstr "清除"
 
 #: superset/assets/javascripts/explore/components/controls/Filter.jsx:118
 msgid "Filter value"
@@ -3306,6 +3336,18 @@ msgstr "数据源已创建。作为配置过程的其中一步，你现在可以
 msgid "Tables"
 msgstr "数据表"
 
+#: superset/templates/appbuilder/navbar.html:32
+msgid "Version info"
+msgstr "版本信息"
+
+#: superset/templates/appbuilder/navbar.html:37
+msgid "Superset's Github"
+msgstr "Superset的Github官方社区"
+
+#: superset/templates/appbuilder/navbar.html:42
+msgid "Documentation"
+msgstr "文档"
+
 #: superset/templates/appbuilder/navbar_right.html:41
 msgid "Profile"
 msgstr "用户信息"
@@ -3334,6 +3376,10 @@ msgstr "导入"
 #: superset/templates/superset/import_dashboards.html:16
 msgid "Import the dashboards."
 msgstr "导入仪表盘"
+
+#: superset/templates/superset/import_dashboards.html:25
+msgid "Upload"
+msgstr "上传"
 
 #: superset/templates/superset/request_access.html:2
 msgid "No Access!"

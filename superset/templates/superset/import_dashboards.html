@@ -22,7 +22,7 @@
             value="{{ csrf_token() if csrf_token else '' }}"
           >
           <p><input type=file name=file>
-             <input type=submit value=Upload>
+             <input type=submit value={{_("Upload") }}>
           </p>
         </form>
     </div>

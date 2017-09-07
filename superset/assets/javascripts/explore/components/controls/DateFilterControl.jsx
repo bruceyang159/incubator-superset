@@ -11,6 +11,7 @@ import moment from 'moment';
 
 import ControlHeader from '../ControlHeader';
 import PopoverSection from '../../../components/PopoverSection';
+import { t } from '../../../../javascripts/locales'
 
 const RELATIVE_TIME_OPTIONS = ['ago', 'from now'];
 const TIME_GRAIN_OPTIONS = ['seconds', 'minutes', 'days', 'weeks', 'months', 'years'];
@@ -95,7 +96,7 @@ export default class DateFilterControl extends React.Component {
       <Popover id="filter-popover">
         <div style={{ width: '240px' }}>
           <PopoverSection
-            title="Fixed"
+            title={t('Fixed')}
             isSelected={this.state.type === 'fix'}
             onSelect={this.setType.bind(this, 'fix')}
           >
@@ -148,12 +149,12 @@ export default class DateFilterControl extends React.Component {
             </div>
           </PopoverSection>
           <PopoverSection
-            title="Free form"
+            title={t('Free form')}
             isSelected={this.state.type === 'free'}
             onSelect={this.setType.bind(this, 'free')}
             info={
-              'Superset supports smart date parsing. Strings like `last sunday` or ' +
-              '`last october` can be used.'
+              t('Superset supports smart date parsing. Strings like `last sunday` or ' +
+              '`last october` can be used.')
             }
           >
             <FormControl
@@ -170,7 +171,7 @@ export default class DateFilterControl extends React.Component {
               bsStyle="primary"
               onClick={this.close.bind(this)}
             >
-              Ok
+                {t('Ok')}
             </Button>
             <ButtonGroup
               className="float-right"
@@ -179,13 +180,13 @@ export default class DateFilterControl extends React.Component {
                 bsSize="small"
                 onClick={this.setValue.bind(this, 'now')}
               >
-                now
+                  {t('now')}
               </Button>
               <Button
                 bsSize="small"
                 onClick={this.setValue.bind(this, '')}
               >
-                clear
+                  {t('clear')}
               </Button>
             </ButtonGroup>
           </div>
