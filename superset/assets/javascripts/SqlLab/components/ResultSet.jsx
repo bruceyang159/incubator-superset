@@ -152,7 +152,7 @@ export default class ResultSet extends React.PureComponent {
     }
 
     if (query.state === 'stopped') {
-      return <Alert bsStyle="warning">t('Query was stopped')</Alert>;
+      return <Alert bsStyle="warning">{t('Query was stopped')}</Alert>;
     } else if (query.state === 'failed') {
       return <Alert bsStyle="danger">{query.errorMessage}</Alert>;
     } else if (query.state === 'success' && query.ctas) {
@@ -197,7 +197,7 @@ export default class ResultSet extends React.PureComponent {
           </div>
         );
       } else if (data && data.length === 0) {
-        return <Alert bsStyle="warning">t('The query returned no data')</Alert>;
+        return <Alert bsStyle="warning">{t('The query returned no data')}</Alert>;
       }
     }
     if (query.cached) {

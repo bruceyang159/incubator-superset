@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2017-09-06 14:16+0800\n"
+"POT-Creation-Date: 2017-09-07 16:14+0800\n"
 "PO-Revision-Date: 2017-09-05 18:40+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh\n"
@@ -140,7 +140,7 @@ msgstr "请在时间项中选择粒度或者不要勾选'包括时间'"
 
 #: superset/viz.py:346
 msgid "Choose either fields to [Group By] and [Metrics] or [Columns], not both"
-msgstr ""
+msgstr "选择[分组]和[指标]或[列]的任意一个字段，而不是两者"
 
 #: superset/assets/javascripts/explore/stores/visTypes.js:372
 #: superset/viz.py:380
@@ -479,7 +479,7 @@ msgstr "源SQL"
 msgid "SQL"
 msgstr "SQL"
 
-#: superset/assets/javascripts/SqlLab/components/QueryHistory.jsx:28
+#: superset/assets/javascripts/SqlLab/components/QueryHistory.jsx:27
 msgid "No query history yet..."
 msgstr "没有查询记录..."
 
@@ -688,7 +688,7 @@ msgstr "选择一个数据库"
 #: superset/assets/javascripts/SqlLab/components/SqlEditorLeftBar.jsx:170
 #, python-format
 msgid "Select a schema (%s)"
-msgstr "选择一个模式 %s"
+msgstr "选择一个模式 (%s)"
 
 #: superset/assets/javascripts/SqlLab/components/SqlEditorLeftBar.jsx:175
 msgid "Schema:"
@@ -697,7 +697,7 @@ msgstr "模式:"
 #: superset/assets/javascripts/SqlLab/components/SqlEditorLeftBar.jsx:190
 #, python-format
 msgid "Add a table (%s)"
-msgstr "添加一个表 %s"
+msgstr "添加一个表 (%s)"
 
 #: superset/assets/javascripts/SqlLab/components/SqlEditorLeftBar.jsx:203
 msgid "Type to search ..."
@@ -707,28 +707,28 @@ msgstr "类型搜索 ..."
 msgid "Reset State"
 msgstr "重置状态"
 
-#: superset/assets/javascripts/SqlLab/components/TabbedSqlEditors.jsx:105
+#: superset/assets/javascripts/SqlLab/components/TabbedSqlEditors.jsx:104
 msgid "Enter a new title for the tab"
 msgstr "输入标签的新标题"
 
-#: superset/assets/javascripts/SqlLab/components/TabbedSqlEditors.jsx:124
+#: superset/assets/javascripts/SqlLab/components/TabbedSqlEditors.jsx:123
 #, python-format
 msgid "Untitled Query %s"
 msgstr "无标题的查询 %s"
 
-#: superset/assets/javascripts/SqlLab/components/TabbedSqlEditors.jsx:170
+#: superset/assets/javascripts/SqlLab/components/TabbedSqlEditors.jsx:169
 msgid "close tab"
 msgstr "关闭标签"
 
-#: superset/assets/javascripts/SqlLab/components/TabbedSqlEditors.jsx:173
+#: superset/assets/javascripts/SqlLab/components/TabbedSqlEditors.jsx:172
 msgid "rename tab"
 msgstr "重命名标签"
 
-#: superset/assets/javascripts/SqlLab/components/TabbedSqlEditors.jsx:181
+#: superset/assets/javascripts/SqlLab/components/TabbedSqlEditors.jsx:180
 msgid "expand tool bar"
 msgstr "展开工具栏"
 
-#: superset/assets/javascripts/SqlLab/components/TabbedSqlEditors.jsx:181
+#: superset/assets/javascripts/SqlLab/components/TabbedSqlEditors.jsx:180
 msgid "hide tool bar"
 msgstr "隐藏工具栏"
 
@@ -873,52 +873,52 @@ msgstr "你没有权限修改这个标题."
 msgid "Click to favorite/unfavorite"
 msgstr "点击收藏/取消收藏"
 
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:42
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:59
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:41
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:58
 msgid "You have unsaved changes."
 msgstr "您有未保存的更改。"
 
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:59
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:58
 msgid "Click the"
 msgstr "点击"
 
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:61
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:60
 msgid "button on the top right to save your changes."
 msgstr "右上角的按钮保存更改。"
 
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:164
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:163
 #, python-format
 msgid "Served from data cached %s . Click to force refresh."
 msgstr "服务于数据缓存 %s .点击强制刷新."
 
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:169
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:168
 msgid "Click to force refresh"
 msgstr "点击强制刷新"
 
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:353
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:352
 #: superset/assets/javascripts/dashboard/components/SaveModal.jsx:100
 msgid "Error"
 msgstr "错误"
 
-#: superset/assets/javascripts/dashboard/Dashboard.jsx:354
+#: superset/assets/javascripts/dashboard/Dashboard.jsx:353
 #, python-format
 msgid "Sorry, there was an error adding slices to this dashboard: %s"
 msgstr "抱歉，在仪表盘: %s 上添加切片出错"
 
-#: superset/assets/javascripts/dashboard/components/CodeModal.jsx:35
+#: superset/assets/javascripts/dashboard/components/CodeModal.jsx:34
 msgid "Active Dashboard Filters"
 msgstr "仪表盘过滤器"
 
-#: superset/assets/javascripts/dashboard/components/Controls.jsx:48
+#: superset/assets/javascripts/dashboard/components/Controls.jsx:47
 #, python-format
 msgid "Checkout this dashboard: %s"
 msgstr "查看仪表盘: %s"
 
-#: superset/assets/javascripts/dashboard/components/Controls.jsx:54
+#: superset/assets/javascripts/dashboard/components/Controls.jsx:53
 msgid "Force refresh the whole dashboard"
 msgstr "强制刷新整个仪表盘"
 
-#: superset/assets/javascripts/dashboard/components/Controls.jsx:94
+#: superset/assets/javascripts/dashboard/components/Controls.jsx:93
 msgid "Edit this dashboard's properties"
 msgstr "编辑仪表盘的属性"
 
@@ -1004,7 +1004,7 @@ msgstr "名字"
 
 #: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:148
 msgid "Viz"
-msgstr "Viz"
+msgstr "可视化类型"
 
 #: superset/assets/javascripts/dashboard/components/SliceAdder.jsx:157
 #: superset/connectors/druid/views.py:239
@@ -1023,31 +1023,31 @@ msgstr "向仪表盘添加一个新的切片"
 msgid "Add Slices to Dashboard"
 msgstr "添加切片到仪表盘"
 
-#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:26
+#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:24
 msgid "Move chart"
 msgstr "移动图表"
 
-#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:29
+#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:27
 msgid "Force refresh data"
 msgstr "强制刷新数据"
 
-#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:33
+#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:31
 msgid "Toggle chart description"
 msgstr "是否显示图表描述"
 
-#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:43
+#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:41
 msgid "Edit chart"
 msgstr "编辑图表"
 
-#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:48
+#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:46
 msgid "Export CSV"
 msgstr "导出CSV"
 
-#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:51
+#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:49
 msgid "Explore chart"
 msgstr "检索图表"
 
-#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:56
+#: superset/assets/javascripts/dashboard/components/SliceCell.jsx:54
 msgid "Remove chart from dashboard"
 msgstr "从仪表盘删除图表"
 
@@ -1060,11 +1060,12 @@ msgstr "%s - 无标题"
 msgid "Edit slice properties"
 msgstr "编辑切片属性"
 
-#: superset/assets/javascripts/explore/components/DisplayQueryButton.jsx:61
+#: superset/assets/javascripts/explore/components/DisplayQueryButton.jsx:60
 msgid "Error..."
 msgstr "错误..."
 
-#: superset/assets/javascripts/explore/components/DisplayQueryButton.jsx:97
+#: superset/assets/javascripts/explore/components/DisplayQueryButton.jsx:95
+#: superset/assets/javascripts/explore/components/DisplayQueryButton.jsx:96
 #: superset/assets/javascripts/explore/stores/visTypes.js:49
 #: superset/assets/javascripts/explore/stores/visTypes.js:92
 #: superset/assets/javascripts/explore/stores/visTypes.js:129
@@ -1105,6 +1106,18 @@ msgstr "导出为.json格式"
 #: superset/assets/javascripts/explore/components/ExploreActionButtons.jsx:42
 msgid "Export to .csv format"
 msgstr "导出为.csv格式"
+
+#: superset/assets/javascripts/explore/components/QueryAndSaveBtns.jsx:36
+msgid " Stop"
+msgstr " 停止"
+
+#: superset/assets/javascripts/explore/components/QueryAndSaveBtns.jsx:45
+msgid " Query"
+msgstr " 查询"
+
+#: superset/assets/javascripts/explore/components/QueryAndSaveBtns.jsx:60
+msgid " Save"
+msgstr " 保存"
 
 #: superset/assets/javascripts/explore/components/SaveModal.jsx:74
 msgid "Please enter a slice name"
@@ -1191,9 +1204,13 @@ msgid "Select a datasource"
 msgstr "选择一个数据源"
 
 #: superset/assets/javascripts/explore/components/controls/DatasourceControl.jsx:132
-#: superset/assets/javascripts/explore/components/controls/VizTypeControl.jsx:121
+#: superset/assets/javascripts/explore/components/controls/VizTypeControl.jsx:120
 msgid "Search / Filter"
 msgstr "搜索/过滤"
+
+#: superset/assets/javascripts/explore/components/controls/DateFilterControl.jsx:117
+msgid "Relative"
+msgstr ""
 
 #: superset/assets/javascripts/explore/components/controls/Filter.jsx:118
 msgid "Filter value"
@@ -1233,7 +1250,7 @@ msgstr "编辑"
 msgid "in modal"
 msgstr "在模型中"
 
-#: superset/assets/javascripts/explore/components/controls/VizTypeControl.jsx:111
+#: superset/assets/javascripts/explore/components/controls/VizTypeControl.jsx:110
 msgid "Select a visualization type"
 msgstr "选择可视化类型"
 
@@ -1269,7 +1286,7 @@ msgstr "网络错误。"
 
 #: superset/assets/javascripts/explore/stores/controls.jsx:37
 msgid "A reference to the [Time] configuration, taking granularity into account"
-msgstr ""
+msgstr "[时间]配置，可以设置粒度"
 
 #: superset/assets/javascripts/explore/stores/controls.jsx:44
 msgid "Group by"
@@ -1505,7 +1522,7 @@ msgstr "列"
 
 #: superset/assets/javascripts/explore/stores/controls.jsx:366
 msgid "One or many controls to pivot as columns"
-msgstr ""
+msgstr "用于透视的一个或多个列"
 
 #: superset/assets/javascripts/explore/stores/controls.jsx:374
 #: superset/assets/javascripts/explore/stores/controls.jsx:384
@@ -2423,7 +2440,7 @@ msgstr "选项"
 
 #: superset/assets/javascripts/explore/stores/visTypes.js:383
 msgid "Pivot Options"
-msgstr ""
+msgstr "透视选项"
 
 #: superset/assets/javascripts/explore/stores/visTypes.js:527
 #: superset/assets/javascripts/explore/stores/visTypes.js:839
@@ -2708,7 +2725,7 @@ msgstr "没有仪表盘"
 #: superset/templates/superset/welcome.html:13 superset/views/core.py:388
 #: superset/views/core.py:556
 msgid "Dashboards"
-msgstr "看板"
+msgstr "仪表盘"
 
 #: superset/assets/javascripts/profile/components/CreatedContent.jsx:61
 #: superset/assets/javascripts/profile/components/Favorites.jsx:62
@@ -2749,11 +2766,11 @@ msgstr "加入"
 msgid "id:"
 msgstr "id:"
 
-#: superset/assets/visualizations/EventFlow.jsx:56
+#: superset/assets/visualizations/EventFlow.jsx:55
 msgid "Sorry, there appears to be no data"
 msgstr "对不起，似乎没有数据"
 
-#: superset/assets/visualizations/filter_box.jsx:106
+#: superset/assets/visualizations/filter_box.jsx:105
 #, python-format
 msgid "Select [%s]"
 msgstr "选择 [%s]"
@@ -3198,7 +3215,7 @@ msgstr "D3格式化"
 
 #: superset/connectors/sqla/views.py:165
 msgid "List Tables"
-msgstr ""
+msgstr "数据表列表"
 
 #: superset/connectors/sqla/views.py:166
 msgid "Show Table"
@@ -3249,7 +3266,7 @@ msgstr "更新时间"
 #: superset/connectors/sqla/views.py:230 superset/views/sql_lab.py:36
 #: superset/views/sql_lab.py:88
 msgid "Schema"
-msgstr ""
+msgstr "模式（Schema）"
 
 #: superset/connectors/sqla/views.py:232
 msgid "Offset"
@@ -3923,7 +3940,7 @@ msgstr ""
 
 #: superset/views/sql_lab.py:59
 msgid "Queries"
-msgstr ""
+msgstr "查询"
 
 #: superset/views/sql_lab.py:68
 msgid "List Saved Query"
@@ -3943,9 +3960,9 @@ msgstr "编辑已保存的查询"
 
 #: superset/views/sql_lab.py:92
 msgid "Pop Tab Link"
-msgstr ""
+msgstr "标签链接"
 
 #: superset/views/sql_lab.py:113
 msgid "Saved Queries"
-msgstr ""
+msgstr "已保存的查询"
 

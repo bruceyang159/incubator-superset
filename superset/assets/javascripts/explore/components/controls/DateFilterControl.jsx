@@ -114,7 +114,7 @@ export default class DateFilterControl extends React.Component {
             </InputGroup>
           </PopoverSection>
           <PopoverSection
-            title="Relative"
+            title={t('Relative')}
             isSelected={this.state.type === 'rel'}
             onSelect={this.setType.bind(this, 'rel')}
           >
