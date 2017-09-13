@@ -944,6 +944,7 @@ export const visTypes = {
           ['xscale_interval', 'yscale_interval'],
           ['canvas_image_rendering'],
           ['normalize_across'],
+          ['left_margin', 'bottom_margin'],
         ],
       },
     ],
